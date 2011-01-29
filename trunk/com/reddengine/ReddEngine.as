@@ -47,7 +47,10 @@
 		public static var wallfloors:Array = new Array();
 		public static var waypoints:Array = new Array();
 		public static var links:Array = new Array();
-		public static var scriptedActors:Array = new Array();		
+		public static var scriptedActors:Array = new Array();	
+		public static var matterObjects:Array = new Array();
+		public static var antiMatterObjects:Array = new Array();
+		public static var projectileObjects:Array = new Array();
 		
 		//used to fix a few issues with the camera zooming
 		public static var zooming1:Boolean = false;

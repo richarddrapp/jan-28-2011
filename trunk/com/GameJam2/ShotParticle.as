@@ -37,6 +37,7 @@
 			isRound = true;				
 			InitializePhysics();			
 			addEventListener(Event.ENTER_FRAME, Update);
+			ReddEngine.projectileObjects.push(this);
 		}
 		
 		override public function InitializePhysics():void
