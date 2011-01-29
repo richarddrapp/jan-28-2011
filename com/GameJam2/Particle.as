@@ -12,6 +12,7 @@
     import flash.text.TextField;
     import flash.text.TextFieldAutoSize;
     import flash.text.TextFormat;	
+	import flash.text.TextFormatAlign;
 	
 	import flash.events.Event;
 	
@@ -25,19 +26,37 @@
 	
 	public class Particle extends ReddObject {				
 		
+		public var valueText:TextField;
+		
 		public function Particle(x:Number, y:Number, r:Number) {				
 			super(); //density = 0.7								
 			
 			this.x = x;
 			this.y = y;
 			this.width = r*2;
-			this.height = r*2;
+			this.height = r * 2;
+			
+			valueText = new TextField();
+			//valueText.textColor = 0xFFFFFF;
+			
+			valueText.text = "9";
+			var valueTextFormat:TextFormat = new TextFormat();
+			valueTextFormat.size = 30;
+			valueTextFormat.color = 0x000000;
+			valueText.setTextFormat(valueTextFormat);
+			valueText.selectable = false;
+			valueText.width = this.width;
+			valueText.height = this.height;
+			valueText.x = -valueText.textWidth / 2;
+			valueText.y = -valueText.textHeight / 2;
+			addChild(valueText);
 			
 			Density = 2;
 			Friction = 10;
 			isRound = true;			
 			InitializePhysics();
 			addEventListener(Event.ENTER_FRAME, Update);
+			ReddEngine.matterObjects.push(this);
 		}
 		
 		override public function InitializePhysics():void
