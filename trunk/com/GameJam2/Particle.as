@@ -100,6 +100,12 @@
 				this.Destroy();
 			}
 			
+			for (var i:int = 0; i < ReddEngine.projectileObjects.length; i++) {
+				//trace("collision?" + i);
+				if (ReddEngine.getInstance().DetectCollision(this, ReddEngine.projectileObjects[i])) {
+					trace("collided with projectile");
+				}
+			}
 		}
 		
 		override public function debug() : void {

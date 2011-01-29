@@ -44,6 +44,7 @@
 			isRound = true;			
 			InitializePhysics();
 			addEventListener(Event.ENTER_FRAME, Update);
+			ReddEngine.antiMatterObjects.push(this);
 		}
 		
 		public function initText() {
