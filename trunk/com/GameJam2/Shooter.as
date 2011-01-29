@@ -119,7 +119,7 @@
 		}
 		
 		public function fire(e:MouseEvent):void {
-			trace("CLICK");
+			//trace("CLICK");
 					
 			if (canLaunch && Math.abs(orientation-rotation) < 15)
 				{					
@@ -190,12 +190,12 @@
 			{
 				if (rotation < orientation)
 				{
-					trace("rotate right");
+					//trace("rotate right");
 					this.Body.ApplyTorque(5000);
 				}
 				else
 				{
-					trace("rotate left");
+					//trace("rotate left");
 					this.Body.ApplyTorque(-5000);
 				}
 			}
