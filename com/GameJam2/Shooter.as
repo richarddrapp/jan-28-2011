@@ -27,6 +27,8 @@
 	import flash.events.Event;
 	import flash.events.KeyboardEvent;
 	
+	import flash.events.MouseEvent;
+	
 	public class Shooter extends ReddObject {				
 		
 		public var keyA:uint = 65;
@@ -49,18 +51,24 @@
 		var LaunchTimer:Timer;
 		var SpawnTimer:Timer;
 		var canLaunch:Boolean = true;
+		var orientation:Number;
+		
+		
 		
 		public function Shooter() {							
 			super(); //density = 0.7											
 			Density = 20;
 			Friction = 0.3;
 			isRound = true;		
+			debugEnabled = true;
 			
 			radius = this.height / 2;
 			
 			key = new KeyObject(stageRef);					
 			InitializePhysics();
 			addEventListener(Event.ENTER_FRAME, Update);
+			ReddEngine.getInstance().stage.addEventListener(MouseEvent.CLICK, fire);
+			
 			
 			LaunchTimer = new Timer(1000, 1);
 			SpawnTimer = new Timer(2000, 0);
@@ -82,7 +90,7 @@
 			Body=ReddEngine.getInstance().World.CreateBody(BodyDef);					
 			Body.CreateShape(CircleDef);						
 			
-			Body.m_angularDamping = 3;
+			Body.m_angularDamping = 2;
 			Body.m_linearDamping = 1;
 			
 			Body.SetMassFromShapes();		
@@ -92,44 +100,41 @@
 			super.Update(e);
 			//this.x -= 1;												
 			
-			if (key.isDown(keyA))
-			{				
-				Body.ApplyTorque( -200);
-			}
-			else if (key.isDown(keyD))
-				Body.ApplyTorque(200);
-			
-			if (key.isDown(keySpace))
-			{
-				if (canLaunch)
-				{					
-					canLaunch = false;
-					LaunchTimer.start();				
-					newX = this.x + radius * Math.sin(rotation * Math.PI / 180);
-					newY = (this.y + radius * -Math.cos(rotation * Math.PI / 180));
-					
-					newVX = (LaunchSpeed * Math.sin(rotation * Math.PI / 180));
-					newVY = (LaunchSpeed * -Math.cos(rotation * Math.PI / 180));
-					
-					var mis:ShotParticle = new ShotParticle(newX, newY, 10);
-					mis.Body.ApplyImpulse(new b2Vec2(newVX, newVY), mis.Body.GetWorldCenter());					
-					ReddEngine.getInstance().addChild(mis);
-				}
-			}
+			mouseMovement();										
 				
 			if (debugEnabled)
 				debug();
 				
 			
 			
-		}		
+		}						
 		
 		override public function debug() : void {
-			label.appendText("\nCol posy : " + this.y);
+			label.text = "Rotation: " + this.rotation + 
+						"\nOrientation: " + this.orientation;
 		}								
 		
 		public function reload(e:TimerEvent) :void {
 			canLaunch = true;
+		}
+		
+		public function fire(e:MouseEvent):void {
+			trace("CLICK");
+					
+			if (canLaunch && Math.abs(orientation-rotation) < 15)
+				{					
+					canLaunch = false;
+					LaunchTimer.start();				
+					newX = this.x + radius * Math.sin(orientation * Math.PI / 180);
+					newY = (this.y + radius * -Math.cos(orientation * Math.PI / 180));
+					
+					newVX = (LaunchSpeed * Math.sin(orientation * Math.PI / 180));
+					newVY = (LaunchSpeed * -Math.cos(orientation * Math.PI / 180));
+					
+					var mis:ShotParticle = new ShotParticle(newX, newY, 10);
+					mis.Body.ApplyImpulse(new b2Vec2(newVX, newVY), mis.Body.GetWorldCenter());					
+					ReddEngine.getInstance().addChild(mis);
+				}			
 		}
 		
 		public function spawnMeteor(e:TimerEvent):void {				
@@ -175,6 +180,26 @@
 				ReddEngine.getInstance().addChild(met2);
 				ReddEngine.reddObjects.push(met2);
 			}
+		}
+	
+		public function mouseMovement() {
+			orientation = Math.atan((ReddEngine.getInstance().mouseX - this.x) / -(ReddEngine.getInstance().mouseY - this.y)) ;
+			orientation *= 180 / Math.PI;
+			
+			if (Math.abs(rotation - orientation) > 10)
+			{
+				if (rotation < orientation)
+				{
+					trace("rotate right");
+					this.Body.ApplyTorque(5000);
+				}
+				else
+				{
+					trace("rotate left");
+					this.Body.ApplyTorque(-5000);
+				}
+			}
+			
 		}
 	}
  }
