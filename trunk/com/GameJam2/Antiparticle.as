@@ -69,6 +69,7 @@
 		public function checkCollisions() {
 			if (!this.hitTestObject(ReddEngine.camera))
 			{
+				//ReddEngine.getInstance().stage.removeChild(valueText);
 				this.Destroy();
 			}
 		}

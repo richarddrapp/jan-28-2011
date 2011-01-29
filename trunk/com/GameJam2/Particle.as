@@ -38,18 +38,15 @@
 			
 			valueText = new TextField();
 			//valueText.textColor = 0xFFFFFF;
-			
-			valueText.text = "9";
+						
 			var valueTextFormat:TextFormat = new TextFormat();
 			valueTextFormat.size = 30;
 			valueTextFormat.color = 0x000000;
 			valueText.setTextFormat(valueTextFormat);
 			valueText.selectable = false;
 			valueText.width = this.width;
-			valueText.height = this.height;
-			valueText.x = -valueText.textWidth / 2;
-			valueText.y = -valueText.textHeight / 2;
-			addChild(valueText);
+			valueText.height = this.height;			
+			ReddEngine.getInstance().stage.addChild(valueText);
 			
 			Density = 2;
 			Friction = 10;
@@ -78,7 +75,13 @@
 		
 		override public function Update(e:Event) :void  {					
 			super.Update(e);
-			//this.x -= 1;												
+			//this.x -= 1;									
+			
+			valueText.text = "9";
+			valueText.x = this.x -valueText.textWidth;
+			valueText.y = this.y -valueText.textHeight/2;
+			
+			
 			if (debugEnabled)
 				debug();							
 			
@@ -89,6 +92,7 @@
 			//camera detection
 			if (!this.hitTestObject(ReddEngine.camera))
 			{
+				ReddEngine.getInstance().stage.removeChild(valueText);
 				this.Destroy();
 			}
 			
