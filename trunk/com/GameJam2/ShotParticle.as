@@ -26,10 +26,8 @@
 	
 	public class ShotParticle extends ReddObject {				
 		
-		public function ShotParticle(x:Number, y:Number, r:Number) {		
-			trace("debug1");
-			super(); //density = 0.7										
-			trace("debug2");
+		public function ShotParticle(x:Number, y:Number, r:Number) {					
+			super(); //density = 0.7													
 			this.x = x;
 			this.y = y;
 			this.width = r*2;
