@@ -46,7 +46,7 @@
 			BodyDef.position.Set((this.x)/ReddEngine.WORLD_CONSTANT, (this.y)/ReddEngine.WORLD_CONSTANT);			
 									
 			var CircleDef:b2CircleDef = new b2CircleDef();				
-			CircleDef.radius = (this.width / 2 -2) / ReddEngine.WORLD_CONSTANT;
+			CircleDef.radius = (this.width / 2) / ReddEngine.WORLD_CONSTANT;
 			CircleDef.friction = Friction;				
 			CircleDef.density = Density;	
 			CircleDef.restitution = 0;

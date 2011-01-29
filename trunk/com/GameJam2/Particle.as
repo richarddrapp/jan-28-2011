@@ -46,7 +46,7 @@
 			BodyDef.position.Set((this.x)/ReddEngine.WORLD_CONSTANT, (this.y)/ReddEngine.WORLD_CONSTANT);			
 									
 			var CircleDef:b2CircleDef = new b2CircleDef();				
-			CircleDef.radius = (this.width / 2 -2 ) / ReddEngine.WORLD_CONSTANT;
+			CircleDef.radius = (this.width / 2 ) / ReddEngine.WORLD_CONSTANT;
 			CircleDef.friction = Friction;				
 			CircleDef.density = Density;	
 			CircleDef.restitution = 0;
@@ -67,32 +67,7 @@
 		}		
 		
 		public function checkCollisions():void {
-			var robj:ReddObject;
-			for (var x:int = 0; x < ReddEngine.reddObjects.length; x++)
-			{
-				robj = ReddEngine.reddObjects[x];
-				if (ReddEngine.getInstance().DetectCollision(this, robj) && robj != this)
-				{	
-					if (robj is Antiparticle)
-					{
-						trace("ANIHILATION");
-						var numToSpawn:int = this.width / 11;
-						var newPart:Particle;
-						
-						this.parent.removeChild(robj);
-						this.removeEventListener(Event.ENTER_FRAME, robj.Update);
-						ReddEngine.getInstance().World.DestroyBody(this.Body);
-						
-						for (var x:int = 0; x < numToSpawn; x++)
-						{
-							newPart = new Particle(this.x + Math.random() * 20 -10, this.y + Math.random() * 20 - 10, 10);
-							newPart.Body.SetLinearVelocity(new b2Vec2(Math.random() * 6 -3, Math.random() * 6 - 3));
-							ReddEngine.getInstance().addChild(newPart);
-							ReddEngine.reddObjects.push(newPart);
-						}
-					}
-				}
-			}
+			
 		}
 		
 		override public function debug() : void {
