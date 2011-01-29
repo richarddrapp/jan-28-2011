@@ -26,18 +26,37 @@
 	
 	public class ShotParticle extends ReddObject {				
 		
+		public var valueText:TextField;
+		public var value:int;
+		
 		public function ShotParticle(x:Number, y:Number, r:Number) {					
 			super(); //density = 0.7													
 			this.x = x;
 			this.y = y;
 			this.width = r*2;
-			this.height = r*2;			
+			this.height = r * 2;	
+			
+			value = Math.random() * 9;
+			initText();
+			
 			Density = 2;
 			Friction = 10;
 			isRound = true;				
 			InitializePhysics();			
 			addEventListener(Event.ENTER_FRAME, Update);
 			ReddEngine.projectileObjects.push(this);
+		}
+		
+		public function initText() {
+			valueText = new TextField();
+			var valueTextFormat:TextFormat = new TextFormat();
+			valueTextFormat.size = 30;
+			valueTextFormat.color = 0x000000;
+			valueText.setTextFormat(valueTextFormat);
+			valueText.selectable = false;
+			valueText.width = this.width;
+			valueText.height = this.height;			
+			ReddEngine.getInstance().stage.addChild(valueText);
 		}
 		
 		override public function InitializePhysics():void
@@ -59,7 +78,12 @@
 		
 		override public function Update(e:Event) :void  {					
 			super.Update(e);
-			//this.x -= 1;												
+			//this.x -= 1;		
+			
+			valueText.text = "" + value;
+			valueText.x = this.x -valueText.textWidth;
+			valueText.y = this.y -valueText.textHeight/2;
+			
 			if (debugEnabled)
 				debug();	
 				
