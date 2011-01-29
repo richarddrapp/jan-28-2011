@@ -49,7 +49,7 @@
 			CircleDef.radius = (this.width / 2 ) / ReddEngine.WORLD_CONSTANT;
 			CircleDef.friction = Friction;				
 			CircleDef.density = Density;	
-			CircleDef.restitution = 0;
+			CircleDef.restitution = 1;
 				
 			Body=ReddEngine.getInstance().World.CreateBody(BodyDef);					
 			Body.CreateShape(CircleDef);						
@@ -67,6 +67,11 @@
 		}		
 		
 		public function checkCollisions():void {
+			//camera detection
+			if (!this.hitTestObject(ReddEngine.camera))
+			{
+				this.Destroy();
+			}
 			
 		}
 		
