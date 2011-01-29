@@ -181,7 +181,7 @@
 		public function newChildHandler(newThing:DisplayObject)
 		{											
 			if (newThing is ReddObject) {					
-				trace("new child! : " + newThing);
+				//trace("new child! : " + newThing);
 				var y:int;
 				for (var x:int = 0; x < reddObjects.length; x++)
 				{
@@ -206,10 +206,7 @@
 		
  
  		public function main(e:Event):void
-		{					
-			if(numChildren > reddObjects.length)
-				addElements(this);						
-			
+		{								
 			scrollWithPlayer();
 			World.Step(1 / 30, 10);									
 		}

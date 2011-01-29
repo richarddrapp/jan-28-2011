@@ -50,9 +50,8 @@
 		var SpawnTimer:Timer;
 		var canLaunch:Boolean = true;
 		
-		public function Shooter() {				
-			super(); //density = 0.7								
-				
+		public function Shooter() {							
+			super(); //density = 0.7											
 			Density = 20;
 			Friction = 0.3;
 			isRound = true;		
