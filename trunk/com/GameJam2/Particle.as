@@ -27,6 +27,7 @@
 	public class Particle extends ReddObject {				
 		
 		public var valueText:TextField;
+		public var value:int;
 		
 		public function Particle(x:Number, y:Number, r:Number) {				
 			super(); //density = 0.7								
@@ -36,9 +37,19 @@
 			this.width = r*2;
 			this.height = r * 2;
 			
+			value = Math.random() * 9;
+			initText();
+			
+			Density = 2;
+			Friction = 10;
+			isRound = true;			
+			InitializePhysics();
+			addEventListener(Event.ENTER_FRAME, Update);
+			ReddEngine.matterObjects.push(this);
+		}
+		
+		public function initText() {
 			valueText = new TextField();
-			//valueText.textColor = 0xFFFFFF;
-						
 			var valueTextFormat:TextFormat = new TextFormat();
 			valueTextFormat.size = 30;
 			valueTextFormat.color = 0x000000;
@@ -47,13 +58,6 @@
 			valueText.width = this.width;
 			valueText.height = this.height;			
 			ReddEngine.getInstance().stage.addChild(valueText);
-			
-			Density = 2;
-			Friction = 10;
-			isRound = true;			
-			InitializePhysics();
-			addEventListener(Event.ENTER_FRAME, Update);
-			ReddEngine.matterObjects.push(this);
 		}
 		
 		override public function InitializePhysics():void
@@ -77,7 +81,7 @@
 			super.Update(e);
 			//this.x -= 1;									
 			
-			valueText.text = "9";
+			valueText.text = "" + value;
 			valueText.x = this.x -valueText.textWidth;
 			valueText.y = this.y -valueText.textHeight/2;
 			
