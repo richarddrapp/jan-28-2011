@@ -39,8 +39,8 @@
 
 		public function ReddObject()
 		{
-			//trace("Called by sublcass");			
-			 									
+			//trace("Called by sublcass");		
+							 							
 			label = new TextField();  
 			var format:TextFormat = new TextFormat();
             format.font = "Verdana";
@@ -58,10 +58,8 @@
 			
 						
 			
-			stageRef.addChild(label);					
-			
-			
-				
+			stageRef.addChild(label);								
+			ReddEngine.reddObjects.push(this);
 								
 			//ReddEngine.getInstance().addChild(this);			
 		}
@@ -80,6 +78,12 @@
 				debug();				
 				
 			
+		}
+		
+		public function Destroy() {
+			removeEventListener(Event.ENTER_FRAME, Update);
+			parent.removeChild(this);
+			ReddEngine.getInstance().World.DestroyBody(this.Body);
 		}
 		
 		public function debug() : void {
