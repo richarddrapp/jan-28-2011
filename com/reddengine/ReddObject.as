@@ -52,6 +52,7 @@
 			label.defaultTextFormat = format;
 			label.x = 10;
 			label.y = 10;
+			label.selectable = false;
 						
 			//trace("DEBUG! FML");
 			stageRef = ReddEngine.getInstance().stage;
