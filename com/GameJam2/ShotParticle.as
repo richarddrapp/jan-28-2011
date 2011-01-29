@@ -69,34 +69,7 @@
 		}		
 		
 		public function checkCollisions():void {
-			var robj:ReddObject;
-			for (var x:int = 0; x < ReddEngine.reddObjects.length; x++)
-			{
-				robj = ReddEngine.reddObjects[x];
-				if (ReddEngine.getInstance().DetectCollision(this, robj) && robj != this)
-				{
-					if (robj is Particle)
-					{
-						robj.width += 10;
-						robj.height += 10;
-						var newP:Particle = new Particle(robj.x, robj.y, robj.width/2)
-						
-						robj.parent.removeChild(robj);
-						robj.removeEventListener(Event.ENTER_FRAME, robj.Update);
-						ReddEngine.getInstance().World.DestroyBody(robj.Body);
-						
-						robj = newP;
-						robj.Body.SetLinearVelocity(new b2Vec2(0, 0));
-						ReddEngine.getInstance().addChild(robj);
-						ReddEngine.reddObjects.push(robj);
-						
-						
-						this.removeEventListener(Event.ENTER_FRAME, Update);
-						this.Body.GetWorld().DestroyBody(this.Body);
-						this.parent.removeChild(this);
-					}					
-				}
-			}
+			
 		}
 		
 		override public function debug() : void {
