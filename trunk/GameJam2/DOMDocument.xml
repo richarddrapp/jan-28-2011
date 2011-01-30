@@ -1,6 +1,6 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" viewAngle3D="74.2651684569297" nextSceneIdentifier="2" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
-          <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238"/>
+          <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238" isExpanded="true"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols" itemID="4d453972-000005e6"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets" itemID="4d45406e-000002a0" isExpanded="true"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets copy" itemID="4d4542dc-000002fa"/>
@@ -41,12 +41,12 @@
           <Include href="BlackHoleParticle.xml"/>
           <Include href="CameraDetection.xml"/>
           <Include href="Collidable.xml"/>
+          <Include href="Crosshair.xml"/>
           <Include href="jeremy_art_assets/AlertSign.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/allpurpose_button.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/BlueBar.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/BlueBorder.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/BlueFill.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/crosshair.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Mouser.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/RedBar.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/RedBorder.xml" loadImmediate="false"/>
@@ -116,9 +116,36 @@
           <Include href="WorldDefender.xml"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="1">
+          <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="flash0.ai" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Crosshair" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Crosshair" name="" centerPoint3DX="411.45" centerPoint3DY="289.45">
+                                             <matrix>
+                                                  <Matrix a="0.55999755859375" d="0.55999755859375" tx="400.45" ty="300.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Crosshair" name="" centerPoint3DX="411.45" centerPoint3DY="289.45">
+                                             <matrix>
+                                                  <Matrix a="0.55999755859375" d="0.55999755859375" tx="400.45" ty="300.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="flash0.ai" color="#FF4FFF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -569,25 +596,25 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="398202" publishTime="1296421948"/>
+          <PublishItem publishSize="398193" publishTime="1296421922"/>
+          <PublishItem publishSize="337504" publishTime="1296421807"/>
+          <PublishItem publishSize="337505" publishTime="1296421790"/>
+          <PublishItem publishSize="337504" publishTime="1296421783"/>
+          <PublishItem publishSize="337504" publishTime="1296421725"/>
+          <PublishItem publishSize="337504" publishTime="1296421708"/>
+          <PublishItem publishSize="337505" publishTime="1296421567"/>
+          <PublishItem publishSize="337495" publishTime="1296421461"/>
+          <PublishItem publishSize="337495" publishTime="1296421352"/>
+          <PublishItem publishSize="309396" publishTime="1296421332"/>
+          <PublishItem publishSize="398210" publishTime="1296421283"/>
+          <PublishItem publishSize="398193" publishTime="1296421165"/>
+          <PublishItem publishSize="398110" publishTime="1296421112"/>
+          <PublishItem publishSize="398156" publishTime="1296421105"/>
           <PublishItem publishSize="398471" publishTime="1296418451"/>
           <PublishItem publishSize="396756" publishTime="1296416189"/>
           <PublishItem publishSize="396768" publishTime="1296416094"/>
           <PublishItem publishSize="396780" publishTime="1296416004"/>
           <PublishItem publishSize="396689" publishTime="1296415901"/>
-          <PublishItem publishSize="395567" publishTime="1296415276"/>
-          <PublishItem publishSize="395621" publishTime="1296415093"/>
-          <PublishItem publishSize="395581" publishTime="1296413958"/>
-          <PublishItem publishSize="395560" publishTime="1296413812"/>
-          <PublishItem publishSize="395579" publishTime="1296413596"/>
-          <PublishItem publishSize="396706" publishTime="1296413221"/>
-          <PublishItem publishSize="396618" publishTime="1296413194"/>
-          <PublishItem publishSize="396715" publishTime="1296413134"/>
-          <PublishItem publishSize="331343" publishTime="1296410490"/>
-          <PublishItem publishSize="331224" publishTime="1296410160"/>
-          <PublishItem publishSize="331236" publishTime="1296410128"/>
-          <PublishItem publishSize="331278" publishTime="1296410087"/>
-          <PublishItem publishSize="331278" publishTime="1296409089"/>
-          <PublishItem publishSize="331230" publishTime="1296408677"/>
-          <PublishItem publishSize="270891" publishTime="1296408639"/>
      </publishHistory>
 </DOMDocument>
