@@ -28,7 +28,7 @@
 	import com.reddengine.ReddEngine;
 	
 	public class Particle extends ReddObject {				
-		//public var valueText:TextField;		
+		public var valueText:TextField;		
 		public var needConvert:Boolean = false;		
 		public var conversion:Timer;
 		
@@ -43,8 +43,7 @@
 			this.height = r * 2;
 			
 			value = Math.random() * 8 +1;
-			numSymbol.numText.text = "" + value;
-			//initText();
+			initText();
 			
 			Density = 2;
 			Friction = 10;
@@ -58,7 +57,7 @@
 			ReddEngine.matterObjects.push(this);
 		}
 		
-		/*public function initText() {
+		public function initText() {
 			valueText = new TextField();
 			var valueTextFormat:TextFormat = new TextFormat();
 			valueTextFormat.size = 30;
@@ -68,7 +67,7 @@
 			valueText.width = this.width;
 			valueText.height = this.height;			
 			ReddEngine.getInstance().stage.addChild(valueText);
-		}*/
+		}
 		
 		override public function InitializePhysics():void
 		{
@@ -93,11 +92,9 @@
 			super.Update(e);
 			//this.x -= 1;									
 			
-			numSymbol.numText.text = "" + value;
-			numSymbol.rotation = -rotation;
-			//valueText.text = "" + value;
-			//valueText.x = this.x -valueText.textWidth;
-			//valueText.y = this.y -valueText.textHeight/2;
+			valueText.text = "" + value;
+			valueText.x = this.x -valueText.textWidth;
+			valueText.y = this.y -valueText.textHeight/2;
 			
 			if (this.value >= 25) {
 				
@@ -118,32 +115,27 @@
 		public function checkCollisions(robj:ReddObject):void {
 			//camera detection				
 				
-				trace("debug1");
 				var total:int;
-				total = value + robj.value;
-				trace("debug2");
-				
-				//Particle colliding with ShotParticle
 				if (robj is ShotParticle)
 				{		
-					
+					total = value + robj.value;
 					//trace("shot collided with matter");
 					// sum the values
 					
 					// if 0, explode
 					if (total == 0) {
-						value = 0;
 						this.Explode();
 						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
 						trace("CALL EXPLOSIONS");
 					}
-					else //if it's collision value is non zero
+					else
 					{	
-						/*if (Math.abs(robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
+						/*
+						if (Math.abs(robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						{							
 								value = total;								
-								width = value * 10;
+								width += robj.value * 10;
 								height = width;							
 								robj.Delete = true;			
 								
@@ -169,7 +161,7 @@
 				else if (robj is Antiparticle)
 				{
 					// sum the values
-					
+					total = value + robj.value;
 					//trace("matter collided with antimatter");
 					
 					// if 0, explode
@@ -205,25 +197,23 @@
 				}
 				else if (robj is Particle)
 				{					
-					
+					total = value + robj.value;
 					
 					if (Math.abs(Body.m_linearVelocity.Length()+robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 					{			
-						trace("combining");
-						
 						if (Body.m_linearVelocity.Length() > robj.Body.m_linearVelocity.Length())
 						{
-							value = total;
+							trace("combining");
 							width += robj.value;
 							height = width;							
 							robj.Delete = true;
-							
+							value = total;
 						}										
 						else
 						{
-							robj.value = total;
 							robj.width += value;
-							robj.height = robj.width;							
+							robj.height = robj.width;
+							robj.value = total;
 							this.Delete = true;
 						}
 					}	
@@ -233,7 +223,7 @@
 		
 		override public function Destroy() : void {
 			super.Destroy();	
-			//ReddEngine.getInstance().stage.removeChild(valueText);
+			ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.matterObjects.splice(ReddEngine.matterObjects.indexOf(this), 1);
 		}
 			
@@ -243,7 +233,7 @@
 		}								
 		
 		public function convert(e:TimerEvent):void {				
-			trace("Converting");	
+			//trace("Converting");	
 				//trace("In Val: " + value);														
 					var newAP:Antiparticle = new Antiparticle(this.x, this.y, 15);	
 					newAP.Body.SetLinearVelocity(Body.GetLinearVelocity());
