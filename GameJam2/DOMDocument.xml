@@ -121,7 +121,7 @@
                                                   <Point x="1.55" y="1.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Shooter" name="" centerPoint3DX="397.85" centerPoint3DY="598.8">
+                                        <DOMSymbolInstance libraryItemName="Shooter" name="" selected="true" centerPoint3DX="397.85" centerPoint3DY="598.8">
                                              <matrix>
                                                   <Matrix a="3.125" d="3.125" tx="397.85" ty="598.8"/>
                                              </matrix>
@@ -196,7 +196,7 @@
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
+                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/smoke_background3.png"/>
@@ -557,6 +557,8 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="329850" publishTime="1296393670"/>
+          <PublishItem publishSize="329949" publishTime="1296393651"/>
           <PublishItem publishSize="329191" publishTime="1296393333"/>
           <PublishItem publishSize="329182" publishTime="1296393266"/>
           <PublishItem publishSize="329268" publishTime="1296393028"/>
