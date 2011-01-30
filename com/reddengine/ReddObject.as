@@ -105,7 +105,7 @@
 				ExplosionHandler.getInstance().explode_at(this.x, this.y, 70, 12, 0, 220, 220, 0.8, 0, 220, 220, 0.1, true);
 			}
 		
-			this.Delete = true;
+			//this.Delete = true;
 		}
 		
 		public function BlackHole() :void {
