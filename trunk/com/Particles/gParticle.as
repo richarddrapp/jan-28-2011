@@ -27,6 +27,10 @@
 		var face_dir;
 		var a;
 		
+		var suck:Boolean;
+		var go_x:Number;
+		var go_y:Number;
+		
 		public function gParticle(death_age:Number, decay:Boolean, decay_at:Number, initial_speed:Number, direct:Number, spread:Number, drag:Number, face_dir:Boolean, r:int, g:int, b:int, a:Number) {
 			age = 0;
 			this.death_age = death_age;
@@ -63,7 +67,7 @@
 				live = false;
 			}
 			
-			if (ExplosionHandler.getInstance().implosions.length > 0) {
+			if ((ExplosionHandler.getInstance().implosions.length > 0) && (!suck)) {
 				var closest:ParticleBlackHole = ExplosionHandler.getInstance().implosions[0];
 				var dist = Math.sqrt(ExplosionHandler.getInstance().implosions[0].x^2 + ExplosionHandler.getInstance().implosions[0].y^2);
 				for (var i = 1; i < ExplosionHandler.getInstance().implosions.length; i++) {
@@ -75,8 +79,14 @@
 						closest = ExplosionHandler.getInstance().implosions[i];
 					}
 				}
-				var xchange = closest.x - this.x;
-				var ychange = closest.y - this.y;
+				go_x = closest.x;
+				go_y = closest.y;
+				suck = true;
+			}
+				
+			if(suck) {
+				var xchange = go_x - this.x;
+				var ychange = go_y - this.y;
 				var mag = Math.sqrt(xchange ^ 2 + ychange ^ 2);
 				xchange /= mag;
 				ychange /= mag;

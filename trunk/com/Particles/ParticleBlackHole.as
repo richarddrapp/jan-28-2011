@@ -13,6 +13,8 @@
 		var alive:Vector.<bhParticle> = new Vector.<bhParticle>();
 		var dead:Vector.<bhParticle> = new Vector.<bhParticle>();
 		
+		var on:Boolean;
+		
 		var blackHoleParticle:BlackHoleParticle;
 		
 		//physics implode variables for black hole
@@ -38,6 +40,8 @@
 				p = new bhParticle(radius);
 				dead.push(p);
 			}
+			
+			on = true;
 		}
 		
 		public function setImplosivePhysicsAttributes(reddObj:ReddObject, radius:Number, minval:Number, maxval:Number) {
@@ -48,16 +52,18 @@
 		}
 
 		public function update() {
-			ImplodeObject.applyExplosiveImpulse(ImplodeObject.x, ImplodeObject.y, ImplodeRadius, ImplodeMinval, ImplodeMaxval);
-			for(var i = 0; i < density; i++) {
-			if(dead.length > 0) {
-				var t:bhParticle = dead[dead.length - 1];
-				t.respawn();
-				this.addChild(t);
-				alive.push(t);
-				dead.pop();
-				//trace("SPAWN: " + alive.length + "," + dead.length);
-			}
+			if (on) {
+				ImplodeObject.applyExplosiveImpulse(ImplodeObject.x, ImplodeObject.y, ImplodeRadius, ImplodeMinval, ImplodeMaxval);
+				for(var i = 0; i < density; i++) {
+					if(dead.length > 0) {
+						var t:bhParticle = dead[dead.length - 1];
+						t.respawn();
+						this.addChild(t);
+						alive.push(t);
+						dead.pop();
+						//trace("SPAWN: " + alive.length + "," + dead.length);
+					}
+				}
 			}
 			for(i = 0; i < alive.length; i++) {
 				alive[i].update();
@@ -69,6 +75,10 @@
 				}
 			}
 			this.rotation += 0.5;
+		}
+		
+		public function off() {
+			on = false;
 		}
 	}
 }
