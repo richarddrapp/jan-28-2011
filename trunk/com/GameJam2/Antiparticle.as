@@ -36,7 +36,7 @@
 			this.width = r*2;
 			this.height = r * 2;
 			
-			value = Math.random() * 9;
+			value = Math.random() * -8 +1;
 			initText();
 			
 			Density = 2;
