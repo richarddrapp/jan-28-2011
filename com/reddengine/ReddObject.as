@@ -109,7 +109,7 @@
 		
 			//this.Delete = true;
 			
-			//applyExplosiveImpulse(this.x, this.y, 250, 0, 5);
+			applyExplosiveImpulse(this.x, this.y, 400, 0, 15);
 		}
 		
 		public function applyExplosiveImpulse(xPos:int, yPos:int, radius:Number, minval:Number, maxval:Number) {
