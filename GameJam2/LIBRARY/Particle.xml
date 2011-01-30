@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle" itemID="4d45173e-000002fa" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Particle" sourceLibraryItemHRef="Symbol 1" lastModified="1296383375" lastUniqueIdentifier="15">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle" itemID="4d45173e-000002fa" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Particle" sourceLibraryItemHRef="Symbol 1" lastModified="1296392173" lastUniqueIdentifier="15">
   <timeline>
     <DOMTimeline name="Particle">
       <layers>

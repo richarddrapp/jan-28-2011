@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Projectile" itemID="4d439424-000001fd" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam.Projectile" sourceLibraryItemHRef="Symbol 1" lastModified="1296375918">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Projectile" itemID="4d439424-000001fd" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam.Projectile" sourceLibraryItemHRef="Symbol 1" lastModified="1296392173">
   <timeline>
     <DOMTimeline name="Projectile">
       <layers>

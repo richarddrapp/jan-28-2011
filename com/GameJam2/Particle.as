@@ -134,10 +134,11 @@
 					
 					// if 0, explode
 					if (total == 0) {
+						trace("CALL EXPLOSIONS");
 						this.Explode();
 						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
-						trace("CALL EXPLOSIONS");
+						
 					}
 					else
 					{	
