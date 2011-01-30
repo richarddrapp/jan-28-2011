@@ -35,6 +35,8 @@
 		public var keyD:uint = 68;
 		public var key:KeyObject;
 		public var keySpace:uint = 32;
+		public var isMouseDown:Boolean = false;
+		public var mouseDownTime:int = 0;
 		
 		var radius:Number;
 		var newX:Number;
@@ -67,7 +69,9 @@
 			key = new KeyObject(stageRef);					
 			InitializePhysics();
 			addEventListener(Event.ENTER_FRAME, Update);
-			ReddEngine.getInstance().stage.addEventListener(MouseEvent.CLICK, fire);
+			//ReddEngine.getInstance().stage.addEventListener(MouseEvent.CLICK, fire);
+			ReddEngine.getInstance().stage.addEventListener(MouseEvent.MOUSE_DOWN, mouseDown);
+			ReddEngine.getInstance().stage.addEventListener(MouseEvent.MOUSE_UP, mouseUp);
 			
 			
 			LaunchTimer = new Timer(1000, 1);
@@ -100,6 +104,7 @@
 			super.Update(e);
 			//this.x -= 1;												
 			
+			mouseDownUpdate();
 			mouseMovement();										
 				
 			if (debugEnabled)
@@ -118,7 +123,17 @@
 			canLaunch = true;
 		}
 		
-		public function fire(e:MouseEvent):void {
+		public function mouseDown(e:MouseEvent):void {
+			isMouseDown = true;
+		}
+		
+		public function mouseUp(e:MouseEvent):void {
+			isMouseDown = false;
+			fire();
+			mouseDownTime = 0;
+		}
+		
+		public function fire():void {
 			//trace("CLICK");
 					
 			if (canLaunch && Math.abs(orientation-rotation) < 15)
@@ -132,6 +147,7 @@
 					newVY = (LaunchSpeed * -Math.cos(orientation * Math.PI / 180));
 					
 					var mis:ShotParticle = new ShotParticle(newX, newY, 10);
+					mis.value = mouseDownTime / 15 + 1;
 					mis.Body.ApplyImpulse(new b2Vec2(newVX, newVY), mis.Body.GetWorldCenter());					
 					ReddEngine.getInstance().addChild(mis);
 				}			
@@ -179,6 +195,12 @@
 				met2.Body.ApplyImpulse(new b2Vec2(metVX, metVY), met2.Body.GetWorldCenter());
 				ReddEngine.getInstance().addChild(met2);
 				ReddEngine.reddObjects.push(met2);
+			}
+		}
+		
+		public function mouseDownUpdate() {
+			if (isMouseDown) {
+				mouseDownTime++;
 			}
 		}
 	
