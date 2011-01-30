@@ -1,12 +1,12 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle" itemID="4d45173e-000002fa" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Particle" sourceLibraryItemHRef="Symbol 1" lastModified="1296375728" lastUniqueIdentifier="13">
   <timeline>
-    <DOMTimeline name="Particle" currentFrame="1">
+    <DOMTimeline name="Particle">
       <layers>
         <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMDynamicText name="num" fontRenderingMode="standard" width="176" height="120">
+                <DOMDynamicText name="num" selected="true" fontRenderingMode="standard" width="176" height="134.1">
                   <matrix>
                     <Matrix tx="-88" ty="-50"/>
                   </matrix>
