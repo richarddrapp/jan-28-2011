@@ -112,6 +112,10 @@
 			
 			//call particle effect
 			trace("A black hole is being spawned. WOOOOOOOOOOOOSH!");
+			
+			ExplosionHandler.getInstance().implode_at(this.x, this.y, 1000, 80);
+			
+			this.Delete = true;
 		}
 		
 		public function debug() : void {

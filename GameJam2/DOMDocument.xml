@@ -91,6 +91,7 @@
           <Include href="Particle_art/relectron_2.xml" loadImmediate="false"/>
           <Include href="Particle_art/relectron_3.xml" loadImmediate="false"/>
           <Include href="Particle_art/rnucleus_r.xml" loadImmediate="false"/>
+          <Include href="Particles/bhParticle.xml"/>
           <Include href="Particles/gParticle.xml"/>
           <Include href="PhysicsLimb.xml"/>
           <Include href="Platformer.xml"/>
@@ -120,7 +121,7 @@
                                                   <Point x="1.55" y="1.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Shooter" name="" selected="true" centerPoint3DX="397.85" centerPoint3DY="598.8">
+                                        <DOMSymbolInstance libraryItemName="Shooter" name="" centerPoint3DX="397.85" centerPoint3DY="598.8">
                                              <matrix>
                                                   <Matrix a="3.125" d="3.125" tx="397.85" ty="598.8"/>
                                              </matrix>
@@ -195,7 +196,7 @@
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
+                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/smoke_background3.png"/>
@@ -556,6 +557,8 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="380894" publishTime="1296392196"/>
+          <PublishItem publishSize="380802" publishTime="1296392012"/>
           <PublishItem publishSize="380119" publishTime="1296390798"/>
           <PublishItem publishSize="380302" publishTime="1296389303"/>
           <PublishItem publishSize="380282" publishTime="1296387548"/>
@@ -574,7 +577,5 @@ gotoAndStop(2);
           <PublishItem publishSize="57687" publishTime="1296371037"/>
           <PublishItem publishSize="57544" publishTime="1296370809"/>
           <PublishItem publishSize="57616" publishTime="1296370752"/>
-          <PublishItem publishSize="57617" publishTime="1296370634"/>
-          <PublishItem publishSize="57379" publishTime="1296370454"/>
      </publishHistory>
 </DOMDocument>
