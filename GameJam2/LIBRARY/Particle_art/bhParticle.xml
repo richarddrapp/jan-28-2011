@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/bhParticle" itemID="4d4544b4-000002ff" linkageExportForAS="true" linkageClassName="com.Particles.bhParticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296392259">
+  <timeline>
+    <DOMTimeline name="bhParticle">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!45 -12S2[63 -7 63 2!63 2[63 10 45 16!45 16[28 22 3 22!3 22[-22 22 -40 16!-40 16[-57 10 -57 2!-57 2[-57 -7 -40 -12!-40 -12[-22 -18 3 -18!3 -18[28 -18 45 -12"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/gParticle" itemID="4b7661c5-0000005a" linkageExportForAS="true" linkageClassName="com.Particles.gParticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296375368">
+  <timeline>
+    <DOMTimeline name="gParticle">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!42 -14S2[60 -9 60 0!60 0[60 8 42 14!42 14[25 20 0 20!0 20[-25 20 -43 14!-43 14[-60 8 -60 0!-60 0[-60 -9 -43 -14!-43 -14[-25 -20 0 -20!0 -20[25 -20 42 -14"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
