@@ -47,6 +47,12 @@
 		var fireMeterRect:Rectangle = new Rectangle(500, 500, 100, 50);
 		var fireMeterText:TextField;
 		
+		public static const PROJECTILETYPE_MATTER:int = 1;
+		public static const PROJECTILETYPE_ANTIMATTER:int = 2;
+		public static const PROJECTILETYPE_SUPER_COOL_POWERUP_MAYBE:int = 3;
+
+		var projectileType:int = PROJECTILETYPE_MATTER;
+		
 		var radius:Number;
 		var newX:Number;
 		var newY:Number;
@@ -75,10 +81,11 @@
 			
 			radius = this.height / 2;
 			
-			key = new KeyObject(stageRef);					
+			key = new KeyObject(stageRef);
 			InitializePhysics();
 			addEventListener(Event.ENTER_FRAME, Update);
 			//ReddEngine.getInstance().stage.addEventListener(MouseEvent.CLICK, fire);
+			ReddEngine.getInstance().stage.addEventListener(KeyboardEvent.KEY_UP, keyUp);
 			ReddEngine.getInstance().stage.addEventListener(MouseEvent.MOUSE_DOWN, mouseDown);
 			ReddEngine.getInstance().stage.addEventListener(MouseEvent.MOUSE_UP, mouseUp);
 			
@@ -129,7 +136,14 @@
 		
 		public function updateFireMeter() {
 			fireMeterFill.graphics.clear();
-			fireMeterFill.graphics.beginFill(0x00DD00, 1);
+			if (projectileType == PROJECTILETYPE_MATTER) {
+				fireMeterFill.graphics.beginFill(0xFF0000, 1);
+			} else if (projectileType == PROJECTILETYPE_ANTIMATTER) {
+				fireMeterFill.graphics.beginFill(0x0000FF, 1);
+			} else { //super crazy powerup
+				fireMeterFill.graphics.beginFill(0x00DD00, 1);
+			}
+			
 			//trace("% of bar: " + (mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH);
 			fireMeterFill.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width*((mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH), fireMeterRect.height);
 			fireMeterFill.graphics.endFill();
@@ -192,6 +206,16 @@
 			mouseDownTime = 0;
 		}
 		
+		public function keyUp(e:KeyboardEvent):void {
+			if (e.keyCode == Keyboard.SPACE) {
+				if (projectileType == PROJECTILETYPE_MATTER) {
+					projectileType = PROJECTILETYPE_ANTIMATTER;
+				} else if (projectileType == PROJECTILETYPE_ANTIMATTER) {
+					projectileType = PROJECTILETYPE_MATTER;
+				}
+			}
+		}
+		
 		public function fire():void {
 			//trace("CLICK");
 					
@@ -206,7 +230,13 @@
 					newVY = (LaunchSpeed * -Math.cos(orientation * Math.PI / 180));
 					
 					var mis:ShotParticle = new ShotParticle(newX, newY, 10);
-					mis.value = mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1;
+					if (projectileType == PROJECTILETYPE_MATTER) {
+						mis.value = mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1;
+					} else if (projectileType = PROJECTILETYPE_ANTIMATTER) {
+						mis.value = (mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1) * -1;
+					} else {
+						//super crazy powerup
+					}
 					mis.Body.ApplyImpulse(new b2Vec2(newVX, newVY), mis.Body.GetWorldCenter());					
 					ReddEngine.getInstance().addChild(mis);
 				}			
