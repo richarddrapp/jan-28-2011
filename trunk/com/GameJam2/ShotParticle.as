@@ -67,12 +67,14 @@
 		}
 		
 		public function convert(e:TimerEvent):void {				
-			trace("Converting");				
+			trace("Converting");	
+				trace("In Val: " + value);				
+							
 				if (value > 0)
 				{
 					var newP:Particle = new Particle(this.x, this.y, 15);	
 					newP.Body.SetLinearVelocity(Body.GetLinearVelocity());
-					newP.value = value;
+					newP.value = 0;
 					ReddEngine.getInstance().addChild(newP);
 					ReddEngine.reddObjects.push(newP);
 					ReddEngine.matterObjects.push(newP);
@@ -81,13 +83,12 @@
 				{
 					var newAP:Antiparticle = new Antiparticle(this.x, this.y, 15);	
 					newAP.Body.SetLinearVelocity(Body.GetLinearVelocity());
-					newAP.value = value;
+					newAP.value = 0;
 					ReddEngine.getInstance().addChild(newAP);
 					ReddEngine.reddObjects.push(newAP);
 					ReddEngine.matterObjects.push(newAP);
-				}
-								
-				this.Delete = true;
+				}								
+				this.Delete = true;					
 		}
 		
 		override public function InitializePhysics():void
