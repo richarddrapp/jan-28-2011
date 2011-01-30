@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/title_bar" itemID="4d4540f9-000002bb" sourceLibraryItemHRef="Symbol 1" lastModified="1296384249">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/title_bar" itemID="4d4540f9-000002bb" sourceLibraryItemHRef="Symbol 1" lastModified="1296392992">
   <timeline>
     <DOMTimeline name="title_bar">
       <layers>
@@ -67,15 +67,19 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
-                <DOMTLFText name="" left="-3996" right="4081" bottom="1465">
+                <DOMStaticText selected="true" width="463.8" height="155.7" isSelectable="false">
                   <matrix>
-                    <Matrix tx="-1" ty="-31"/>
+                    <Matrix tx="-238.8" ty="-29"/>
                   </matrix>
-                  <tlfFonts>
-                    <TLFFont platformName="NeoTech" psName="NeoTech-Bold" bold="true"/>
-                  </tlfFonts>
-                  <markup><tlfTextObject type="Point" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="explicit" locale="en" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="start" textIndent="0" textJustify="interWord"><span color="#b1011b" fontFamily="NeoTech" fontSize="72" fontStyle="normal" fontWeight="bold" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">GAME TITLE</span></p></TextFlow></tlfTextObject></markup>
-                </DOMTLFText>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>GAME TITLE&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="11.7" size="72" face="NeoTech-Black" fillColor="#B1011B"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
               </elements>
             </DOMFrame>
           </frames>

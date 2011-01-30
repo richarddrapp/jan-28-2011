@@ -557,25 +557,17 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="380894" publishTime="1296392196"/>
-          <PublishItem publishSize="380802" publishTime="1296392012"/>
-          <PublishItem publishSize="380119" publishTime="1296390798"/>
-          <PublishItem publishSize="380302" publishTime="1296389303"/>
-          <PublishItem publishSize="380282" publishTime="1296387548"/>
-          <PublishItem publishSize="380341" publishTime="1296387017"/>
-          <PublishItem publishSize="380382" publishTime="1296385926"/>
-          <PublishItem publishSize="556455" publishTime="1296384393"/>
-          <PublishItem publishSize="285040" publishTime="1296383906"/>
-          <PublishItem publishSize="284944" publishTime="1296383858"/>
-          <PublishItem publishSize="285107" publishTime="1296382963"/>
-          <PublishItem publishSize="285085" publishTime="1296382782"/>
-          <PublishItem publishSize="281950" publishTime="1296378586"/>
-          <PublishItem publishSize="281464" publishTime="1296378362"/>
-          <PublishItem publishSize="321042" publishTime="1296376494"/>
-          <PublishItem publishSize="321104" publishTime="1296375374"/>
-          <PublishItem publishSize="320594" publishTime="1296374708"/>
-          <PublishItem publishSize="57687" publishTime="1296371037"/>
-          <PublishItem publishSize="57544" publishTime="1296370809"/>
-          <PublishItem publishSize="57616" publishTime="1296370752"/>
+          <PublishItem publishSize="329191" publishTime="1296393333"/>
+          <PublishItem publishSize="329182" publishTime="1296393266"/>
+          <PublishItem publishSize="329268" publishTime="1296393028"/>
+          <PublishItem publishSize="380683" publishTime="1296392974"/>
+          <PublishItem publishSize="380069" publishTime="1296392796"/>
+          <PublishItem publishSize="380104" publishTime="1296392703"/>
+          <PublishItem publishSize="380114" publishTime="1296392667"/>
+          <PublishItem publishSize="380081" publishTime="1296392617"/>
+          <PublishItem publishSize="380085" publishTime="1296392415"/>
+          <PublishItem publishSize="380191" publishTime="1296392343"/>
+          <PublishItem publishSize="380186" publishTime="1296392222"/>
+          <PublishItem publishSize="380066" publishTime="1296391998"/>
      </publishHistory>
 </DOMDocument>
