@@ -6,6 +6,7 @@
 	import flash.display.Stage;
 	import flash.display.BitmapData;
 	import flash.geom.*;
+	import flash.text.AntiAliasType;
 	import flash.text.engine.BreakOpportunity;
 	
 	import flash.display.Sprite;
@@ -26,8 +27,7 @@
 	
 	public class Particle extends ReddObject {				
 		
-		public var valueText:TextField;
-		public var value:int;
+		public var valueText:TextField;		
 		
 		public function Particle(x:Number, y:Number, r:Number) {				
 			super(); //density = 0.7								
@@ -74,6 +74,8 @@
 			Body=ReddEngine.getInstance().World.CreateBody(BodyDef);					
 			Body.CreateShape(CircleDef);						
 			
+			Body.SetUserData(this);
+			
 			Body.SetMassFromShapes();		
 		}
 		
@@ -87,54 +89,63 @@
 			
 			
 			if (debugEnabled)
-				debug();							
-			
-			checkCollisions();
-		}		
-		
-		public function checkCollisions():void {
-			//camera detection
+				debug();
+				
 			if (!this.hitTestObject(ReddEngine.camera))
 			{
 				this.Destroy();
-			}
-			
-			for (var i:int = 0; i < ReddEngine.projectileObjects.length; i++) {
-				//trace("collision?" + i);
-				if (ReddEngine.getInstance().DetectCollision(this, ReddEngine.projectileObjects[i])) {
-					trace("collided with projectile");
-				}
-			}
-			
-			for (var i:int = 0; i < ReddEngine.antiMatterObjects.length; i++) {
-				//trace("collision?" + i);
-				if (ReddEngine.getInstance().DetectCollision(this, ReddEngine.antiMatterObjects[i])) {
-					trace("matter collided with antimatter");
+			}								
+					
+						
+		}		
+		
+		public function checkCollisions(robj:ReddObject):void {
+			//camera detection				
+				
+				if (robj is ShotParticle)
+				{					
+					trace("shot collided with matter");
 					// sum the values
-					var total = value - ReddEngine.antiMatterObjects[i].value;
+					var total = value + robj.value;
 					// if 0, explode
 					if (total == 0) {
 						//this.explode();
+						robj.Destroy();
 						//ReddEngine.antiMatterObjects[i].explode();
 						trace("CALL EXPLOSIONS");
 					}
-					if (total > 0) {
+					else
+					{		
 						value = total;
-						ReddEngine.antiMatterObjects[i].Destroy();
-						trace("Antimatter destroyed; new value is" + total);
+						//convert ShotParticle into Particle/Antiparticle
+					}						
+				}					
+				else if (robj is Antiparticle)
+				{
+					trace("matter collided with antimatter");
+					// sum the values
+					var total = value + robj.value;
+					// if 0, explode
+					if (total == 0) {
+						//this.explode();
+						robj.Destroy();
+						//ReddEngine.antiMatterObjects[i].explode();
+						trace("CALL EXPLOSIONS");
 					}
-					if (total < 0) {
-						total *= -1;
-						Destroy();
-						ReddEngine.antiMatterObjects[i].value = total;
-						trace("Matter destroyed; new value is" + total);
-					}
+					else
+					{		
+						value = total;
+						robj.value = total;
+						//convert ShotParticle into Particle/Antiparticle
+					}											
 				}
-			}
+						
 		}
 		
 		override public function Destroy() : void {
-			super.Destroy();
+			removeEventListener(Event.ENTER_FRAME, Update);
+			parent.removeChild(this);
+			ReddEngine.getInstance().World.DestroyBody(this.Body);
 			ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.matterObjects.splice(ReddEngine.matterObjects.indexOf(this), 1);
 		}

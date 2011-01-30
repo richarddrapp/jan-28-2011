@@ -36,6 +36,8 @@
 		public var Body:b2Body;		
 		public var Density:Number;
 		public var Friction:Number;
+		
+		public var value:int;
 
 		public function ReddObject()
 		{
@@ -57,7 +59,7 @@
 			//trace("DEBUG! FML");
 			stageRef = ReddEngine.getInstance().stage;
 			
-						
+									
 			
 			stageRef.addChild(label);								
 			ReddEngine.reddObjects.push(this);
@@ -65,8 +67,7 @@
 			//ReddEngine.getInstance().addChild(this);			
 		}
 		
-		public function InitializePhysics():void {
-											
+		public function InitializePhysics():void {			
 		}												
 		
 		public function Update(e:Event) :void {							

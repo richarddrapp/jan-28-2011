@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CameraDetection" itemID="4d43a4f8-0000020a" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.reddengine.CameraDetection" sourceLibraryItemHRef="Symbol 1" lastModified="1296279032">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CameraDetection" itemID="4d43a4f8-0000020a" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.reddengine.CameraDetection" sourceLibraryItemHRef="Symbol 1" lastModified="1296351964">
   <timeline>
     <DOMTimeline name="CameraDetection">
       <layers>

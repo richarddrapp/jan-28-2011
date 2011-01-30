@@ -60,9 +60,7 @@ package com.reddengine {
 			progressBar = null;
 			percentTxt = null;			
 			
-			
-			Start.x = stage.stageWidth / 2;
-			Start.y = stage.stageHeight / 2;
+						
 			Start.visible = true;																			
 			
 			Start.addEventListener(MouseEvent.CLICK, showSwf);						
@@ -85,14 +83,14 @@ package com.reddengine {
 			format.size = 10;
 			
 			percentTxt = new TextField();
-			percentTxt.x = stage.stageWidth/2 - 20;
-			percentTxt.y = stage.stageHeight/2 + 25;
+			percentTxt.x = Start.x - 20;
+			percentTxt.y = Start.y + 25;
 			setPercentTxt(0);
 			
 			outerBar = new Sprite();
 			outerBar.graphics.lineStyle(1, 0x35FF11);
 			outerBar.graphics.beginFill(0xFFFFFF);
-			outerBar.graphics.drawRect(stage.stageWidth/2 - 60, stage.stageHeight/2, 100, 10);
+			outerBar.graphics.drawRect(Start.x - 60, Start.y, 100, 10);
 			outerBar.graphics.endFill();
 			
 			progressBar = new Sprite();
@@ -110,7 +108,7 @@ package com.reddengine {
 		
 		private function setProgressBar(perc:int):void {
 			progressBar.graphics.beginFill(0x35FF11);
-			progressBar.graphics.drawRect(stage.stageWidth/2 - 60, stage.stageHeight/2, perc, 10);
+			progressBar.graphics.drawRect(Start.x - 60, Start.y, perc, 10);
 			progressBar.graphics.endFill();
 		}
 	}

@@ -11,6 +11,7 @@
 	 */
 	
 	import adobe.utils.CustomActions;	
+	import com.GameJam2.Antiparticle;
 	import flash.display.DisplayObject;
 	import com.senocular.utils.KeyObject; //not part of Flash Std. API
 	import flash.display.GradientType;
@@ -35,6 +36,8 @@
 		public static var instance:ReddEngine = null;
 		private static var allowCreation:Boolean = true;						
  								
+		public static var Collision:GameContactListener = new GameContactListener();
+		
 		public var World:b2World;
 		var time_count:Timer = new Timer(1000);
 		public static var WORLD_CONSTANT:Number = 30;
@@ -101,10 +104,10 @@
 				
 				camera = new CameraDetection();
 				
-				camera.x = 0;
-				camera.y = 0;
-				camera.width = 600;
-				camera.height = 400;
+				camera.x = stage.x;
+				camera.y = stage.y;
+				camera.width = 800;
+				camera.height = 600;
 				
 				stage.addChild(camera);																							
 								
@@ -136,6 +139,8 @@
 			
 			var gravity:b2Vec2=new b2Vec2(0.0,0.0);
 			World = new b2World(environment, gravity, true);
+			
+			World.m_contactListener = Collision;
 			
 			var debug_draw:b2DebugDraw = new b2DebugDraw();
 			var debug_sprite:Sprite = new Sprite();			
