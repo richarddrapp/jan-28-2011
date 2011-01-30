@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="numSymbol" itemID="4d453af6-0000062f" sourceLibraryItemHRef="Symbol 1" lastModified="1296389544">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="numSymbol" itemID="4d453af6-0000062f" sourceLibraryItemHRef="Symbol 1" lastModified="1296390085">
   <timeline>
     <DOMTimeline name="numSymbol">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMDynamicText name="numText" selected="true" fontRenderingMode="standard" width="115" height="89">
+                <DOMDynamicText name="numText" selected="true" fontRenderingMode="standard" width="115" height="89" isSelectable="false">
                   <matrix>
                     <Matrix tx="-57" ty="-35.95"/>
                   </matrix>
@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>00</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="9" size="85" bitmapSize="1700" face="NeoTech-Bold" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="9" size="83" bitmapSize="1660" face="NeoTech-Bold" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
