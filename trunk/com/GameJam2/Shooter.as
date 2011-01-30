@@ -53,7 +53,7 @@
 		var fireMeterBackground:Sprite = new Sprite;
 		var fireMeterFill:Sprite = new Sprite;
 		var fireMeterBorder:Sprite = new Sprite;
-		var fireMeterRect:Rectangle = new Rectangle(500, 500, 100, 50);
+		var fireMeterRect:Rectangle = new Rectangle(350, 560, 100, 35);
 		var fireMeterText:TextField;
 		
 		public static const PROJECTILETYPE_MATTER:int = 1;

@@ -35,16 +35,18 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="3" strokeStyle="2" edges="!-60 -511S6|-60 -720!-60 -720|42 -720!42 -720|42 -511"/>
-                    <Edge fillStyle1="2" strokeStyle="2" edges="!42 -511|42 -490!42 -490|10.5 -490"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="!10.5 -490[#7E.C7 #FFFE18.1D 223.5 -440!223.5 -440[#125.59 #FFFE6A.93 353 -347!353 -347[500 -203 500 0!500 0[500 203 353 346!353 346[207 490 0 490!0 490[-207 490 -354 346!-354 346[-500 203 -500 0!-500 0[-500 -203 -354 -347!-354 -347[#FFFEDA.0B
  #FFFE6A.97 -224 -440!-224 -440[#FFFF7F.4D -487 -15 -490"/>
                     <Edge fillStyle1="2" strokeStyle="2" edges="
 !-15 -490|-60 -490!-60 -490|-60 -511"/>
-                    <Edge fillStyle0="2" fillStyle1="3" edges="
-!42 -511S2|-60 -511"/>
+                    <Edge fillStyle1="3" strokeStyle="2" edges="
+!-60 -511S6|-60 -720!-60 -720|42 -720!42 -720|42 -511"/>
+                    <Edge fillStyle1="2" strokeStyle="2" edges="
+!42 -511|42 -490!42 -490|10.5 -490"/>
                     <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="
 !10.5 -490|-15 -490"/>
+                    <Edge fillStyle0="2" fillStyle1="3" edges="
+!42 -511S2|-60 -511"/>
                     <Edge cubics="!353 -347(;451,-251 500,-135 500,0q353 -347Q500 -203q500 0);"/>
                     <Edge cubics="!-500 0(;-500,-135 -451,-251 -354,-347q-500 0Q-500 -203q-354 -347);"/>
                     <Edge cubics="!-354 -347(;-314,-386 -271,-417 -224,-440q-354 -347Q-294 -405q-224 -440);"/>

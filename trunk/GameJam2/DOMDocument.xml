@@ -34,6 +34,7 @@
      </media>
      <symbols>
           <Include href="Antiparticle.xml"/>
+          <Include href="BlackHoleCenter.xml"/>
           <Include href="CameraDetection.xml"/>
           <Include href="Collidable.xml"/>
           <Include href="jeremy_art_assets/AlertSign.xml" loadImmediate="false"/>
@@ -196,7 +197,7 @@
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
+                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/smoke_background3.png"/>
@@ -557,6 +558,19 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="331343" publishTime="1296410490"/>
+          <PublishItem publishSize="331224" publishTime="1296410160"/>
+          <PublishItem publishSize="331236" publishTime="1296410128"/>
+          <PublishItem publishSize="331278" publishTime="1296410087"/>
+          <PublishItem publishSize="331278" publishTime="1296409089"/>
+          <PublishItem publishSize="331230" publishTime="1296408677"/>
+          <PublishItem publishSize="270891" publishTime="1296408639"/>
+          <PublishItem publishSize="331133" publishTime="1296407982"/>
+          <PublishItem publishSize="331022" publishTime="1296407921"/>
+          <PublishItem publishSize="331080" publishTime="1296407862"/>
+          <PublishItem publishSize="331094" publishTime="1296407534"/>
+          <PublishItem publishSize="331122" publishTime="1296407466"/>
+          <PublishItem publishSize="330957" publishTime="1296407368"/>
           <PublishItem publishSize="329850" publishTime="1296393670"/>
           <PublishItem publishSize="329949" publishTime="1296393651"/>
           <PublishItem publishSize="329191" publishTime="1296393333"/>
@@ -564,12 +578,5 @@ gotoAndStop(2);
           <PublishItem publishSize="329268" publishTime="1296393028"/>
           <PublishItem publishSize="380683" publishTime="1296392974"/>
           <PublishItem publishSize="380069" publishTime="1296392796"/>
-          <PublishItem publishSize="380104" publishTime="1296392703"/>
-          <PublishItem publishSize="380114" publishTime="1296392667"/>
-          <PublishItem publishSize="380081" publishTime="1296392617"/>
-          <PublishItem publishSize="380085" publishTime="1296392415"/>
-          <PublishItem publishSize="380191" publishTime="1296392343"/>
-          <PublishItem publishSize="380186" publishTime="1296392222"/>
-          <PublishItem publishSize="380066" publishTime="1296391998"/>
      </publishHistory>
 </DOMDocument>
