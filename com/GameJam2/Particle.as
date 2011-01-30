@@ -29,6 +29,8 @@
 	
 	public class Particle extends ReddObject {				
 		public var valueText:TextField;		
+		public var needConvert:Boolean = false;		
+		public var conversion:Timer;
 		
 		
 		
@@ -48,7 +50,8 @@
 			isRound = true;					
 			InitializePhysics();
 			
-			
+			conversion = new Timer(10, 1);
+			conversion.addEventListener(TimerEvent.TIMER, convert);
 			
 			addEventListener(Event.ENTER_FRAME, Update);
 			ReddEngine.matterObjects.push(this);
@@ -133,7 +136,16 @@
 								value = total;								
 								width += robj.value * 10;
 								height = width;							
-								robj.Delete = true;																	
+								robj.Delete = true;			
+								
+								if (value < 0)
+								{
+									if (!needConvert)
+									{
+										needConvert = true;
+										conversion.start();
+									}
+								}
 						}
 						else
 						{							
@@ -171,8 +183,12 @@
 							//convert ShotParticle into Particle/Antiparticle																				
 						if (value < 0)						
 						{
+							if (!needConvert)
+							{
+								needConvert = true;
+								conversion.start();
+							}
 							
-							//convert ShotParticle into Particle/Antiparticle
 						}
 						
 						
@@ -214,6 +230,19 @@
 		override public function debug() : void {
 			label.appendText("\nCol posy : " + this.y);
 		}								
+		
+		public function convert(e:TimerEvent):void {				
+			//trace("Converting");	
+				//trace("In Val: " + value);														
+					var newAP:Antiparticle = new Antiparticle(this.x, this.y, 15);	
+					newAP.Body.SetLinearVelocity(Body.GetLinearVelocity());
+					newAP.value = value;
+					ReddEngine.getInstance().addChild(newAP);
+					ReddEngine.reddObjects.push(newAP);
+					ReddEngine.matterObjects.push(newAP);										
+				this.Delete = true;					
+		}
+		
 		
 	}
  }

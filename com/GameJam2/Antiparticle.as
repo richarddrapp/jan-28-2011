@@ -7,6 +7,7 @@
 	import flash.display.BitmapData;
 	import flash.geom.*;
 	import flash.text.engine.BreakOpportunity;
+	import flash.utils.Timer;
 	
 	import flash.display.Sprite;
     import flash.text.TextField;
@@ -22,10 +23,12 @@
 	
 	import com.reddengine.ReddObject;
 	import com.reddengine.ReddEngine;
-	
+	import flash.events.TimerEvent;
 	public class Antiparticle extends ReddObject {				
 		
 		public var valueText:TextField;
+		public var needConvert:Boolean = false;
+		public var conversion:Timer;
 		
 		
 		public function Antiparticle(x:Number=0, y:Number=0, r:Number=0) {				
@@ -44,6 +47,10 @@
 			isRound = true;			
 			InitializePhysics();
 			addEventListener(Event.ENTER_FRAME, Update);
+			
+			conversion = new Timer(10, 1);
+			conversion.addEventListener(TimerEvent.TIMER, convert);
+			
 			ReddEngine.antiMatterObjects.push(this);
 		}
 		
@@ -123,6 +130,14 @@
 							width += robj.value;
 							height = width;							
 							robj.Delete = true;											
+							if (value > 0)
+							{
+								if (!needConvert)
+								{
+									needConvert = true;
+									conversion.start();
+								}
+							}
 						}
 						else
 						{							
@@ -159,7 +174,11 @@
 							//convert ShotParticle into Particle/Antiparticle																				
 						if (value > 0)						
 						{
-							
+							if (!needConvert)
+							{
+								needConvert = true;
+								conversion.start();
+							}
 							//convert ShotParticle into Particle/Antiparticle
 						}
 						
@@ -200,6 +219,18 @@
 		override public function debug() : void {
 			label.appendText("\nCol posy : " + this.y);
 		}								
+		
+		public function convert(e:TimerEvent):void {				
+			//trace("Converting");	
+				//trace("In Val: " + value);														
+					var newAP:Particle = new Particle(this.x, this.y, 15);	
+					newAP.Body.SetLinearVelocity(Body.GetLinearVelocity());
+					newAP.value = value;
+					ReddEngine.getInstance().addChild(newAP);
+					ReddEngine.reddObjects.push(newAP);
+					ReddEngine.matterObjects.push(newAP);										
+				this.Delete = true;					
+		}
 		
 	}
  }
