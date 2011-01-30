@@ -95,6 +95,7 @@
 		
 		public function Explode() :void {
 		
+			this.Delete = true;
 			//call particle effect for particle explosion
 			if (this is Particle) {
 				ExplosionHandler.getInstance().explode_at(this.x, this.y, 70, 12, 220, 20, 0, 0.8, 20, 220, 0, 0.1, true);
