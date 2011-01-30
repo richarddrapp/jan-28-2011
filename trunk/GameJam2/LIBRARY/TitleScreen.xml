@@ -40,7 +40,7 @@
                     <Matrix a="0.9703369140625" b="-0.241744995117188" c="0.241744995117188" d="0.9703369140625" tx="329.45" ty="183.55"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="1.1" y="-0.15"/>
+                    <Point x="1" y="-0.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
