@@ -1,13 +1,13 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" viewAngle3D="74.2651684569297" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
-          <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238"/>
+          <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238" isExpanded="true"/>
           <DOMFolderItem name="jeremy_art_assets/Layer 1" itemID="4d45126a-000001e4" isExpanded="true"/>
      </folders>
      <media>
           <DOMBitmapItem name="jeremy_art_assets/Global Game Jam 2011_0" itemID="4d45126a-000001e9" sourceLastImported="1296372330" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\Global Game Jam 2011_0" bitmapDataHRef="M 3 1296372330.dat" frameRight="4040" frameBottom="320"/>
           <DOMBitmapItem name="jeremy_art_assets/Jay Cramer, Patrick Fay, Anthony Ghavami, Aislinn Glennon, Jeremy Le, Richard Rapp_0" itemID="4d45126a-000001ee" sourceLastImported="1296372330" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\Jay Cramer&amp;#44 Patrick Fay&amp;#44 Anthony Ghavami&amp;#44 Aislinn Glennon&amp;#44 Jeremy Le&amp;#44 Richard Rapp_0" bitmapDataHRef="M 4 1296372330.dat" frameRight="11480" frameBottom="320"/>
-          <DOMBitmapItem name="jeremy_art_assets/smoke_background3.png" itemID="4d45104b-000001e9" sourceExternalFilepath=".\LIBRARY\smoke_background3.png" sourceLastImported="1296363331" externalFileSize="369199" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\smoke_background3.png" bitmapDataHRef="M 1 1296371706.dat" frameRight="16000" frameBottom="12000"/>
-          <DOMBitmapItem name="jeremy_art_assets/starfield.jpg" itemID="4d45104b-000001ea" sourceExternalFilepath=".\LIBRARY\starfield.jpg" sourceLastImported="1296370919" externalFileSize="249111" quality="50" href="jeremy_art_assets\starfield.jpg" bitmapDataHRef="M 2 1296371719.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
+          <DOMBitmapItem name="jeremy_art_assets/smoke_background3.png" itemID="4d4513af-0000023c" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\smoke_background3.png" sourceLastImported="1296372655" externalFileSize="369199" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\smoke_background3.png" bitmapDataHRef="M 1 1296371706.dat" frameRight="16000" frameBottom="12000"/>
+          <DOMBitmapItem name="jeremy_art_assets/starfield.jpg" itemID="4d4513b0-0000023d" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\starfield.jpg" sourceLastImported="1296372655" externalFileSize="249111" quality="50" href="jeremy_art_assets\starfield.jpg" bitmapDataHRef="M 2 1296371719.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
      </media>
      <symbols>
           <Include href="Antiparticle.xml"/>
@@ -39,7 +39,7 @@
      <timelines>
           <DOMTimeline name="Scene 1" currentFrame="1">
                <layers>
-                    <DOMLayer name="Active" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Active" color="#FF4FFF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -90,7 +90,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BG" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="BG" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -107,9 +107,9 @@
                                                   <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="jeremy_art_assets/smoke_background3.png">
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="jeremy_art_assets/starfield.jpg">
                                              <matrix>
-                                                  <Matrix tx="-1" ty="-2"/>
+                                                  <Matrix tx="-0.7" ty="-2"/>
                                              </matrix>
                                         </DOMBitmapInstance>
                                    </elements>
