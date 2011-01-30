@@ -23,17 +23,31 @@ package  com.reddengine
 				
 				
 					if (obj1 is BlackHoleParticle)
+					{
+						SoundEngine.playBHAbsorb();
 						(obj1 as BlackHoleParticle).checkCollisions(obj2);
+					}
 					else if (obj2 is BlackHoleParticle)
+					{
+						SoundEngine.playBHAbsorb();
 						(obj2 as BlackHoleParticle).checkCollisions(obj1);
+					}
 					else if (obj1 is Particle)
+					{
 						(obj1 as Particle).checkCollisions(obj2);
+					}
 					else if (obj1 is Antiparticle)
+					{
 						(obj1 as Antiparticle).checkCollisions(obj2);								
+					}
 					else if (obj2 is Particle)
+					{
 						(obj2 as Particle).checkCollisions(obj1);
+					}
 					else if (obj2 is Antiparticle)
+					{
 						(obj2 as Antiparticle).checkCollisions(obj1);												
+					}
         }
 }
 

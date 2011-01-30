@@ -99,6 +99,7 @@
 		
 		public function Explode() :void {
 		
+			SoundEngine.playExplosion();
 			trace("in ReddObject Explode()");
 			this.Delete = true;
 			//call particle effect for particle explosion
@@ -169,7 +170,7 @@
 		}
 		
 		public function BlackHole() :void {
-			
+			SoundEngine.playBHHum();
 			//call particle effect
 			trace("A black hole is being spawned. WOOOOOOOOOOOOSH!");
 			

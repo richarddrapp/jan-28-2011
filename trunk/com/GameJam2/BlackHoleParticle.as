@@ -22,6 +22,8 @@
 	import com.Box2D.Dynamics.*;
 	import com.Particles.ParticleBlackHole;
 	
+	import com.reddengine.SoundEngine;
+	
 	import com.reddengine.ReddObject;
 	import com.reddengine.ReddEngine;
 	import flash.events.TimerEvent;
@@ -86,7 +88,7 @@
 									
 			if (this.Delete)
 				Destroy();
-			
+						
 		}
 		
 		public function checkCollisions(robj:ReddObject) {
@@ -99,6 +101,8 @@
 					particleBlackHole.off();
 					robj.Delete = true;
 					this.Explode();
+					SoundEngine.stopBHHum();
+					SoundEngine.playExplosion();
 					//explosion for effect?
 				} else {
 					//CONSOME THAT MOTHER FUCKER
@@ -114,6 +118,11 @@
 					robj.Delete = true;
 					this.Explode();
 					//explosion for effect?
+					robj.Delete = true;
+					this.Explode();
+					SoundEngine.stopBHHum();
+					SoundEngine.playExplosion();
+
 				} else {
 					//CONSOME THAT MOTHER FUCKER
 					robj.Delete = true;
