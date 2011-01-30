@@ -17,14 +17,14 @@
      <timelines>
           <DOMTimeline name="Scene 1" currentFrame="1">
                <layers>
-                    <DOMLayer name="Active" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Active" color="#FF4FFF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Shooter" name="" selected="true" centerPoint3DX="382.2" centerPoint3DY="599.95">
+                                        <DOMSymbolInstance libraryItemName="Shooter" name="" centerPoint3DX="382.2" centerPoint3DY="599.95">
                                              <matrix>
                                                   <Matrix a="3.125" d="3.125" tx="382.2" ty="599.95"/>
                                              </matrix>
@@ -32,7 +32,7 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" selected="true" centerPoint3DX="807.7" centerPoint3DY="333.85">
+                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" centerPoint3DX="807.7" centerPoint3DY="333.85">
                                              <matrix>
                                                   <Matrix a="0.116302490234375" d="18.1254577636719" tx="807.7" ty="333.85"/>
                                              </matrix>
@@ -40,7 +40,7 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" selected="true" centerPoint3DX="-8" centerPoint3DY="333.85">
+                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" centerPoint3DX="-8" centerPoint3DY="333.85">
                                              <matrix>
                                                   <Matrix a="0.116302490234375" d="17.9218444824219" tx="-8" ty="333.85"/>
                                              </matrix>
@@ -48,15 +48,15 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" selected="true" centerPoint3DX="402.25" centerPoint3DY="690.15">
+                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" centerPoint3DX="402.25" centerPoint3DY="607.15">
                                              <matrix>
-                                                  <Matrix a="9.78837585449219" d="0.300018310546875" tx="402.25" ty="690.15"/>
+                                                  <Matrix a="9.78837585449219" d="0.300018310546875" tx="402.25" ty="607.15"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" selected="true" centerPoint3DX="402.25" centerPoint3DY="-13.65">
+                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" centerPoint3DX="402.25" centerPoint3DY="-13.65">
                                              <matrix>
                                                   <Matrix a="9.78837585449219" d="0.300018310546875" tx="402.25" ty="-13.65"/>
                                              </matrix>
@@ -68,7 +68,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BG" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="BG" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -436,25 +436,25 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="57687" publishTime="1296371037"/>
+          <PublishItem publishSize="57544" publishTime="1296370809"/>
+          <PublishItem publishSize="57616" publishTime="1296370752"/>
+          <PublishItem publishSize="57617" publishTime="1296370634"/>
+          <PublishItem publishSize="57379" publishTime="1296370454"/>
+          <PublishItem publishSize="57424" publishTime="1296370406"/>
+          <PublishItem publishSize="57327" publishTime="1296370140"/>
+          <PublishItem publishSize="57264" publishTime="1296369978"/>
+          <PublishItem publishSize="57368" publishTime="1296369892"/>
+          <PublishItem publishSize="57424" publishTime="1296369821"/>
+          <PublishItem publishSize="93749" publishTime="1296369814" publishDebug="true"/>
+          <PublishItem publishSize="57347" publishTime="1296369749"/>
+          <PublishItem publishSize="57259" publishTime="1296369695"/>
+          <PublishItem publishSize="57231" publishTime="1296369618"/>
+          <PublishItem publishSize="57305" publishTime="1296369541"/>
+          <PublishItem publishSize="57627" publishTime="1296369457"/>
+          <PublishItem publishSize="57388" publishTime="1296369288"/>
+          <PublishItem publishSize="1609" publishTime="1296369231"/>
+          <PublishItem publishSize="57362" publishTime="1296369168"/>
           <PublishItem publishSize="57223" publishTime="1296368969"/>
-          <PublishItem publishSize="57165" publishTime="1296368913"/>
-          <PublishItem publishSize="56370" publishTime="1296364057"/>
-          <PublishItem publishSize="92570" publishTime="1296364051" publishDebug="true"/>
-          <PublishItem publishSize="56486" publishTime="1296363987"/>
-          <PublishItem publishSize="56455" publishTime="1296363892"/>
-          <PublishItem publishSize="56393" publishTime="1296363862"/>
-          <PublishItem publishSize="56266" publishTime="1296363680"/>
-          <PublishItem publishSize="56156" publishTime="1296363576"/>
-          <PublishItem publishSize="56275" publishTime="1296363285"/>
-          <PublishItem publishSize="56179" publishTime="1296363173"/>
-          <PublishItem publishSize="56330" publishTime="1296363128"/>
-          <PublishItem publishSize="56316" publishTime="1296363036"/>
-          <PublishItem publishSize="56237" publishTime="1296362977"/>
-          <PublishItem publishSize="56267" publishTime="1296362815"/>
-          <PublishItem publishSize="92159" publishTime="1296362810" publishDebug="true"/>
-          <PublishItem publishSize="56159" publishTime="1296362742"/>
-          <PublishItem publishSize="56313" publishTime="1296362679"/>
-          <PublishItem publishSize="56265" publishTime="1296362656"/>
-          <PublishItem publishSize="56157" publishTime="1296362592"/>
      </publishHistory>
 </DOMDocument>

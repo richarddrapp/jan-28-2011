@@ -82,7 +82,7 @@
 		
 		public function Shooter() {							
 			super(); //density = 0.7											
-			Density = 20;
+			Density = 0;
 			Friction = 0.3;
 			isRound = true;		
 			debugEnabled = true;
@@ -352,19 +352,7 @@
 			orientation = Math.atan((ReddEngine.getInstance().mouseX - this.x) / -(ReddEngine.getInstance().mouseY - this.y)) ;
 			orientation *= 180 / Math.PI;
 			
-			if (Math.abs(rotation - orientation) > 10)
-			{
-				if (rotation < orientation)
-				{
-					//trace("rotate right");
-					this.Body.ApplyTorque(5000);
-				}
-				else
-				{
-					//trace("rotate left");
-					this.Body.ApplyTorque(-5000);
-				}
-			}
+			this.rotation = orientation;
 			
 		}
 	}
