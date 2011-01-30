@@ -30,7 +30,7 @@
 	public class Particle extends ReddObject {				
 		//public var valueText:TextField;		
 		public var needConvert:Boolean = false;		
-		public var conversion:Timer;
+		//public var conversion:Timer;
 		
 		
 		
@@ -54,8 +54,8 @@
 			isRound = true;					
 			InitializePhysics();
 			
-			conversion = new Timer(10, 1);
-			conversion.addEventListener(TimerEvent.TIMER, convert);
+			//conversion = new Timer(10, 1);
+			//conversion.addEventListener(TimerEvent.TIMER, convert);
 			
 			addEventListener(Event.ENTER_FRAME, Update);
 			ReddEngine.matterObjects.push(this);
@@ -175,26 +175,35 @@
 					total = value + robj.value;
 					// if 0, explode
 					if (total == 0) {
+						trace("CALL EXPLOSIONS");
 						this.Explode();
 						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
-						trace("CALL EXPLOSIONS");
+						
 					}
 					else
 					{							
 												
 						if (Math.abs(Body.m_linearVelocity.Length() + robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
-						{	value = total;				
+						{	
 							trace("combining");
-							width = SetWidthBasedOnValue(value);
-							height = width;	
-							
-							if (value > 0){
+							if (Math.abs(value) > Math.abs(robj.value)) {
+								value = total;								
+								width = SetWidthBasedOnValue(value);
+								height = width;		
 								robj.Delete = true;
+							}else {
+								robj.value = total;
+								robj.width = SetWidthBasedOnValue(robj.value);
+								robj.height = robj.width;		
+								this.Delete = true;
 							}
+							
+							
+							
 						}							
 							//convert ShotParticle into Particle/Antiparticle																				
-						if (value < 0)						
+						/*if (value < 0)						
 						{
 							if (!needConvert)
 							{
@@ -203,7 +212,7 @@
 								conversion.start();
 							}
 							
-						}
+						}*/
 					}											
 				}
 				else if (robj is Particle)
@@ -243,7 +252,7 @@
 			label.appendText("\nCol posy : " + this.y);
 		}								
 		
-		public function convert(e:TimerEvent):void {				
+		/*public function convert(e:TimerEvent):void {				
 			//trace("Converting");	
 				//trace("In Val: " + value);														
 					var newAP:Particle = new ExistingParticle(this.x, this.y, 15);	
@@ -254,7 +263,7 @@
 					ReddEngine.reddObjects.push(newAP);
 					ReddEngine.matterObjects.push(newAP);										
 				this.Delete = true;					
-		}
+		}*/
 		
 		
 	}
