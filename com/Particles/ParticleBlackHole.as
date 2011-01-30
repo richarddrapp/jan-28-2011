@@ -33,7 +33,7 @@
 			trace("BH.X = " + this.x);
 			trace("BH.Y = " + this.y);
 			
-			blackHoleParticle = new BlackHoleParticle(this.x, this.y, 20);
+			blackHoleParticle = new BlackHoleParticle(this.x, this.y, 20, this);
 			ReddEngine.getInstance().addChild(blackHoleParticle);
 			
 			var p;

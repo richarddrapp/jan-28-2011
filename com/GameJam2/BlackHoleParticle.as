@@ -20,15 +20,19 @@
 	import com.Box2D.Collision.Shapes.*;
 	import com.Box2D.Common.Math.*;
 	import com.Box2D.Dynamics.*;
+	import com.Particles.ParticleBlackHole;
 	
 	import com.reddengine.ReddObject;
 	import com.reddengine.ReddEngine;
 	import flash.events.TimerEvent;
 	public class BlackHoleParticle extends ReddObject	
 	{
+		public var particleBlackHole:ParticleBlackHole;
 		
-		public function BlackHoleParticle(x:Number=0, y:Number=0, r:Number=0) 
+		public function BlackHoleParticle(x:Number=0, y:Number=0, r:Number=0, particleBH:ParticleBlackHole = null) 
 		{
+			particleBlackHole = particleBH;
+			
 			this.x = x;
 			this.y = y;			
 			
@@ -92,6 +96,7 @@
 				if (value == -robj.value) {
 					//if it matches our magic value
 					//REMOVE BLACK HOLE AND ROBJ, YAY!!!!
+					particleBlackHole.off();
 					robj.Delete = true;
 					this.Explode();
 					//explosion for effect?
@@ -105,6 +110,9 @@
 				if (value == -robj.value) {
 					//if it matches our magic value
 					//REMOVE BLACK HOLE AND ROBJ, YAY!!!!
+					particleBlackHole.off();
+					robj.Delete = true;
+					this.Explode();
 					//explosion for effect?
 				} else {
 					//CONSOME THAT MOTHER FUCKER
