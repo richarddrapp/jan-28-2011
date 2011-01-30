@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Title Bar" itemID="4d451389-0000022d" lastModified="1296374974">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Title Bar" itemID="4d451389-0000022d" lastModified="1296380909">
   <timeline>
     <DOMTimeline name="Title Bar">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
                     <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&lt;Path&gt;_2" name="" blendMode="layer">
                       <matrix>

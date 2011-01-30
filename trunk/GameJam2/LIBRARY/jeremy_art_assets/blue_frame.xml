@@ -1,0 +1,42 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/blue_frame" itemID="4d45320a-0000031d" sourceLibraryItemHRef="Symbol 1" lastModified="1296380426">
+  <timeline>
+    <DOMTimeline name="blue_frame">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-472.75" ty="-569.5"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="5">
+                        <fill>
+                          <SolidColor color="#3A76B5"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!6378 11068[6466 10980 6590 10980!6590 10980|12320 10980!12320 10980[12444 10980 12532 11068!12532 11068[12620 11156 12620 11280!12620 11280|12620 11500!12620 11500[12620 11624 12532 11712!12532 11712[12444 11800 12320 11800!12320 11800
+|6590 11800!6590 11800[6466 11800 6378 11712!6378 11712[6290 11624 6290 11500!6290 11500|6290 11280!6290 11280[6290 11156 6378 11068"/>
+                    <Edge cubics="!12620 11500(;12620,11665 12485,11800 12320,11800q12620 11500Q12620 11624q12532 11712Q12444 11800q12320 11800);"/>
+                    <Edge cubics="!12320 11800(;12320,11800 6590,11800 6590,11800q12320 11800 6590 11800);"/>
+                    <Edge cubics="!6590 11800(;6424,11800 6290,11665 6290,11500q6590 11800Q6466 11800q6378 11712Q6290 11624q6290 11500);"/>
+                    <Edge cubics="!6290 11500(;6290,11500 6290,11280 6290,11280q6290 11500 6290 11280);"/>
+                    <Edge cubics="!6290 11280(;6290,11114 6424,10980 6590,10980q6290 11280Q6290 11156q6378 11068Q6466 10980q6590 10980);"/>
+                    <Edge cubics="!6590 10980(;6590,10980 12320,10980 12320,10980q6590 10980 12320 10980);"/>
+                    <Edge cubics="!12320 10980(;12485,10980 12620,11114 12620,11280q12320 10980Q12444 10980q12532 11068Q12620 11156q12620 11280);"/>
+                    <Edge cubics="!12620 11280(;12620,11280 12620,11500 12620,11500q12620 11280 12620 11500);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
