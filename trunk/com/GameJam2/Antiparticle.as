@@ -130,6 +130,9 @@
 		}		
 		
 		public function checkCollisions(robj:ReddObject) {
+			/*if (robj == null) {
+				trace("ROBJ IS NULL in AntiParticle!!!!");
+			}*/
 			var total:int;
 			if (robj is ShotParticle)
 				{
