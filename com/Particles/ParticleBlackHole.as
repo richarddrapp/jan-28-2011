@@ -3,6 +3,7 @@
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import flash.geom.ColorTransform;
+	import com.reddengine.ReddObject;
 	public class ParticleBlackHole extends MovieClip {
 		var radius:Number;
 		
@@ -11,7 +12,11 @@
 		var alive:Vector.<bhParticle> = new Vector.<bhParticle>();
 		var dead:Vector.<bhParticle> = new Vector.<bhParticle>();
 		
-
+		//physics implode variables for black hole
+		public var ImplodeObject:ReddObject;
+		public var ImplodeRadius:Number;
+		public var ImplodeMinval:Number;
+		public var ImplodeMaxval:Number;
 		
 		public function ParticleBlackHole(x:int, y:int, number:int, radius:Number) {
 			this.radius = radius;
@@ -25,8 +30,16 @@
 				dead.push(p);
 			}
 		}
+		
+		public function setImplosivePhysicsAttributes(reddObj:ReddObject, radius:Number, minval:Number, maxval:Number) {
+			ImplodeObject = reddObj;
+			ImplodeRadius = radius;
+			ImplodeMinval = minval;
+			ImplodeMaxval = maxval;
+		}
 
 		public function update() {
+			ImplodeObject.applyExplosiveImpulse(ImplodeObject.x, ImplodeObject.y, ImplodeRadius, ImplodeMinval, ImplodeMaxval);
 			for(var i = 0; i < density; i++) {
 			if(dead.length > 0) {
 				var t:bhParticle = dead[dead.length - 1];
