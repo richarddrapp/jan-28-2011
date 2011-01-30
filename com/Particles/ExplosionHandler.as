@@ -74,6 +74,11 @@
 				implosions[i].update();
 			}
 		}
+		
+		public function kill(bh:ParticleBlackHole) {
+			var i = implosions.indexOf(bh);
+			implosions.splice(i, 1);
+		}
 
 	}
 	
