@@ -67,7 +67,7 @@
 			CircleDef.radius = (this.width / 2) / ReddEngine.WORLD_CONSTANT;
 			CircleDef.friction = Friction;				
 			CircleDef.density = Density;	
-			CircleDef.restitution = 2;
+			CircleDef.restitution = 1;
 				
 			Body=ReddEngine.getInstance().World.CreateBody(BodyDef);					
 			Body.CreateShape(CircleDef);						
@@ -87,11 +87,10 @@
 			
 			if (debugEnabled)
 				debug();	
-				
-			if (!this.hitTestObject(ReddEngine.camera))
-			{
-				this.Destroy();
-			}
+							
+			
+			if (this.Delete)
+				Destroy();
 			
 		}		
 		
@@ -100,13 +99,9 @@
 		}
 		
 		override public function Destroy() : void {
-			removeEventListener(Event.ENTER_FRAME, Update);
-			parent.removeChild(this);
-			ReddEngine.getInstance().World.DestroyBody(this.Body);
-			
+			super.Destroy();			
 			ReddEngine.getInstance().stage.removeChild(valueText);
-			ReddEngine.projectileObjects.splice(ReddEngine.projectileObjects.indexOf(this), 1);
-			
+			ReddEngine.projectileObjects.splice(ReddEngine.projectileObjects.indexOf(this), 1);			
 		}
 		
 		override public function debug() : void {
