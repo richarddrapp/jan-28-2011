@@ -10,9 +10,6 @@
               </Actionscript>
               <elements>
                 <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="1"/>
-                  </matrix>
                   <members>
                     <DOMSymbolInstance libraryItemName="Particle_art/rnucleus_r" name="" selected="true" centerPoint3DX="1" centerPoint3DY="0.2">
                       <matrix>
