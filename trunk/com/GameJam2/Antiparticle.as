@@ -29,7 +29,7 @@
 		//public var valueText:TextField;
 		//var valueTextFormat:TextFormat;
 		public var needConvert:Boolean = false;
-		public var conversion:Timer;
+		//public var conversion:Timer;
 		
 		
 		public function Antiparticle(x:Number=0, y:Number=0, r:Number=0) {				
@@ -52,8 +52,8 @@
 			InitializePhysics();
 			addEventListener(Event.ENTER_FRAME, Update);
 			
-			conversion = new Timer(10, 1);
-			conversion.addEventListener(TimerEvent.TIMER, convert);
+			//conversion = new Timer(10, 1);
+			//conversion.addEventListener(TimerEvent.TIMER, convert);
 			
 			ReddEngine.antiMatterObjects.push(this);
 		}
@@ -186,58 +186,57 @@
 					// sum the values					
 					// if 0, explode
 					if (total == 0) {
+						trace("CALL EXPLOSIONS");
 						this.Explode();
 						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
-						trace("CALL EXPLOSIONS");
-					}
-					else
-					{		
-												
-						if (Math.abs(Body.m_linearVelocity.Length() + robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
-						{				
-							value = total;
-							trace("combining");
-							width = SetWidthBasedOnValue(value);
-							height = width;		
-							
-							if (value < 0 ) {
-								robj.Delete = true;
-							}
-							
-						}							
-							//convert ShotParticle into Particle/Antiparticle																				
-						if (total > 0)						
-						{
-							if (!needConvert)
-							{
-								value = total;
-								needConvert = true;
-								conversion.start();
-							}
-							//convert ShotParticle into Particle/Antiparticle
-						}
 						
+					}
+					else //if total is nonzero
+					{		
+						//if I collide						
+						if (Math.abs(Body.m_linearVelocity.Length() + robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
+						{	
+							trace("combining");
+							//if antiparticle has the bigger balls
+							if (Math.abs(value) > Math.abs(robj.value)) {
+								value = total;								
+								width = SetWidthBasedOnValue(value);
+								height = width;		
+								robj.Delete = true;
+								
+							}else //if Partcile has the bigger balls
+							{
+								robj.value = total;
+								robj.width = SetWidthBasedOnValue(robj.value);
+								robj.height = robj.width;		
+								this.Delete = true;
+							}
+							
+							
+						}						
 					}											
 				}
 				else if (robj is Antiparticle)
 				{
 					total = value + robj.value;
+					
+					//antiparticle to antiparticle collision
 					if (Math.abs(Body.m_linearVelocity.Length()+robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 					{		
-						
+						trace("combining");
+						//if THIS class has the bigger balls
 						if (Body.m_linearVelocity.Length() > robj.Body.m_linearVelocity.Length())
 						{
 							value = total;
-							trace("combining");
 							width = SetWidthBasedOnValue(value);
 							height = width;							
 							robj.Delete = true;
 						}										
-						else
+						else //if OTHER object has bigger balls
 						{
 							robj.value = total;
-							robj.width = SetWidthBasedOnValue(total);
+							robj.width = SetWidthBasedOnValue(robj.value);
 							robj.height = robj.width;							
 							this.Delete = true;
 						}
@@ -257,7 +256,7 @@
 			label.appendText("\nCol posy : " + this.y);
 		}								
 		
-		public function convert(e:TimerEvent):void {				
+		/*public function convert(e:TimerEvent):void {				
 			//trace("Converting");	
 				//trace("In Val: " + value);														
 					var newAP:Particle = new ExistingParticle(this.x, this.y, 15);	
@@ -268,7 +267,7 @@
 					ReddEngine.reddObjects.push(newAP);
 					ReddEngine.matterObjects.push(newAP);										
 				this.Delete = true;					
-		}
+		}*/
 		
 	}
  }
