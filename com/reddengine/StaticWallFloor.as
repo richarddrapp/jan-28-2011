@@ -26,6 +26,7 @@
 			super(); //density = 0.7	
 			InitializePhysics();
 			addEventListener(Event.ENTER_FRAME, Update);
+			ReddEngine.wallfloors.push(this);
 		}
 		
 		override public function InitializePhysics():void {			
