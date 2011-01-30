@@ -1,32 +1,32 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/crosshair" itemID="4d452770-0000026a" sourceLibraryItemHRef="jeremy_art_assets/Symbol 1" lastModified="1296378017">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/crosshair" itemID="4d4547f3-0000038a" sourceLibraryItemHRef="Symbol 1" lastModified="1296386294">
   <timeline>
-    <DOMTimeline name="crosshair">
+    <DOMTimeline name="crosshair" currentFrame="14">
       <layers>
-        <DOMLayer name="Layer 2" color="#9933CC" animationType="motion object">
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true" animationType="motion object">
           <frames>
             <DOMFrame index="0" duration="30" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
               <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="30000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,360" next="0,360" previous="0,360" roving="0" timevalue="29000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
               <elements>
-                <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1" name="">
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 4" name="">
                   <matrix>
-                    <Matrix tx="-41.75" ty="-41.75"/>
+                    <Matrix tx="-25" ty="-25"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="41.75" y="41.75"/>
+                    <Point x="25" y="25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" duration="30" keyMode="9728">
               <elements>
                 <DOMShape>
                   <strokes>
                     <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="5">
+                      <SolidStroke scaleMode="normal" weight="2">
                         <fill>
                           <SolidColor color="#FFFFFF"/>
                         </fill>
@@ -34,7 +34,23 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!452 -453[640 -265 640 0!640 0[640 265 452 452!452 452[265 640 0 640!0 640[-265 640 -453 452!-453 452[-640 265 -640 0!-640 0[-640 -265 -453 -453!-453 -453[-265 -640 0 -640!0 -640[265 -640 452 -453"/>
+                    <Edge strokeStyle="1" edges="!283 -283[400 -166 400 0!400 0[400 166 283 283!283 283[166 400 0 400!0 400[-166 400 -283 283!-283 283[-400 166 -400 0!-400 0[-400 -166 -283 -283!-283 -283[-166 -400 0 -400!0 -400[166 -400 283 -283"/>
+                    <Edge cubics="!0 -500(;139,-500 257,-451 354,-354q0 -500Q208 -500q354 -354);"/>
+                    <Edge cubics="!0 -400(;111,-400 205,-361 283,-283q0 -400Q166 -400q283 -283);"/>
+                    <Edge cubics="!500 0(;500,139 451,257 354,354q500 0Q500 208q354 354);"/>
+                    <Edge cubics="!354 354(;257,451 139,500 0,500q354 354Q208 500q0 500);"/>
+                    <Edge cubics="!400 0(;400,111 361,205 283,283q400 0Q400 166q283 283);"/>
+                    <Edge cubics="!283 283(;205,361 111,400 0,400q283 283Q166 400q0 400);"/>
+                    <Edge cubics="!354 -354(;451,-256 500,-138 500,0q354 -354Q500 -207q500 0);"/>
+                    <Edge cubics="!283 -283(;361,-205 400,-111 400,0q283 -283Q400 -166q400 0);"/>
+                    <Edge cubics="!-354 354(;-451,257 -500,139 -500,0q-354 354Q-500 208q-500 0);"/>
+                    <Edge cubics="!-283 283(;-361,205 -400,111 -400,0q-283 283Q-400 166q-400 0);"/>
+                    <Edge cubics="!-500 0(;-500,-138 -451,-256 -354,-354q-500 0Q-500 -207q-354 -354);"/>
+                    <Edge cubics="!-400 0(;-400,-111 -361,-205 -283,-283q-400 0Q-400 -166q-283 -283);"/>
+                    <Edge cubics="!0 500(;-138,500 -256,451 -354,354q0 500Q-207 500q-354 354);"/>
+                    <Edge cubics="!-354 -354(;-256,-451 -138,-500 0,-500q-354 -354Q-207 -500q0 -500);"/>
+                    <Edge cubics="!0 400(;-111,400 -205,361 -283,283q0 400Q-166 400q-283 283);"/>
+                    <Edge cubics="!-283 -283(;-205,-361 -111,-400 0,-400q-283 -283Q-166 -400q0 -400);"/>
                   </edges>
                 </DOMShape>
               </elements>
