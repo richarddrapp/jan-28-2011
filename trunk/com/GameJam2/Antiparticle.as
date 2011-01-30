@@ -145,6 +145,7 @@
 					}
 					else
 					{		
+						/*
 						if (Math.abs(robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						{
 							value = total;
@@ -161,7 +162,7 @@
 								}
 							}
 						}
-						else
+						else*/
 						{							
 							if (!(robj as ShotParticle).needConvert)
 							{	

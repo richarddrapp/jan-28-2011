@@ -138,7 +138,7 @@
 					}
 					else //if it's collision value is non zero
 					{	
-						if (Math.abs(robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
+						/*if (Math.abs(robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						{							
 								value = total;								
 								width = value * 10;
@@ -154,7 +154,7 @@
 									}
 								}
 						}
-						else
+						else*/
 						{							
 							if (!(robj as ShotParticle).needConvert)
 							{	
