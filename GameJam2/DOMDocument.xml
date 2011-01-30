@@ -82,7 +82,7 @@
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
+                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -436,6 +436,8 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="57223" publishTime="1296368969"/>
+          <PublishItem publishSize="57165" publishTime="1296368913"/>
           <PublishItem publishSize="56370" publishTime="1296364057"/>
           <PublishItem publishSize="92570" publishTime="1296364051" publishDebug="true"/>
           <PublishItem publishSize="56486" publishTime="1296363987"/>
@@ -454,7 +456,5 @@ gotoAndStop(2);
           <PublishItem publishSize="56313" publishTime="1296362679"/>
           <PublishItem publishSize="56265" publishTime="1296362656"/>
           <PublishItem publishSize="56157" publishTime="1296362592"/>
-          <PublishItem publishSize="56206" publishTime="1296362571"/>
-          <PublishItem publishSize="56327" publishTime="1296362545"/>
      </publishHistory>
 </DOMDocument>

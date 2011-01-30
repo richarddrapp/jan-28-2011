@@ -68,12 +68,25 @@
 		
 		public function convert(e:TimerEvent):void {				
 			trace("Converting");				
-				var newP:Particle = new Particle(this.x, this.y, 15);	
-				newP.Body.SetLinearVelocity(Body.GetLinearVelocity());
-				newP.value = value;
-				ReddEngine.getInstance().addChild(newP);
-				ReddEngine.reddObjects.push(newP);
-				ReddEngine.matterObjects.push(newP);				
+				if (value > 0)
+				{
+					var newP:Particle = new Particle(this.x, this.y, 15);	
+					newP.Body.SetLinearVelocity(Body.GetLinearVelocity());
+					newP.value = value;
+					ReddEngine.getInstance().addChild(newP);
+					ReddEngine.reddObjects.push(newP);
+					ReddEngine.matterObjects.push(newP);
+				}
+				else
+				{
+					var newAP:Antiparticle = new Antiparticle(this.x, this.y, 15);	
+					newAP.Body.SetLinearVelocity(Body.GetLinearVelocity());
+					newAP.value = value;
+					ReddEngine.getInstance().addChild(newAP);
+					ReddEngine.reddObjects.push(newAP);
+					ReddEngine.matterObjects.push(newAP);
+				}
+								
 				this.Delete = true;
 		}
 		
