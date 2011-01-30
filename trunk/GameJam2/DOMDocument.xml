@@ -1,6 +1,6 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" viewAngle3D="74.2651684569297" nextSceneIdentifier="2" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
-          <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238" isExpanded="true"/>
+          <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols" itemID="4d453972-000005e6"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets" itemID="4d45406e-000002a0" isExpanded="true"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets copy" itemID="4d4542dc-000002fa"/>
@@ -30,7 +30,7 @@
           <DOMBitmapItem name="Particle_art/rBitmap 3" itemID="4d451b53-000003b6" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296374611" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
           <DOMBitmapItem name="jeremy_art_assets/smoke_background3.png" itemID="4d4513af-0000023c" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\smoke_background3.png" sourceLastImported="1296372655" externalFileSize="369199" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\smoke_background3.png" bitmapDataHRef="M 1 1296371706.dat" frameRight="16000" frameBottom="12000"/>
           <DOMBitmapItem name="jeremy_art_assets/starfield.jpg" itemID="4d4529f6-0000024a" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\starfield.jpg" sourceLastImported="1296377501" externalFileSize="210126" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\starfield.jpg" bitmapDataHRef="M 2 1296371719.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="jeremy_art_assets/stars.jpg" itemID="4d4540b9-000002ae" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\stars.jpg" sourceLastImported="1296381147" externalFileSize="220999" quality="50" href="jeremy_art_assets\stars.jpg" bitmapDataHRef="M 9 1296384083.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
+          <DOMBitmapItem name="jeremy_art_assets/stars.jpg" itemID="4d4540b9-000002ae" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\stars.jpg" sourceLastImported="1296387006" externalFileSize="220999" quality="50" href="jeremy_art_assets\stars.jpg" bitmapDataHRef="M 9 1296384083.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
      </media>
      <symbols>
           <Include href="Antiparticle.xml"/>
@@ -102,7 +102,7 @@
           <Include href="WorldDefender.xml"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="2">
+          <DOMTimeline name="Scene 1">
                <layers>
                     <DOMLayer name="flash0.ai" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
@@ -206,7 +206,7 @@
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
+                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/smoke_background3.png"/>
@@ -569,6 +569,9 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="380302" publishTime="1296389303"/>
+          <PublishItem publishSize="380282" publishTime="1296387548"/>
+          <PublishItem publishSize="380341" publishTime="1296387017"/>
           <PublishItem publishSize="380382" publishTime="1296385926"/>
           <PublishItem publishSize="556455" publishTime="1296384393"/>
           <PublishItem publishSize="285040" publishTime="1296383906"/>
@@ -586,8 +589,5 @@ gotoAndStop(2);
           <PublishItem publishSize="57617" publishTime="1296370634"/>
           <PublishItem publishSize="57379" publishTime="1296370454"/>
           <PublishItem publishSize="57424" publishTime="1296370406"/>
-          <PublishItem publishSize="57327" publishTime="1296370140"/>
-          <PublishItem publishSize="57264" publishTime="1296369978"/>
-          <PublishItem publishSize="57368" publishTime="1296369892"/>
      </publishHistory>
 </DOMDocument>

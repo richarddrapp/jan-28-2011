@@ -14,7 +14,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Particle_art/electron_2" name="" selected="true" centerPoint3DX="6.45" centerPoint3DY="-0.8">
+                <DOMSymbolInstance libraryItemName="Particle_art/electron_2" name="" centerPoint3DX="6.45" centerPoint3DY="-0.8">
                   <matrix>
                     <Matrix tx="6.45" ty="-0.8"/>
                   </matrix>
