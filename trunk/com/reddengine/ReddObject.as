@@ -118,7 +118,7 @@
 			var xDiff:Number;
 			var yDiff:Number;
 			var particleObjects:Array = new Array();
-			var i:int;
+			var i:int
 			for (i = 0; i < ReddEngine.matterObjects.length; i++) {
 				particleObjects.push(ReddEngine.matterObjects[i]);
 			}
@@ -135,7 +135,7 @@
 			//just do the loop once on that array (it would look better, but have the same runtime)
 			
 			//apply force to matter
-			for (var i:int = 0; i < particleObjects.length; i++) {
+			for (i = 0; i < particleObjects.length; i++) {
 				xDiff = xPos - particleObjects[i].x;
 				yDiff = yPos - particleObjects[i].y;
 				distSquared = Math.pow(xDiff, 2) + Math.pow(yDiff, 2);

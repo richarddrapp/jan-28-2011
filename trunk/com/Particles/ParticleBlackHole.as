@@ -69,9 +69,9 @@
 			for(i = 0; i < alive.length; i++) {
 				alive[i].update();
 				if(alive[i].live == false) {
-					var t:bhParticle = alive[i];
-					this.removeChild(t);
-					dead.push(t);
+					var u:bhParticle = alive[i];
+					this.removeChild(u);
+					dead.push(u);
 					alive.splice(i,1);
 				}
 			}
