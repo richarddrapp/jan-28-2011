@@ -1,4 +1,5 @@
 ﻿package com.Particles{
+	import com.reddengine.ReddObject;
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
@@ -9,7 +10,6 @@
 		
 		public static var instance:ExplosionHandler = null;
 		private static var allowCreation:Boolean = true;
-		
 		
 
         var explosions:Vector.<ParticleExplosion>;
@@ -48,8 +48,9 @@
 			trace("KABOOM");
 		}
 		
-		public function implode_at(x:Number, y:Number, number:int, radius:int ) {
+		public function implode_at(x:Number, y:Number, number:int, radius:int, reddObj:ReddObject, physicsRadius:Number, minval:Number, maxval:Number) {
 			var p:ParticleBlackHole = new ParticleBlackHole(x, y, number, radius);
+			p.setImplosivePhysicsAttributes(reddObj, physicsRadius, minval, maxval);
 			implosions.push(p);
 			this.addChild(p);
 			trace("WOOOSH");
