@@ -1,4 +1,4 @@
-package com.Particles {
+﻿package com.Particles {
 	import com.GameJam2.BlackHoleParticle;
 	import flash.display.MovieClip;
 	import flash.events.Event;
@@ -22,12 +22,9 @@ package com.Particles {
 			
 			trace(o + "," + offset);
 			
-			for (var i = 0; i < 100; i++) {
-				if (colorRed) {
-					p = new gParticle(30, true, 0.5, 25, 0.5 * Math.PI + offset, Math.PI / 24, 0.95, true, 220, 0, 0, 0.8);
-				} else {
-					p = new gParticle(30, true, 0.5, 25, 0.5 * Math.PI + offset, Math.PI / 24, 0.95, true, 0, 0, 220, 0.8);
-				}
+			for (var i = 0; i < 50; i++) {
+					p = new gParticle(30, true, 0.5, 25, 0.5 * Math.PI + offset, Math.PI / 24, 0.95, true, 220, 120, 0, 0.8);
+					//p = new gParticle(30, true, 0.5, 25, 0.5 * Math.PI + offset, Math.PI / 24, 0.95, true, 0, 0, 220, 0.8);
 				dead.push(p);
 			}
 			
@@ -52,7 +49,7 @@ package com.Particles {
 				if(alive[i].live == false) {
 					var u:gParticle = alive[i];
 					this.removeChild(u);
-					dead.push(u);
+					//dead.push(u);
 					alive.splice(i,1);
 				}
 			}

@@ -65,9 +65,9 @@
 				trail = new ParticleTrail(2, false, o);
 			}
 
-			ReddEngine.getInstance().addChild(trail);
-			trail.on();
-			trail.rotation = this.rotation;
+			//ReddEngine.getInstance().addChild(trail);
+			//trail.on();
+			//trail.rotation = this.rotation;
 		}
 		
 		/*public function initText() {
