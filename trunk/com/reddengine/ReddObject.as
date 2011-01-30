@@ -83,9 +83,7 @@
 			
 		}
 		
-		public function Destroy() :void {
-			trace("FUCK");
-			
+		public function Destroy() :void {			
 			ReddEngine.getInstance().World.DestroyBody(this.Body);			
 			removeEventListener(Event.ENTER_FRAME, Update);
 			parent.removeChild(this);			

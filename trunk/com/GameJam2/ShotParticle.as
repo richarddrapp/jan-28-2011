@@ -14,6 +14,8 @@
     import flash.text.TextFormat;	
 	
 	import flash.events.Event;
+	import flash.events.TimerEvent;	
+	import flash.utils.Timer;
 	
 	import com.Box2D.Collision.*;
 	import com.Box2D.Collision.Shapes.*;
@@ -27,6 +29,8 @@
 	public class ShotParticle extends ReddObject {				
 		
 		public var valueText:TextField;		
+		public var needConvert:Boolean = false;		
+		public var conversion:Timer;
 		
 		public function ShotParticle(x:Number, y:Number, r:Number) {					
 			super(); //density = 0.7													
@@ -43,6 +47,10 @@
 			isRound = true;				
 			InitializePhysics();			
 			addEventListener(Event.ENTER_FRAME, Update);
+			
+			conversion = new Timer(500, 1);
+			conversion.addEventListener(TimerEvent.TIMER, convert);
+			
 			ReddEngine.projectileObjects.push(this);
 		}
 		
@@ -56,6 +64,17 @@
 			valueText.width = this.width;
 			valueText.height = this.height;			
 			ReddEngine.getInstance().stage.addChild(valueText);
+		}
+		
+		public function convert(e:TimerEvent):void {				
+			trace("Converting");				
+				var newP:Particle = new Particle(this.x, this.y, 15);	
+				newP.Body.SetLinearVelocity(Body.GetLinearVelocity());
+				newP.value = value;
+				ReddEngine.getInstance().addChild(newP);
+				ReddEngine.reddObjects.push(newP);
+				ReddEngine.matterObjects.push(newP);				
+				this.Delete = true;
 		}
 		
 		override public function InitializePhysics():void
@@ -91,6 +110,7 @@
 			
 			if (this.Delete)
 				Destroy();
+			
 			
 		}		
 		

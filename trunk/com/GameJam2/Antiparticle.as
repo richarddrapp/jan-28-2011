@@ -88,8 +88,7 @@
 			
 			if (debugEnabled)
 				debug();							
-						
-			
+									
 			if (this.Delete)
 				Destroy();
 			
@@ -113,7 +112,11 @@
 					else
 					{		
 						value = total;
-						//convert ShotParticle into Particle/Antiparticle
+						if (!(robj as ShotParticle).needConvert)
+						{
+							(robj as ShotParticle).needConvert = true;
+							(robj as ShotParticle).conversion.start();
+						}
 					}						
 				}
 				else if (robj is Particle)
