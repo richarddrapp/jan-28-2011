@@ -100,7 +100,7 @@
 				{
 					total = value + robj.value;
 					var newP:Particle
-					trace("shot collided with antimatter");
+					//trace("shot collided with antimatter");
 					// sum the values
 					var total = value + robj.value;
 					// if 0, explode
@@ -123,7 +123,7 @@
 				else if (robj is Particle)
 				{
 					total = value + robj.value;
-					trace("matter collided with antimatter");
+					//trace("matter collided with antimatter");
 					// sum the values					
 					// if 0, explode
 					if (total == 0) {
@@ -143,7 +143,7 @@
 				else if (robj is Antiparticle)
 				{
 					total = value + robj.value;
-					trace("combining");
+					//trace("combining");
 					var tempP:Antiparticle;					
 					if (value > robj.value)
 					{												
