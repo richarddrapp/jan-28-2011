@@ -3,6 +3,7 @@
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import flash.geom.ColorTransform;
+	import com.reddengine.ReddEngine;
 	
 	public class ExplosionHandler extends MovieClip {
 		
@@ -22,6 +23,7 @@
 				instance = this;
 				allowCreation = false;
 				addEventListener(Event.ENTER_FRAME, update);
+				ReddEngine.getInstance().addChild(this);
 			}	
 		}
 		
@@ -45,6 +47,7 @@
 		}
 		
 		public function update(e:Event) {
+			trace("explosions updated");
 			for(var i = 0; i < explosions.length; i++) {
 				explosions[i].update();
 				if(explosions[i].finished == true) {
