@@ -121,12 +121,12 @@
 					}
 					if (total > 0) {
 						value = total;
-						//ReddEngine.antiMatterObjects[i].absorb();
+						ReddEngine.antiMatterObjects[i].Destroy();
 						trace("Antimatter destroyed; new value is" + total);
 					}
 					if (total < 0) {
 						total *= -1;
-						//absorb();
+						Destroy();
 						ReddEngine.antiMatterObjects[i].value = total;
 						trace("Matter destroyed; new value is" + total);
 					}
