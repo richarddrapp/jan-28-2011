@@ -95,7 +95,7 @@
 			
 			if (this.value >= 25) {
 				
-				this.Explode();
+				this.BlackHole();
 				this.Delete = true;
 			}
 			
@@ -121,7 +121,7 @@
 					
 					// if 0, explode
 					if (total == 0) {
-						this.BlackHole();
+						this.Explode();
 						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
 						trace("CALL EXPLOSIONS");
