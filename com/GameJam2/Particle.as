@@ -98,6 +98,9 @@
 			
 			numSymbol.numText.text = "" + value;
 			numSymbol.rotation = -rotation;
+			
+			this.width = SetWidthBasedOnValue(value);
+			this.height = width;
 			//valueText.text = "" + value;
 			//valueText.x = this.x -valueText.textWidth;
 			//valueText.y = this.y -valueText.textHeight/2;

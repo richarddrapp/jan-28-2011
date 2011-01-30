@@ -39,7 +39,7 @@
 		public static var Collision:GameContactListener = new GameContactListener();
 		
 		public var World:b2World;
-		var time_count:Timer = new Timer(1000);
+		var time_count:Timer;
 		public static var WORLD_CONSTANT:Number = 30;
 		
 		public static var COMBINE_V:Number = 4;
@@ -290,6 +290,11 @@
 			
 		public function DetectCollision(obj1:ReddObject, obj2:ReddObject):Boolean {
 			return CollisionDetection.isColliding(obj1, obj2, this, true, 1);
+		}
+		
+		public function StopGame():void {
+			
+			//stop all shit here
 		}
 	}
 }
