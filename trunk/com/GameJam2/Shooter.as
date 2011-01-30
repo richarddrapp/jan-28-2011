@@ -36,9 +36,17 @@
 		public var key:KeyObject;
 		public var keySpace:uint = 32;
 		public var isMouseDown:Boolean = false;
-		public var mouseDownTime:int = 0;
+		public var mouseDownTime:int = 0;//this only incriments if you can fire
 		
-		public static var TIME_TO_NEXT_FIRING_STRENGTH:int = 15;
+		public static var FRAMES_PER_SECOND:int = 30;//Don't change this... it won't change the FPS, this is just for calculations
+		public static var RATE_OF_FIRE:Number = 2;//shots per second
+		public static var TIME_PER_SHOT:int = 1000/RATE_OF_FIRE; //timer milliseconds
+		//public static var TIME_PER_SHOT:int = 1000; //timer milliseconds
+		public static var TIME_TO_NEXT_FIRING_STRENGTH:int = TIME_PER_SHOT * (.8) / FRAMES_PER_SECOND; //frames
+		public static var MAX_FIRING_STRENGTH:int = 5;
+		//public static var TIME_TO_NEXT_FIRING_STRENGTH:int = 15; //frames
+		public static var MATTER_SPAWN_TIME:int = 2000; //timer milliseconds
+		
 		
 		var fireMeter:MovieClip = new MovieClip;
 		var fireMeterBackground:Sprite = new Sprite;
@@ -91,24 +99,28 @@
 			
 			initFireMeter();
 			
-			LaunchTimer = new Timer(1000, 1);
-			SpawnTimer = new Timer(2000, 0);
+			LaunchTimer = new Timer(TIME_PER_SHOT, 1);
+			SpawnTimer = new Timer(MATTER_SPAWN_TIME, 0);
 			LaunchTimer.addEventListener(TimerEvent.TIMER, reload);
 			SpawnTimer.addEventListener(TimerEvent.TIMER, spawnMeteor);
 			SpawnTimer.start();
 		}
 		
-		public function initFireMeter() {
+		public function initFireMeter() {//this init has odd colors, but they should be overrulled in the first update
 			fireMeterBackground.graphics.beginFill(0x222222, 1);
 			fireMeterBackground.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
 			fireMeterBackground.graphics.endFill();
 			
 			fireMeterFill.graphics.beginFill(0x00DD00, 1);
 			//trace("% of bar: " + (mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH);
-			fireMeterFill.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width*((mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH), fireMeterRect.height);
+			if (((mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH) + 1) >= MAX_FIRING_STRENGTH) {//at max strength
+				fireMeterFill.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
+			} else {//not at max strength
+				fireMeterFill.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width*((mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH), fireMeterRect.height);
+			}
 			fireMeterFill.graphics.endFill();
 			
-			fireMeterBorder.graphics.lineStyle(1, 0x000000, 1, false, "normal", null, null, 3);
+			fireMeterBorder.graphics.lineStyle(2, 0x000000, 1, false, "normal", null, null, 3);
 			fireMeterBorder.graphics.beginFill(0x000000, 0);
 			fireMeterBorder.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
 			fireMeterBorder.graphics.endFill();
@@ -136,19 +148,53 @@
 		
 		public function updateFireMeter() {
 			fireMeterFill.graphics.clear();
-			if (projectileType == PROJECTILETYPE_MATTER) {
-				fireMeterFill.graphics.beginFill(0xFF0000, 1);
-			} else if (projectileType == PROJECTILETYPE_ANTIMATTER) {
-				fireMeterFill.graphics.beginFill(0x0000FF, 1);
-			} else { //super crazy powerup
-				fireMeterFill.graphics.beginFill(0x00DD00, 1);
+			if (canLaunch) {
+				if (projectileType == PROJECTILETYPE_MATTER) {//matter = red
+					fireMeterBorder.graphics.lineStyle(2, 0x550000, 1, false, "normal", null, null, 3);
+					fireMeterBorder.graphics.beginFill(0x000000, 0);
+					fireMeterBackground.graphics.beginFill(0x880000, 1);
+					fireMeterFill.graphics.beginFill(0xFF0000, 1);
+				} else if (projectileType == PROJECTILETYPE_ANTIMATTER) {//antimatter = blue
+					fireMeterBorder.graphics.lineStyle(2, 0x000055, 1, false, "normal", null, null, 3);
+					fireMeterBorder.graphics.beginFill(0x000000, 0);
+					fireMeterBackground.graphics.beginFill(0x000088, 1);
+					fireMeterFill.graphics.beginFill(0x0000FF, 1);
+				} else { //super crazy powerup
+					fireMeterBorder.graphics.lineStyle(2, 0x005500, 1, false, "normal", null, null, 3);
+					fireMeterBorder.graphics.beginFill(0x000000, 0);
+					fireMeterBackground.graphics.beginFill(0x008800, 1);
+					fireMeterFill.graphics.beginFill(0x00DD00, 1);
+				}
+			} else {//can't launch, make it gray
+				fireMeterBorder.graphics.lineStyle(2, 0x000000, 1, false, "normal", null, null, 3);
+				fireMeterBorder.graphics.beginFill(0x000000, 0);
+				fireMeterBackground.graphics.beginFill(0x222222, 1);
+				fireMeterFill.graphics.beginFill(0x000000, 1);//this is the fill, shouldn't BE any
 			}
 			
+			
+			fireMeterBackground.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
+			fireMeterBackground.graphics.endFill();
+			
+			fireMeterBorder.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
+			fireMeterBorder.graphics.endFill();
+			
+			
 			//trace("% of bar: " + (mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH);
-			fireMeterFill.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width*((mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH), fireMeterRect.height);
+			if (((mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH) + 1) >= MAX_FIRING_STRENGTH) {//at max strength
+				fireMeterFill.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
+			} else {//not at max strength
+				fireMeterFill.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width*((mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH), fireMeterRect.height);
+			}
 			fireMeterFill.graphics.endFill();
 			
-			fireMeterText.text = "" + int(mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1);
+			//update the strength number (text field)
+			if (((mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH) + 1) >= MAX_FIRING_STRENGTH) {//at max strength
+				fireMeterText.text = "" + MAX_FIRING_STRENGTH;
+			} else {//not at max strength
+				fireMeterText.text = "" + int(mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1);
+			}
+			
 			fireMeterText.x = fireMeterRect.x + fireMeterRect.width/2 -fireMeterText.textWidth;
 			fireMeterText.y = fireMeterRect.y + fireMeterRect.height/2 -fireMeterText.textHeight/2;
 		}
@@ -230,10 +276,17 @@
 					newVY = (LaunchSpeed * -Math.cos(orientation * Math.PI / 180));
 					
 					var mis:ShotParticle = new ShotParticle(newX, newY, 10);
+					var strength:int;
+					//update the strength number
+					if (((mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH) + 1) >= MAX_FIRING_STRENGTH) {//at max strength
+						strength = MAX_FIRING_STRENGTH;
+					} else {//not at max strength
+						strength = mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1;
+					}
 					if (projectileType == PROJECTILETYPE_MATTER) {
-						mis.value = mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1;
+						mis.value = strength;
 					} else if (projectileType = PROJECTILETYPE_ANTIMATTER) {
-						mis.value = (mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1) * -1;
+						mis.value = strength * -1;
 					} else {
 						//super crazy powerup
 					}
@@ -288,7 +341,7 @@
 		}
 		
 		public function mouseDownUpdate() {
-			if (isMouseDown) {
+			if (isMouseDown && canLaunch) {//don't charge up if you can't fire
 				mouseDownTime++;
 			}
 		}
