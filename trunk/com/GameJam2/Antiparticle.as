@@ -137,6 +137,7 @@
 						value = total;
 						robj.value = total;
 						//convert ShotParticle into Particle/Antiparticle
+						gotoAndStop(2);
 					}											
 				}
 				else if (robj is Antiparticle)

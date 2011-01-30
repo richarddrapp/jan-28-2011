@@ -146,7 +146,10 @@
 					}
 					else
 					{							
-						value = total;						
+						value = total;	
+						robj.value = total;
+						if (value < 0)
+							gotoAndStop(2);
 						//convert ShotParticle into Particle/Antiparticle
 						
 						
