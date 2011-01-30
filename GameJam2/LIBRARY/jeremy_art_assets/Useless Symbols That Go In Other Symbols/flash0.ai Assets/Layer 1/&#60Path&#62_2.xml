@@ -1,0 +1,35 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets/Layer 1/&lt;Path&gt;_2" itemID="4d45406e-000002a3" lastModified="1296384110">
+  <timeline>
+    <DOMTimeline name="&lt;Path&gt;_2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#3A76B5"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!15600 400|15600 1580!15600 1580[15600 1745 15483 1863!15483 1863[15365 1980 15200 1980!15200 1980|400 1980!400 1980[234 1980 117 1863!117 1863[0 1745 0 1580!0 1580|0 400!0 400[0 234 117 117!117 117[234 0 400 0!400 0|15200 0!15200 0[15365
+ 0 15483 117!15483 117[15600 234 15600 400"/>
+                    <Edge cubics="!15600 1580(;15600,1800 15420,1980 15200,1980q15600 1580Q15600 1745q15483 1863Q15365 1980q15200 1980);"/>
+                    <Edge cubics="!15200 1980(;15200,1980 400,1980 400,1980q15200 1980 400 1980);"/>
+                    <Edge cubics="!400 1980(;179,1980 0,1800 0,1580q400 1980Q234 1980q117 1863Q0 1745q0 1580);"/>
+                    <Edge cubics="!0 1580(;0,1580 0,400 0,400q0 1580 0 400);"/>
+                    <Edge cubics="!0 400(;0,179 179,0 400,0q0 400Q0 234q117 117Q234 0q400 0);"/>
+                    <Edge cubics="!400 0(;400,0 15200,0 15200,0q400 0 15200 0);"/>
+                    <Edge cubics="!15200 0(;15420,0 15600,179 15600,400q15200 0Q15365 0q15483 117Q15600 234q15600 400);"/>
+                    <Edge cubics="!15600 400(;15600,400 15600,1580 15600,1580q15600 400 15600 1580);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

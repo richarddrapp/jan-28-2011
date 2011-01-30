@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Mouser" itemID="4d451e41-0000022f" lastModified="1296375361">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Mouser" itemID="4d451e41-0000022f" lastModified="1296385034">
   <timeline>
     <DOMTimeline name="Mouser">
       <layers>
@@ -8,7 +8,7 @@
               <elements>
                 <DOMGroup selected="true">
                   <members>
-                    <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&lt;Path&gt;_5" name="" selected="true" blendMode="layer">
+                    <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&lt;Path&gt;_5" name="" blendMode="layer">
                       <matrix>
                         <Matrix tx="-39.2" ty="-41.85"/>
                       </matrix>
@@ -19,18 +19,7 @@
                         <Color alphaMultiplier="0.3515625"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&lt;Path&gt;_4" name="" selected="true" blendMode="layer">
-                      <matrix>
-                        <Matrix tx="-29.25" ty="-42"/>
-                      </matrix>
-                      <transformationPoint>
-                        <Point x="17.4" y="21.9"/>
-                      </transformationPoint>
-                      <color>
-                        <Color alphaMultiplier="0.8515625"/>
-                      </color>
-                    </DOMSymbolInstance>
-                    <DOMShape selected="true" isDrawingObject="true">
+                    <DOMShape isDrawingObject="true">
                       <strokes>
                         <StrokeStyle index="1">
                           <SolidStroke scaleMode="normal" caps="none" weight="5">
@@ -51,7 +40,7 @@
                         <Edge cubics="!18 1795(;588,1795 768,1348 768,675q18 1795Q424 1795q607 1487Q768 1216q768 675);"/>
                       </edges>
                     </DOMShape>
-                    <DOMShape selected="true" isDrawingObject="true">
+                    <DOMShape isDrawingObject="true">
                       <strokes>
                         <StrokeStyle index="1">
                           <SolidStroke scaleMode="normal" caps="none" weight="5">
@@ -68,7 +57,7 @@
                         <Edge cubics="!111 -1317(;111,-1317 96,-1796 704,-1796q111 -1317Q111 -1317q118 -1392Q134 -1482q180 -1556Q324 -1796q704 -1796);"/>
                       </edges>
                     </DOMShape>
-                    <DOMShape selected="true" isDrawingObject="true">
+                    <DOMShape isDrawingObject="true">
                       <strokes>
                         <StrokeStyle index="1">
                           <SolidStroke scaleMode="normal" caps="none" weight="5">
@@ -80,13 +69,13 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!-556 37|111 37!111 37|830 37!111 -810|111 37"/>
+!111 -810|111 37!111 37|830 37!-556 37|111 37"/>
                         <Edge cubics="!111 -810(;111,-810 111,37 111,37q111 -810 111 37);"/>
                         <Edge cubics="!111 37(;111,37 -556,37 -556,37q111 37 -556 37);"/>
                         <Edge cubics="!111 37(;111,37 830,37 830,37p111 37q830 37);"/>
                       </edges>
                     </DOMShape>
-                    <DOMShape selected="true" isDrawingObject="true">
+                    <DOMShape isDrawingObject="true">
                       <fills>
                         <FillStyle index="1">
                           <SolidColor color="#3A76B5"/>

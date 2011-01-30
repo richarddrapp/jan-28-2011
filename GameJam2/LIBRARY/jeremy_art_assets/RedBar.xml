@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/RedBar" itemID="4d4531a7-0000030c" sourceLibraryItemHRef="Symbol 1" lastModified="1296380467" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/RedBar" itemID="4d454206-000002cf" sourceLibraryItemHRef="Symbol 1" lastModified="1296384551" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="RedBar">
       <layers>
@@ -6,12 +6,12 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="jeremy_art_assets/red_fill" name="">
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/RedFill" name="">
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="jeremy_art_assets/red_frame" name="">
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/RedBorder" name="">
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
