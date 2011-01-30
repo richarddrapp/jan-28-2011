@@ -170,7 +170,7 @@
 			//call particle effect
 			trace("A black hole is being spawned. WOOOOOOOOOOOOSH!");
 			
-			ExplosionHandler.getInstance().implode_at(this.x, this.y, 1000, 80);
+			ExplosionHandler.getInstance().implode_at(this.x, this.y, 500, 80);
 			
 			applyExplosiveImpulse(this.x, this.y, 250, 0, -5);
 			
