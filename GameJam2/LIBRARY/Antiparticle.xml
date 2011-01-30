@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Antiparticle" itemID="4d45162a-00000228" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Antiparticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296383325" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Antiparticle" itemID="4d45162a-00000228" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Antiparticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296389578" lastUniqueIdentifier="12">
   <timeline>
     <DOMTimeline name="Antiparticle">
       <layers>
@@ -6,9 +6,9 @@
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="numSymbol" name="numSymbol" selected="true" centerPoint3DX="0.5" centerPoint3DY="0.5">
+                <DOMSymbolInstance libraryItemName="numSymbol" name="numSymbol" selected="true" centerPoint3DX="4" centerPoint3DY="-1">
                   <matrix>
-                    <Matrix tx="0.5" ty="0.5"/>
+                    <Matrix a="0.932769775390625" tx="4" ty="-1"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
