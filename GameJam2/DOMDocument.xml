@@ -1,4 +1,8 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" viewAngle3D="74.2651684569297" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+     <media>
+          <DOMBitmapItem name="smoke_background3.png" itemID="4d45104b-000001e9" sourceExternalFilepath=".\LIBRARY\smoke_background3.png" sourceLastImported="1296363331" externalFileSize="369199" originalCompressionType="lossless" quality="50" href="smoke_background3.png" bitmapDataHRef="M 1 1296371706.dat" frameRight="16000" frameBottom="12000"/>
+          <DOMBitmapItem name="starfield.jpg" itemID="4d45104b-000001ea" sourceExternalFilepath=".\LIBRARY\starfield.jpg" sourceLastImported="1296370919" externalFileSize="249111" quality="50" href="starfield.jpg" bitmapDataHRef="M 2 1296371719.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
+     </media>
      <symbols>
           <Include href="Antiparticle.xml"/>
           <Include href="CameraDetection.xml"/>
@@ -12,6 +16,7 @@
           <Include href="Shooter.xml"/>
           <Include href="ShotParticle.xml"/>
           <Include href="StaticWallFloor.xml"/>
+          <Include href="Symbol 14.xml" itemIcon="1" loadImmediate="false"/>
           <Include href="WorldDefender.xml"/>
      </symbols>
      <timelines>
@@ -82,7 +87,7 @@
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
+                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
