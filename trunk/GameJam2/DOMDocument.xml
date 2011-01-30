@@ -13,7 +13,7 @@
           <DOMBitmapItem name="Particle_art/rBitmap 2" itemID="4d451b4f-000003b5" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296374607" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
           <DOMBitmapItem name="Particle_art/rBitmap 3" itemID="4d451b53-000003b6" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296374611" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
           <DOMBitmapItem name="jeremy_art_assets/smoke_background3.png" itemID="4d4513af-0000023c" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\smoke_background3.png" sourceLastImported="1296372655" externalFileSize="369199" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\smoke_background3.png" bitmapDataHRef="M 1 1296371706.dat" frameRight="16000" frameBottom="12000"/>
-          <DOMBitmapItem name="jeremy_art_assets/starfield.jpg" itemID="4d4513b0-0000023d" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\starfield.jpg" sourceLastImported="1296376313" externalFileSize="210126" quality="50" href="jeremy_art_assets\starfield.jpg" bitmapDataHRef="M 2 1296371719.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
+          <DOMBitmapItem name="jeremy_art_assets/starfield.jpg" itemID="4d4529f6-0000024a" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\starfield.jpg" sourceLastImported="1296377501" externalFileSize="210126" quality="50" href="jeremy_art_assets\starfield.jpg" bitmapDataHRef="M 2 1296371719.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
      </media>
      <symbols>
           <Include href="Antiparticle.xml"/>
@@ -130,9 +130,9 @@
                                                   <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="jeremy_art_assets/starfield.jpg">
+                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/starfield.jpg">
                                              <matrix>
-                                                  <Matrix tx="-0.7" ty="-2"/>
+                                                  <Matrix tx="-16.7" ty="6"/>
                                              </matrix>
                                         </DOMBitmapInstance>
                                    </elements>
@@ -486,8 +486,9 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="303846" publishTime="1296376946"/>
-          <PublishItem publishSize="303849" publishTime="1296376322"/>
+          <PublishItem publishSize="281950" publishTime="1296378586"/>
+          <PublishItem publishSize="281464" publishTime="1296378362"/>
+          <PublishItem publishSize="321042" publishTime="1296376494"/>
           <PublishItem publishSize="321104" publishTime="1296375374"/>
           <PublishItem publishSize="320594" publishTime="1296374708"/>
           <PublishItem publishSize="57687" publishTime="1296371037"/>
@@ -505,6 +506,5 @@ gotoAndStop(2);
           <PublishItem publishSize="57259" publishTime="1296369695"/>
           <PublishItem publishSize="57231" publishTime="1296369618"/>
           <PublishItem publishSize="57305" publishTime="1296369541"/>
-          <PublishItem publishSize="57627" publishTime="1296369457"/>
      </publishHistory>
 </DOMDocument>
