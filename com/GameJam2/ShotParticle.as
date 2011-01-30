@@ -54,7 +54,7 @@
 			InitializePhysics();			
 			addEventListener(Event.ENTER_FRAME, Update);
 			
-			conversion = new Timer(500, 1);
+			conversion = new Timer(130, 1);
 			conversion.addEventListener(TimerEvent.TIMER, convert);
 			
 			ReddEngine.projectileObjects.push(this);

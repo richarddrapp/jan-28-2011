@@ -48,8 +48,8 @@
 		public static var MAX_FIRING_STRENGTH:int = 5;
 		//public static var TIME_TO_NEXT_FIRING_STRENGTH:int = 15; //frames
 		public static var MATTER_SPAWN_TIME:int = 2000; //timer milliseconds
-		public static var STARTING_PARTICLES:int = 15;
-		
+		public static var STARTING_PARTICLES:int = 20;
+		public static var INITIAL_VELOCITY_MULTIPLIER:int = 7;
 		
 		var fireMeter:MovieClip = new MovieClip;
 		var fireMeterBackground:Sprite = new Sprite;
@@ -74,7 +74,7 @@
 		var metVY:Number;
 		var atkAngle:Number;
 		
-		var LaunchSpeed:Number = 16;
+		var LaunchSpeed:Number = 26;
 		
 		var LaunchTimer:Timer;
 		var SpawnTimer:Timer;
@@ -328,8 +328,8 @@
 				var met:Particle;
 				met = new Particle(Math.random() * 600, Math.random() * 600, 15);
 				atkAngle = Math.random() * Math.PI * 2;
-				metVX = (2) * Math.cos(atkAngle);
-				metVY = (2) * Math.sin(atkAngle);
+				metVX = (INITIAL_VELOCITY_MULTIPLIER) * Math.cos(atkAngle);
+				metVY = (INITIAL_VELOCITY_MULTIPLIER) * Math.sin(atkAngle);
 				met.Body.ApplyImpulse(new b2Vec2(metVX, metVY), met.Body.GetWorldCenter());
 				ReddEngine.getInstance().addChild(met);
 				ReddEngine.reddObjects.push(met);
@@ -337,8 +337,8 @@
 				var met2:Antiparticle;
 				met2 = new Antiparticle(Math.random() * 600, Math.random() * 600, 15);
 				atkAngle = Math.random() * Math.PI * 2;
-				metVX = (2) * Math.cos(atkAngle);
-				metVY = (2) * Math.sin(atkAngle);
+				metVX = (INITIAL_VELOCITY_MULTIPLIER) * Math.cos(atkAngle);
+				metVY = (INITIAL_VELOCITY_MULTIPLIER) * Math.sin(atkAngle);
 				met2.Body.ApplyImpulse(new b2Vec2(metVX, metVY), met2.Body.GetWorldCenter());
 				ReddEngine.getInstance().addChild(met2);
 				ReddEngine.reddObjects.push(met2);
