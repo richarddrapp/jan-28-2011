@@ -72,7 +72,7 @@
 		var metVY:Number;
 		var atkAngle:Number;
 		
-		var LaunchSpeed:Number = 3;
+		var LaunchSpeed:Number = 16;
 		
 		var LaunchTimer:Timer;
 		var SpawnTimer:Timer;

@@ -96,7 +96,8 @@
 			CircleDef.restitution = 1;
 				
 			Body=ReddEngine.getInstance().World.CreateBody(BodyDef);					
-			Body.CreateShape(CircleDef);						
+			Body.CreateShape(CircleDef);
+			Body.m_linearDamping = 0.1;
 			
 			Body.SetUserData(this);
 			
@@ -142,14 +143,14 @@
 					//trace("shot collided with antimatter");
 					// sum the values					
 					// if 0, explode
-					if (total == 0) {
+					/*if (total == 0) {
 						trace("CALL EXPLOSIONS");
 						this.Explode();
 						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
 						
 					}
-					else
+					else*/
 					{		
 						/*if (Math.abs(robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						/*

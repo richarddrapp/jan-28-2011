@@ -43,7 +43,7 @@
 			numSymbol.numText.text = "" + value;
 			//initText();
 			
-			Density = 2;
+			Density = 8;
 			Friction = 10;
 			isRound = true;				
 			InitializePhysics();			
