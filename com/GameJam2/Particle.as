@@ -46,6 +46,9 @@
 			numSymbol.numText.text = "" + value;
 			//initText();
 			
+			width = SetWidthBasedOnValue(value);
+			height = width;
+			
 			Density = 2;
 			Friction = 10;
 			isRound = true;					
@@ -99,7 +102,7 @@
 			//valueText.x = this.x -valueText.textWidth;
 			//valueText.y = this.y -valueText.textHeight/2;
 			
-			if (this.value >= 25) {
+			if (this.value >= 15) {
 				this.BlackHole();
 				this.Delete = true;
 			}
@@ -179,19 +182,23 @@
 					}
 					else
 					{							
-						value = total;						
+												
 						if (Math.abs(Body.m_linearVelocity.Length() + robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
-						{						
+						{	value = total;				
 							trace("combining");
-							width = Math.abs(value) * 10;
-							height = width;							
-							robj.Delete = true;
+							width = SetWidthBasedOnValue(value);
+							height = width;	
+							
+							if (value > 0){
+								robj.Delete = true;
+							}
 						}							
 							//convert ShotParticle into Particle/Antiparticle																				
 						if (value < 0)						
 						{
 							if (!needConvert)
 							{
+								value = total;
 								needConvert = true;
 								conversion.start();
 							}
@@ -209,14 +216,14 @@
 						{
 							value = total;
 							trace("combining");
-							width = Math.abs(value) * 10;
+							width = SetWidthBasedOnValue(value);
 							height = width;							
 							robj.Delete = true;							
 						}										
 						else
 						{
 							robj.value = total;
-							robj.width = Math.abs(total) * 10;
+							robj.width = SetWidthBasedOnValue(total);
 							robj.height = robj.width;							
 							this.Delete = true;
 						}
@@ -239,7 +246,8 @@
 		public function convert(e:TimerEvent):void {				
 			//trace("Converting");	
 				//trace("In Val: " + value);														
-					var newAP:Antiparticle = new Antiparticle(this.x, this.y, 15);	
+					var newAP:Particle = new ExistingParticle(this.x, this.y, 15);	
+					(newAP as ExistingParticle).SetValue(value);	
 					newAP.Body.SetLinearVelocity(Body.GetLinearVelocity());
 					newAP.value = value;
 					ReddEngine.getInstance().addChild(newAP);

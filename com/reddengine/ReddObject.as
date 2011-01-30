@@ -123,5 +123,63 @@
 			
 		}
 		
+		public function SetWidthBasedOnValue(val:int) : int {
+			val = Math.abs(val);
+			var size:int;
+			
+			switch (val) {
+				
+				case 1:
+				size = 33;
+				break;
+				case 2:
+				size = 38;
+				break;
+				case 3: 
+				size = 44;
+				break;
+				case 4:
+				size = 48;
+				break;
+				case 5:
+				size = 52;
+				break;
+				case 6: 
+				size = 57;
+				break;
+				case 7:
+				size = 61;
+				break;
+				case 8:
+				size = 65;
+				break;
+				case 9: 
+				size = 69;
+				break;
+				case 10:
+				size = 73;
+				break;
+				case 11:
+				size = 77;
+				break;
+				case 12: 
+				size = 81;
+				break;
+				case 13:
+				size = 83;
+				break;
+				case 14:
+				size = 86;
+				break;
+				case 15: 
+				size = 90;
+				break;
+				
+				
+			}
+			
+			return size;
+		}
+		
 	}
 }
