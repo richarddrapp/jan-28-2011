@@ -93,13 +93,13 @@
 		public function checkCollisions() {
 			if (!this.hitTestObject(ReddEngine.camera))
 			{
-				//ReddEngine.getInstance().stage.removeChild(valueText);
 				this.Destroy();
 			}
 		}
 		
 		override public function Destroy() : void {
 			super.Destroy();
+			ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.antiMatterObjects.splice(ReddEngine.antiMatterObjects.indexOf(this), 1);
 		}
 		
