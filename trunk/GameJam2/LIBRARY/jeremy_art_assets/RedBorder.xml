@@ -1,0 +1,42 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/RedBorder" itemID="4d454223-000002dd" sourceLibraryItemHRef="Symbol 1" lastModified="1296384547">
+  <timeline>
+    <DOMTimeline name="RedBorder">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-160.75" ty="-23"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="5">
+                        <fill>
+                          <SolidColor color="#B1011B"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!6380 570[6380 694 6292 782!6292 782[6204 870 6080 870!6080 870|350 870!350 870[226 870 138 782!138 782[50 694 50 570!50 570|50 350!50 350[50 226 138 138!138 138[226 50 350 50!350 50|6080 50!6080 50[6204 50 6292 138!6292 138[6380 226
+ 6380 350!6380 350|6380 570"/>
+                    <Edge cubics="!6380 570(;6380,735 6245,870 6080,870q6380 570Q6380 694q6292 782Q6204 870q6080 870);"/>
+                    <Edge cubics="!6080 870(;6080,870 350,870 350,870q6080 870 350 870);"/>
+                    <Edge cubics="!350 870(;184,870 50,735 50,570q350 870Q226 870q138 782Q50 694q50 570);"/>
+                    <Edge cubics="!50 570(;50,570 50,350 50,350q50 570 50 350);"/>
+                    <Edge cubics="!50 350(;50,184 184,50 350,50q50 350Q50 226q138 138Q226 50q350 50);"/>
+                    <Edge cubics="!350 50(;350,50 6080,50 6080,50q350 50 6080 50);"/>
+                    <Edge cubics="!6080 50(;6245,50 6380,184 6380,350q6080 50Q6204 50q6292 138Q6380 226q6380 350);"/>
+                    <Edge cubics="!6380 350(;6380,350 6380,570 6380,570q6380 350 6380 570);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

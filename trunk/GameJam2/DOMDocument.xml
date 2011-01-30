@@ -1,8 +1,17 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" viewAngle3D="74.2651684569297" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
-          <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238"/>
-          <DOMFolderItem name="jeremy_art_assets/Layer 1" itemID="4d45126a-000001e4" isExpanded="true"/>
+          <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238" isExpanded="true"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols" itemID="4d453972-000005e6"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets" itemID="4d45406e-000002a0" isExpanded="true"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets copy" itemID="4d4542dc-000002fa"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets copy/Layer 1" itemID="4d4541f7-000002cb"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets/Layer 1" itemID="4d45406e-000002a1" isExpanded="true"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0" itemID="4d4540ca-000002af"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0 copy" itemID="4d4542dc-000002fb"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0 copy/Layer 1" itemID="4d454236-000002e1"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1" itemID="4d4540ca-000002b0"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_1" itemID="4d454240-000002e4" isExpanded="true"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_1/Layer 1" itemID="4d454240-000002e5" isExpanded="true"/>
           <DOMFolderItem name="Particle_art" itemID="4d451bd8-000003dd"/>
           <DOMFolderItem name="Particles" itemID="4d451cf5-00000244"/>
      </folders>
@@ -17,30 +26,44 @@
           <DOMBitmapItem name="Particle_art/rBitmap 2" itemID="4d451b4f-000003b5" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296374607" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
           <DOMBitmapItem name="Particle_art/rBitmap 3" itemID="4d451b53-000003b6" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296374611" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
           <DOMBitmapItem name="jeremy_art_assets/smoke_background3.png" itemID="4d4513af-0000023c" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\smoke_background3.png" sourceLastImported="1296372655" externalFileSize="369199" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\smoke_background3.png" bitmapDataHRef="M 1 1296371706.dat" frameRight="16000" frameBottom="12000"/>
-          <DOMBitmapItem name="jeremy_art_assets/starfield.jpg" itemID="4d4529f6-0000024a" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\starfield.jpg" sourceLastImported="1296377501" externalFileSize="210126" quality="50" href="jeremy_art_assets\starfield.jpg" bitmapDataHRef="M 2 1296371719.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
+          <DOMBitmapItem name="jeremy_art_assets/starfield.jpg" itemID="4d4529f6-0000024a" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\starfield.jpg" sourceLastImported="1296377501" externalFileSize="210126" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\starfield.jpg" bitmapDataHRef="M 2 1296371719.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
+          <DOMBitmapItem name="jeremy_art_assets/stars.jpg" itemID="4d4540b9-000002ae" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\stars.jpg" sourceLastImported="1296381147" externalFileSize="220999" quality="50" href="jeremy_art_assets\stars.jpg" bitmapDataHRef="M 9 1296384083.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
      </media>
      <symbols>
           <Include href="Antiparticle.xml"/>
           <Include href="CameraDetection.xml"/>
           <Include href="Collidable.xml"/>
-          <Include href="jeremy_art_assets/&amp;#60Path&amp;#62_1.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/&amp;#60Path&amp;#62_1_0.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/&amp;#60Path&amp;#62_2.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/&amp;#60Path&amp;#62_4.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/&amp;#60Path&amp;#62_5.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Button.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Global Game Jam 2011.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Jay Cramer&amp;#44 Patrick Fay&amp;#44 Anthony Ghavami&amp;#44 Aislinn Glennon&amp;#44 Jeremy Le&amp;#44 Richard Rapp.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/AlertSign.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/BlueBar.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/BlueBorder.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/BlueFill.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Mouser.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Symbol 14.xml" itemIcon="1" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Title Bar.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/title_screen_styles.ai.xml" itemIcon="1" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/RedBar.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/RedBorder.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/RedFill.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/start_button.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/title_bar.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_1.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_1 copy.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_1_0.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_2.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_2 copy.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_4.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_4 copy.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_5.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_5 copy.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets copy/Layer 1/&amp;#60Path&amp;#62.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets/Layer 1/&amp;#60Path&amp;#62_1.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets/Layer 1/&amp;#60Path&amp;#62_2.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0 copy/Layer 1/&amp;#60Path&amp;#62.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1/&amp;#60Path&amp;#62_1.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_1/Layer 1/&amp;#60Path&amp;#62.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 2.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 3.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 14.xml" itemIcon="1" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/title_screen_styles.ai.xml" itemIcon="1" loadImmediate="false"/>
           <Include href="Meteor.xml"/>
           <Include href="numSymbol.xml" loadImmediate="false"/>
           <Include href="Particle.xml"/>
@@ -71,9 +94,9 @@
           <Include href="WorldDefender.xml"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="1">
+          <DOMTimeline name="Scene 1" currentFrame="2">
                <layers>
-                    <DOMLayer name="Active" color="#FF4FFF" autoNamed="false">
+                    <DOMLayer name="flash0.ai" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -122,9 +145,46 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="jeremy_art_assets/title_bar" name="" centerPoint3DX="400" centerPoint3DY="75.5">
+                                             <matrix>
+                                                  <Matrix tx="400" ty="75.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="jeremy_art_assets/start_button" name="" centerPoint3DX="400" centerPoint3DY="233.4">
+                                             <matrix>
+                                                  <Matrix tx="400" ty="233.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMTLFText name="" left="-7459" right="7545" bottom="387">
+                                             <matrix>
+                                                  <Matrix tx="398" ty="137"/>
+                                             </matrix>
+                                             <tlfFonts>
+                                                  <TLFFont platformName="NeoTech" psName="NeoTech-Bold" bold="true"/>
+                                             </tlfFonts>
+                                             <markup><tlfTextObject type="Point" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="explicit" locale="en" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="start" textIndent="0" textJustify="interWord"><span color="#b1011b" fontFamily="NeoTech" fontSize="16" fontStyle="normal" fontWeight="bold" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">Jay Cramer, Patrick Fay, Anthony Ghavami, Aislinn Glennon, Jeremy Le, Bryan Ploof, Richard Rapp</span></p></TextFlow></tlfTextObject></markup>
+                                        </DOMTLFText>
+                                        <DOMSymbolInstance libraryItemName="jeremy_art_assets/Mouser" name="" centerPoint3DX="732.35" centerPoint3DY="489.95">
+                                             <matrix>
+                                                  <Matrix a="0.9703369140625" b="-0.241744995117188" c="0.241744995117188" d="0.9703369140625" tx="730.8" ty="489.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="1.2" y="-0.05"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BG" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="BG" color="#9933CC" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -138,17 +198,15 @@
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
+                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="jeremy_art_assets/starfield.jpg">
-                                             <matrix>
-                                                  <Matrix a="1.02000427246094" d="1.06666564941406" tx="-3.7" ty="-26"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="400" y="300"/>
-                                             </transformationPoint>
-                                        </DOMBitmapInstance>
+                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/smoke_background3.png"/>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/stars.jpg"/>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -190,6 +248,9 @@ gotoAndStop(2);
                                    <Actionscript>
                                         <script><![CDATA[stop();]]></script>
                                    </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -500,7 +561,8 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="285146" publishTime="1296384151"/>
+          <PublishItem publishSize="380382" publishTime="1296385926"/>
+          <PublishItem publishSize="556455" publishTime="1296384393"/>
           <PublishItem publishSize="285040" publishTime="1296383906"/>
           <PublishItem publishSize="284944" publishTime="1296383858"/>
           <PublishItem publishSize="285107" publishTime="1296382963"/>
@@ -519,6 +581,5 @@ gotoAndStop(2);
           <PublishItem publishSize="57327" publishTime="1296370140"/>
           <PublishItem publishSize="57264" publishTime="1296369978"/>
           <PublishItem publishSize="57368" publishTime="1296369892"/>
-          <PublishItem publishSize="57424" publishTime="1296369821"/>
      </publishHistory>
 </DOMDocument>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/BlueBar" itemID="4d4531af-0000030e" sourceLibraryItemHRef="Symbol 1" lastModified="1296380436" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/BlueBar" itemID="4d45424a-000002e9" sourceLibraryItemHRef="Symbol 1" lastModified="1296384606" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="BlueBar">
       <layers>
@@ -6,12 +6,12 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="jeremy_art_assets/blue_fill" name="">
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/BlueFill" name="">
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="jeremy_art_assets/blue_frame" name="">
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/BlueBorder" name="">
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1" itemID="4d452857-00000274" lastModified="1296377943">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1" itemID="4d45414a-000002c6" lastModified="1296384330">
   <timeline>
     <DOMTimeline name="Symbol 1">
       <layers>
@@ -6,28 +6,86 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <DashedStroke dash1="26" dash2="26" scaleMode="normal" weight="5">
-                        <fill>
-                          <SolidColor color="#FFFFFF"/>
-                        </fill>
-                      </DashedStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge strokeStyle="1" edges="!1425 244S4[1670 489 1670 835!1670 835[1670 1181 1425 1425!1425 1425[1181 1670 835 1670!835 1670[489 1670 244 1425!244 1425[0 1181 0 835!0 835[0 489 244 244!244 244[489 0 835 0!835 0[1181 0 1425 244"/>
-                    <Edge cubics="!835 0(;1066,0 1262,81 1425,244q835 0Q1181 0q1425 244);"/>
-                    <Edge cubics="!1425 1425(;1262,1588 1066,1670 835,1670q1425 1425Q1181 1670q835 1670);"/>
-                    <Edge cubics="!1670 835(;1670,1066 1588,1262 1425,1425q1670 835Q1670 1181q1425 1425)1425,1425;"/>
-                    <Edge cubics="!1425 244(;1588,407 1670,604 1670,835q1425 244Q1670 489q1670 835)1670,835;"/>
-                    <Edge cubics="!244 1425(;81,1262 0,1066 0,835q244 1425Q0 1181q0 835)0,835;"/>
-                    <Edge cubics="!0 835(;0,604 81,407 244,244q0 835Q0 489q244 244)244,244;"/>
-                    <Edge cubics="!244 244(;407,81 604,0 835,0q244 244Q489 0q835 0)835,0;"/>
-                    <Edge cubics="!835 1670(;604,1670 407,1588 244,1425q835 1670Q489 1670q244 1425);"/>
-                  </edges>
-                </DOMShape>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#F5C826"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!1181 120|2241 1958!2241 1958|120 1958!120 1958|1181 120"/>
+                            <Edge cubics="!120 1958(;120,1958 1181,120 1181,120q120 1958 1181 120);"/>
+                            <Edge cubics="!1181 120(;1181,120 2241,1958 2241,1958q1181 120 2241 1958);"/>
+                            <Edge cubics="!2241 1958(;2241,1958 120,1958 120,1958q2241 1958 120 1958);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FFFFFF"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="!2345 1898|1284 60!1284 60[1268 32 1240 16!1240 16[1213 0 1181 0!1181 0[1149 0 1121 16!1121 16[1093 32 1077 60!1077 60|16 1898!16 1898[0 1926 0 1958!0 1958[0 1990 16 2018!16 2018[32 2046 60 2062!60 2062[88 2078 120 2078!120 2078|2241
+ 2078!2241 2078[2273 2078 2301 2062!2301 2062[2329 2046 2345 2018!2345 2018[2361 1990 2361 1958!2361 1958[2361 1926 2345 1898!1181 120|2241 1958!2241 1958|120 1958!120 1958|1181 120"/>
+                            <Edge cubics="!1181 0(;1138,0 1098,23 1077,60q1181 0Q1149 0q1121 16Q1093 32q1077 60);"/>
+                            <Edge cubics="!1077 60(;1077,60 16,1898 16,1898q1077 60 16 1898);"/>
+                            <Edge cubics="!16 1898(;-5,1935 -5,1980 16,2018q16 1898Q0 1926q0 1958Q0 1990q16 2018);"/>
+                            <Edge cubics="!16 2018(;37,2055 77,2078 120,2078q16 2018Q32 2046q60 2062Q88 2078q120 2078);"/>
+                            <Edge cubics="!120 2078(;120,2078 2241,2078 2241,2078q120 2078 2241 2078);"/>
+                            <Edge cubics="!2241 2078(;2284,2078 2324,2055 2345,2018q2241 2078Q2273 2078q2301 2062Q2329 2046q2345 2018);"/>
+                            <Edge cubics="!2345 2018(;2366,1980 2366,1935 2345,1898q2345 2018Q2361 1990q2361 1958Q2361 1926q2345 1898);"/>
+                            <Edge cubics="!2345 1898(;2345,1898 1284,60 1284,60q2345 1898 1284 60);"/>
+                            <Edge cubics="!1284 60(;1263,23 1223,0 1181,0q1284 60Q1268 32q1240 16Q1213 0q1181 0);"/>
+                            <Edge cubics="!1181 120(;1181,120 2241,1958 2241,1958q1181 120 2241 1958);"/>
+                            <Edge cubics="!2241 1958(;2241,1958 120,1958 120,1958q2241 1958 120 1958);"/>
+                            <Edge cubics="!120 1958(;120,1958 1181,120 1181,120q120 1958 1181 120);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#F5C826"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" weight="6">
+                            <fill>
+                              <SolidColor color="#010101"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="
+!1181 109|2255 1969!2255 1969|106 1969!106 1969|1181 109"/>
+                        <Edge cubics="!106 1969(;106,1969 1181,109 1181,109p106 1969q1181 109);"/>
+                        <Edge cubics="!1181 109(;1181,109 2255,1969 2255,1969p1181 109q2255 1969);"/>
+                        <Edge cubics="!2255 1969(;2255,1969 106,1969 106,1969p2255 1969q106 1969);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMTLFText name="" selected="true" right="339" bottom="1440">
+                          <matrix>
+                            <Matrix tx="50.55" ty="31.55"/>
+                          </matrix>
+                          <tlfFonts>
+                            <TLFFont platformName="Myriad Pro Cond" psName="MyriadPro-BoldCond" bold="true"/>
+                          </tlfFonts>
+                          <markup><tlfTextObject type="Point" editPolicy="readOnly" columnCount="1" columnGap="0" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="0" paddingTop="0" paddingRight="0" paddingBottom="0" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow alignmentBaseline="useDominantBaseline" blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" direction="ltr" dominantBaseline="auto" lineBreak="explicit" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textIndent="0" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p baselineShift="0" breakOpportunity="auto" color="#010101" digitCase="default" digitWidth="default" direction="ltr" fontFamily="Myriad Pro Cond" fontSize="72" fontStyle="normal" fontWeight="bold" ligatureLevel="common" lineHeight="120%" lineThrough="false" locale="en" textAlpha="1" textDecoration="none" textRotation="auto" trackingRight="1%" typographicCase="default" xmlns="http://ns.adobe.com/textLayout/2008"><span xmlns="http://ns.adobe.com/textLayout/2008">!</span></p></TextFlow></tlfTextObject></markup>
+                        </DOMTLFText>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
               </elements>
             </DOMFrame>
           </frames>
