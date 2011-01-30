@@ -145,6 +145,7 @@
 					}
 					else
 					{		
+						/*if (Math.abs(robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						/*
 						if (Math.abs(robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						{

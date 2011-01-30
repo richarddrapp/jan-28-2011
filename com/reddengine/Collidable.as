@@ -48,17 +48,13 @@
 			super.Update(e);
 			//this.x -= 1;												
 			if (debugEnabled)
-				debug();				
-			checkCollisions();		
-			
+				debug();										
 		}
 		
 		override public function debug() : void {
 			label.appendText("\nCol posy : " + this.y);
 		}
-		
-		public function checkCollisions():void {		
-		}
+				
 			
 		override public function toString():String {
 			return(idLoc);
