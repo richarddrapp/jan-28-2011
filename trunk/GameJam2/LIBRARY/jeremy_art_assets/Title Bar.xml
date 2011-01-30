@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Title Bar" itemID="4d451ce3-00000225" lastModified="1296375011">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Title Bar" itemID="4d451389-0000022d" lastModified="1296374974">
   <timeline>
     <DOMTimeline name="Title Bar">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
                     <DOMSymbolInstance libraryItemName="jeremy_art_assets/&lt;Path&gt;_2" name="" selected="true" blendMode="layer">
                       <matrix>
@@ -39,9 +39,9 @@
                             </FillStyle>
                           </fills>
                           <edges>
-                            <Edge fillStyle0="1" edges="!7400 -990|-7400 -990!-7400 -990[-7566 -990 -7683 -873!-7683 -873[-7800 -756 -7800 -590!-7800 -590|-7800 590!-7800 590[-7800 755 -7683 873!-7683 873[-7566 990 -7400 990!-7400 990|7400 990!7400 990[7565 990 7683 873!7683 873[7800 755 7800
- 590!7800 590|7800 -590!7800 -590[7800 -756 7683 -873!7683 -873[7565 -990 7400 -990!7700 -590|7700 590!7700 590[7700 714 7612 802!7612 802[7524 890 7400 890!7400 890|-7400 890!-7400 890[-7524 890 -7612 802!-7612 802[-7700 714 -7700 590
-!-7700 590|-7700 -590!-7700 -590[-7700 -714 -7612 -802!-7612 -802[-7524 -890 -7400 -890!-7400 -890|7400 -890!7400 -890[7524 -890 7612 -802!7612 -802[7700 -714 7700 -590"/>
+                            <Edge fillStyle0="1" edges="!7700 -590|7700 590!7700 590[7700 714 7612 802!7612 802[7524 890 7400 890!7400 890|-7400 890!-7400 890[-7524 890 -7612 802!-7612 802[-7700 714 -7700 590!-7700 590|-7700 -590!-7700 -590[-7700 -714 -7612 -802!-7612 -802[-7524 -890 -7400
+ -890!-7400 -890|7400 -890!7400 -890[7524 -890 7612 -802!7612 -802[7700 -714 7700 -590!7400 -990|-7400 -990!-7400 -990[-7566 -990 -7683 -873!-7683 -873[-7800 -756 -7800 -590!-7800 -590|-7800 590!-7800 590[-7800 755 -7683 873!-7683 873
+[-7566 990 -7400 990!-7400 990|7400 990!7400 990[7565 990 7683 873!7683 873[7800 755 7800 590!7800 590|7800 -590!7800 -590[7800 -756 7683 -873!7683 -873[7565 -990 7400 -990"/>
                             <Edge cubics="!7400 -990(;7400,-990 -7400,-990 -7400,-990q7400 -990 -7400 -990);"/>
                             <Edge cubics="!-7400 -990(;-7621,-990 -7800,-811 -7800,-590q-7400 -990Q-7566 -990q-7683 -873Q-7800 -756q-7800 -590);"/>
                             <Edge cubics="!-7800 -590(;-7800,-590 -7800,590 -7800,590q-7800 -590 -7800 590);"/>
@@ -64,6 +64,15 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
+                <DOMTLFText name="" selected="true" left="-3995" right="4082" bottom="1465">
+                  <matrix>
+                    <Matrix tx="-3" ty="-31"/>
+                  </matrix>
+                  <tlfFonts>
+                    <TLFFont platformName="NeoTech" psName="NeoTech-Black" bold="true"/>
+                  </tlfFonts>
+                  <markup><tlfTextObject type="Point" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="explicit" locale="en_US" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="start" textIndent="0" textJustify="interWord" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#ffffff" fontFamily="NeoTech" fontSize="72" fontStyle="normal" fontWeight="bold" kerning="auto" lineHeight="116.25%" textAlpha="1" textRotation="auto" trackingRight="0%" xmlns="http://ns.adobe.com/textLayout/2008">GAME TITLE</span></p></TextFlow></tlfTextObject></markup>
+                </DOMTLFText>
               </elements>
             </DOMFrame>
           </frames>
