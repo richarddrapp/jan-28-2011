@@ -1,6 +1,7 @@
 ﻿ package com.reddengine{
 	
 	import com.GameJam2.Particle;
+	import com.GameJam2.Antiparticle;
 	import flash.display.MovieClip;
 	import flash.display.Stage;
 	import flash.display.BitmapData;
@@ -102,7 +103,7 @@
 				ExplosionHandler.getInstance().explode_at(this.x, this.y, 70, 12, 220, 20, 0, 0.8, 20, 220, 0, 0.1, true);
 			}
 			//call particle effect for antiparticle explosion
-			if (this is Particle) {
+			if (this is Antiparticle) {
 				ExplosionHandler.getInstance().explode_at(this.x, this.y, 70, 12, 0, 220, 220, 0.8, 0, 220, 220, 0.1, true);
 			}
 		

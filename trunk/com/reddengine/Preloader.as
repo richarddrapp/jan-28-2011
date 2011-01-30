@@ -22,8 +22,7 @@ package com.reddengine {
 		private var game:MovieClip;
 		
 		public function Preloader() {
-			setupGUI();
-			
+			setupGUI();			
 			trace("Loading...!");
 			loader = new Loader();
 			loader.contentLoaderInfo.addEventListener(ProgressEvent.PROGRESS, updateDisplay);
