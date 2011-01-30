@@ -28,7 +28,7 @@
 		public var valueText:TextField;
 		
 		
-		public function Antiparticle(x:Number, y:Number, r:Number) {				
+		public function Antiparticle(x:Number=0, y:Number=0, r:Number=0) {				
 			super(); //density = 0.7								
 			
 			this.x = x;
@@ -136,7 +136,7 @@
 					{		
 						value = total;
 						robj.value = total;
-						//convert ShotParticle into Particle/Antiparticle
+						//convert ShotParticle into Particle/Antiparticle\
 						gotoAndStop(2);
 					}											
 				}

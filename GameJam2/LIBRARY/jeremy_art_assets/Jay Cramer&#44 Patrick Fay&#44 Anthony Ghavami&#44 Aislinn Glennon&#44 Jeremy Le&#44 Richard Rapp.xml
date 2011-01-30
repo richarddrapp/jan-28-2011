@@ -1,13 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Jay Cramer, Patrick Fay, Anthony Ghavami, Aislinn Glennon, Jeremy Le, Richard Rapp" itemID="4d45126a-000001eb" lastModified="1296372330">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Jay Cramer, Patrick Fay, Anthony Ghavami, Aislinn Glennon, Jeremy Le, Richard Rapp" itemID="4d451a75-00000376" lastModified="1296374389">
   <timeline>
     <DOMTimeline name="Jay Cramer, Patrick Fay, Anthony Ghavami, Aislinn Glennon, Jeremy Le, Richard Rapp">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/Jay Cramer, Patrick Fay, Anthony Ghavami, Aislinn Glennon, Jeremy Le, Richard Rapp_0"/>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

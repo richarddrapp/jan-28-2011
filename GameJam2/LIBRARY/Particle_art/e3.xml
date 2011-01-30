@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/e3" itemID="4d450c11-00000370" sourceLibraryItemHRef="Symbol 3" lastModified="1296370705">
+  <timeline>
+    <DOMTimeline name="e3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <RadialGradient>
+                            <matrix>
+                              <Matrix a="0.0057373046875" b="0.006622314453125" c="-0.006622314453125" d="0.0057373046875" ty="0.05"/>
+                            </matrix>
+                            <GradientEntry color="#00FFF1" ratio="0"/>
+                            <GradientEntry color="#0080C8" ratio="0.623529411764706"/>
+                            <GradientEntry color="#00019F" ratio="1"/>
+                          </RadialGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!108 -93S2[185 14 94 109!94 109[-14 186 -109 95!-109 95[-186 -13 -94 -108!-94 -108[13 -185 108 -93"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
