@@ -26,8 +26,7 @@
 	
 	public class ShotParticle extends ReddObject {				
 		
-		public var valueText:TextField;
-		public var value:int;
+		public var valueText:TextField;		
 		
 		public function ShotParticle(x:Number, y:Number, r:Number) {					
 			super(); //density = 0.7													
@@ -73,6 +72,8 @@
 			Body=ReddEngine.getInstance().World.CreateBody(BodyDef);					
 			Body.CreateShape(CircleDef);						
 			
+			Body.SetUserData(this);
+			
 			Body.SetMassFromShapes();		
 		}
 		
@@ -87,21 +88,25 @@
 			if (debugEnabled)
 				debug();	
 				
-			checkCollisions();
-			
-		}		
-		
-		public function checkCollisions():void {
 			if (!this.hitTestObject(ReddEngine.camera))
 			{
 				this.Destroy();
 			}
+			
+		}		
+		
+		public function checkCollisions():void {
+			
 		}
 		
 		override public function Destroy() : void {
-			super.Destroy();
+			removeEventListener(Event.ENTER_FRAME, Update);
+			parent.removeChild(this);
+			ReddEngine.getInstance().World.DestroyBody(this.Body);
+			
 			ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.projectileObjects.splice(ReddEngine.projectileObjects.indexOf(this), 1);
+			
 		}
 		
 		override public function debug() : void {

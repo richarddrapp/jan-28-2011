@@ -26,7 +26,7 @@
 	public class Antiparticle extends ReddObject {				
 		
 		public var valueText:TextField;
-		public var value:int;
+		
 		
 		public function Antiparticle(x:Number, y:Number, r:Number) {				
 			super(); //density = 0.7								
@@ -73,6 +73,8 @@
 			Body=ReddEngine.getInstance().World.CreateBody(BodyDef);					
 			Body.CreateShape(CircleDef);						
 			
+			Body.SetUserData(this);
+			
 			Body.SetMassFromShapes();		
 		}
 		
@@ -87,18 +89,61 @@
 			if (debugEnabled)
 				debug();							
 			
-			checkCollisions();
-		}		
-		
-		public function checkCollisions() {
 			if (!this.hitTestObject(ReddEngine.camera))
 			{
 				this.Destroy();
 			}
+			
+		}		
+		
+		public function checkCollisions(robj:ReddObject) {
+			
+			if (robj is ShotParticle)
+				{
+					var newP:Particle
+					trace("shot collided with antimatter");
+					// sum the values
+					var total = value + robj.value;
+					// if 0, explode
+					if (total == 0) {
+						//this.explode();
+						robj.Destroy();
+						//ReddEngine.antiMatterObjects[i].explode();
+						trace("CALL EXPLOSIONS");
+					}
+					else
+					{		
+						value = total;
+						//convert ShotParticle into Particle/Antiparticle
+					}						
+				}
+				else if (robj is Particle)
+				{
+					trace("matter collided with antimatter");
+					// sum the values
+					var total = value + robj.value;
+					// if 0, explode
+					if (total == 0) {
+						//this.explode();
+						robj.Destroy();
+						//ReddEngine.antiMatterObjects[i].explode();
+						trace("CALL EXPLOSIONS");
+					}
+					else
+					{		
+						value = total;
+						robj.value = total;
+						//convert ShotParticle into Particle/Antiparticle
+					}											
+				}
+			
+						
 		}
 		
 		override public function Destroy() : void {
-			super.Destroy();
+			removeEventListener(Event.ENTER_FRAME, Update);
+			parent.removeChild(this);
+			ReddEngine.getInstance().World.DestroyBody(this.Body);
 			ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.antiMatterObjects.splice(ReddEngine.antiMatterObjects.indexOf(this), 1);
 		}
