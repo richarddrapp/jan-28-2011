@@ -1,4 +1,5 @@
 ﻿package com.Particles {
+	import com.GameJam2.BlackHoleParticle;
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
@@ -12,6 +13,8 @@
 		var alive:Vector.<bhParticle> = new Vector.<bhParticle>();
 		var dead:Vector.<bhParticle> = new Vector.<bhParticle>();
 		
+		var blackHoleParticle:BlackHoleParticle;
+		
 		//physics implode variables for black hole
 		public var ImplodeObject:ReddObject;
 		public var ImplodeRadius:Number;
@@ -23,6 +26,9 @@
 			
 			this.x = x;
 			this.y = y;
+			
+			blackHoleParticle = new BlackHoleParticle(x, y, radius);
+			addChild(blackHoleParticle);
 			
 			var p;
 			for (var i = 0; i < number; i++) {
