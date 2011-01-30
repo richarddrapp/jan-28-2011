@@ -99,6 +99,11 @@
 			}
 		}
 		
+		override public function Destroy() : void {
+			super.Destroy();
+			ReddEngine.projectileObjects.splice(ReddEngine.projectileObjects.indexOf(this), 1);
+		}
+		
 		override public function debug() : void {
 			label.appendText("\nCol posy : " + this.y);
 		}								

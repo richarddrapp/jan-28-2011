@@ -81,7 +81,7 @@
 			
 		}
 		
-		public function Destroy() {
+		public function Destroy() :void {
 			removeEventListener(Event.ENTER_FRAME, Update);
 			parent.removeChild(this);
 			ReddEngine.getInstance().World.DestroyBody(this.Body);
