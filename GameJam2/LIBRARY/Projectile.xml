@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Projectile" itemID="4d439424-000001fd" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam.Projectile" sourceLibraryItemHRef="Symbol 1" lastModified="1296274468">
+  <timeline>
+    <DOMTimeline name="Projectile">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!184 -191S6[260 -112 260 0!260 0[260 112 184 191!184 191[108 270 0 270!0 270[-108 270 -184 191!-184 191[-260 112 -260 0!-260 0[-260 -112 -184 -191!-184 -191[-108 -270 0 -270!0 -270[108 -270 184 -191"/>
+                    <Edge cubics="!184 -191(184,-191;235,-138 260,-75 260,0q184 -191Q260 -112q260 0);"/>
+                    <Edge cubics="!0 -270(;72,-270 133,-244 184,-191q0 -270Q108 -270q184 -191);"/>
+                    <Edge cubics="!-184 -191(-184,-191;-133,-244 -72,-270 0,-270q-184 -191Q-108 -270q0 -270);"/>
+                    <Edge cubics="!-260 0(;-260,-75 -235,-138 -184,-191q-260 0Q-260 -112q-184 -191);"/>
+                    <Edge cubics="!0 270(;-72,270 -133,244 -184,191q0 270Q-108 270q-184 191);"/>
+                    <Edge cubics="!184 191(;133,244 72,270 0,270q184 191Q108 270q0 270);"/>
+                    <Edge cubics="!-184 191(;-235,138 -260,75 -260,0q-184 191Q-260 112q-260 0);"/>
+                    <Edge cubics="!260 0(;260,75 235,138 184,191q260 0Q260 112q184 191);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

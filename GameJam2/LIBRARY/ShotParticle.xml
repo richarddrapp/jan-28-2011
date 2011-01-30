@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ShotParticle" itemID="4d43d8a0-00000229" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.ShotParticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296292000">
+  <timeline>
+    <DOMTimeline name="ShotParticle">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#990000"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!537 -552S6[760 -323 760 0!760 0[760 323 537 551!537 551[315 780 0 780!0 780[-315 780 -538 551!-538 551[-760 323 -760 0!-760 0[-760 -323 -538 -552!-538 -552[-315 -780 0 -780!0 -780[315 -780 537 -552"/>
+                    <Edge cubics="!-538 -552(-538,-552;-389,-704 -210,-780 0,-780q-538 -552Q-315 -780q0 -780);"/>
+                    <Edge cubics="!760 0(760,0;760,215 686,399 537,551q760 0Q760 323q537 551);"/>
+                    <Edge cubics="!537 -552(537,-552;686,-399 760,-215 760,0q537 -552Q760 -323q760 0);"/>
+                    <Edge cubics="!0 -780(;210,-780 389,-704 537,-552q0 -780Q315 -780q537 -552);"/>
+                    <Edge cubics="!-760 0(;-760,-215 -686,-399 -538,-552q-760 0Q-760 -323q-538 -552);"/>
+                    <Edge cubics="!-538 551(;-686,399 -760,215 -760,0q-538 551Q-760 323q-760 0);"/>
+                    <Edge cubics="!0 780(;-210,780 -389,704 -538,551q0 780Q-315 780q-538 551);"/>
+                    <Edge cubics="!537 551(;389,704 210,780 0,780q537 551Q315 780q0 780);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

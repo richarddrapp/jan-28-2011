@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="StaticWallFloor" itemID="4d425bc8-000001d6" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.reddengine.StaticWallFloor" sourceLibraryItemHRef="Symbol 1" lastModified="1296194504">
+  <timeline>
+    <DOMTimeline name="StaticWallFloor">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#006600"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-860 -400S2|860 -400!860 -400|860 400!860 400|-860 400!-860 400|-860 -400"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
