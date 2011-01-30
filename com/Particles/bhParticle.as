@@ -28,8 +28,8 @@
 			live = false;
 			this.radius = radius;
 			
-			this.scaleX = 2;
-			this.scaleY = 2;
+			this.scaleX = 3;
+			this.scaleY = 3;
 		}
 		
 		public function update() {

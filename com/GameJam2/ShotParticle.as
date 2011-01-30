@@ -27,13 +27,17 @@
 	import com.reddengine.ReddEngine;
 	import com.reddengine.CollisionDetection;
 	
+	import com.Particles.ParticleTrail;
+	
 	public class ShotParticle extends ReddObject {				
 		
 		//public var valueText:TextField;		
 		public var needConvert:Boolean = false;		
 		public var conversion:Timer;
 		
-		public function ShotParticle(x:Number, y:Number, r:Number) {					
+		public var trail:ParticleTrail;
+		
+		public function ShotParticle(x:Number, y:Number, r:Number, o:Number) {					
 			super(); //density = 0.7													
 			this.x = x;
 			this.y = y;
@@ -54,6 +58,16 @@
 			conversion.addEventListener(TimerEvent.TIMER, convert);
 			
 			ReddEngine.projectileObjects.push(this);
+			
+			if(value > 0) {
+				trail = new ParticleTrail(2, true, o);
+			} else {
+				trail = new ParticleTrail(2, false, o);
+			}
+
+			ReddEngine.getInstance().addChild(trail);
+			trail.on();
+			trail.rotation = this.rotation;
 		}
 		
 		/*public function initText() {
@@ -90,7 +104,8 @@
 					ReddEngine.reddObjects.push(newAP);
 					ReddEngine.matterObjects.push(newAP);
 				}								
-				this.Delete = true;					
+				this.Delete = true;
+				//ReddEngine.getInstance().removeChild(trail);
 		}
 		
 		override public function InitializePhysics():void
@@ -130,6 +145,11 @@
 				Destroy();
 			
 			checkCollisions();
+			trail.update();
+			trail.x = this.x
+			trail.y = this.y
+			
+			trail.rotation = this.rotation;
 		}		
 		
 		public function checkCollisions():void {
@@ -149,7 +169,8 @@
 		override public function Destroy() : void {
 			super.Destroy();			
 			//ReddEngine.getInstance().stage.removeChild(valueText);
-			ReddEngine.projectileObjects.splice(ReddEngine.projectileObjects.indexOf(this), 1);			
+			ReddEngine.projectileObjects.splice(ReddEngine.projectileObjects.indexOf(this), 1);
+			ReddEngine.getInstance().removeChild(trail);
 		}
 		
 		override public function debug() : void {

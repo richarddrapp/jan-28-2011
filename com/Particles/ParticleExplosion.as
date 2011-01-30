@@ -21,7 +21,7 @@
 			
 			var p;
 			for (var i = 0; i < number; i++) {
-				p = new gParticle(50,true,0.5,force,0,Math.PI,0.92,true, r + Math.random() * r_off, g + Math.random() * g_off, b + Math.random() * b_off, a + Math.random() * a_off);
+				p = new gParticle(50,true,0.5,force,0,Math.PI,0.88,true, r + Math.random() * r_off, g + Math.random() * g_off, b + Math.random() * b_off, a + Math.random() * a_off);
 				dead.push(p);
 			}
 			

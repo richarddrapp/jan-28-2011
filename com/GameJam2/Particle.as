@@ -2,6 +2,7 @@
 	
 	import com.Box2D.Collision.Shapes.b2CircleDef;
 	import com.Box2D.Dynamics.b2Body;
+	import com.Particles.ParticleTrail;
 	import flash.display.MovieClip;
 	import flash.display.Stage;
 	import flash.display.BitmapData;
@@ -32,8 +33,6 @@
 		//public var valueText:TextField;		
 		public var needConvert:Boolean = false;		
 		//public var conversion:Timer;
-		
-		
 		
 		public function Particle(x:Number=0, y:Number=0, r:Number=0) {							
 			super(); //density = 0.7								
@@ -117,8 +116,6 @@
 			if (this.Delete)
 				Destroy();
 						
-				
-			
 		}		
 		
 		public function checkCollisions(robj:ReddObject):void {
