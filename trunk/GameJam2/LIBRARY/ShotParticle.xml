@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMDynamicText name="num" selected="true" fontRenderingMode="standard" width="176" height="120">
+                <DOMDynamicText name="num" selected="true" fontRenderingMode="standard" width="176" height="134.1">
                   <matrix>
                     <Matrix tx="-87.5" ty="-50.55"/>
                   </matrix>

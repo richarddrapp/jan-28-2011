@@ -71,7 +71,7 @@
 		var metVY:Number;
 		var atkAngle:Number;
 		
-		var LaunchSpeed:Number = 7;
+		var LaunchSpeed:Number = 3;
 		
 		var LaunchTimer:Timer;
 		var SpawnTimer:Timer;
@@ -295,7 +295,7 @@
 					} else {
 						//super crazy powerup
 					}
-					mis.Body.ApplyImpulse(new b2Vec2(newVX, newVY), mis.Body.GetWorldCenter());					
+					mis.Body.ApplyImpulse(new b2Vec2(newVX*mis.value, newVY*mis.value), mis.Body.GetWorldCenter());					
 					ReddEngine.getInstance().addChild(mis);
 				}			
 		}
