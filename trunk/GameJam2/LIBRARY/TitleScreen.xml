@@ -1,0 +1,49 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TitleScreen" itemID="4d455a7a-000005d8" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.TitleScreen" sourceLibraryItemHRef="Symbol 1" lastModified="1296390790" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="TitleScreen">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/title_bar" name="" centerPoint3DX="-1.35" centerPoint3DY="-230.6">
+                  <matrix>
+                    <Matrix tx="-1.35" ty="-230.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/start_button" name="Start" selected="true" centerPoint3DX="-1.35" centerPoint3DY="-72.7">
+                  <matrix>
+                    <Matrix tx="-1.35" ty="-72.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMTLFText name="" left="-7459" right="7545" bottom="387">
+                  <matrix>
+                    <Matrix tx="-3.35" ty="-169.1"/>
+                  </matrix>
+                  <tlfFonts>
+                    <TLFFont platformName="NeoTech" psName="NeoTech-Bold" bold="true"/>
+                  </tlfFonts>
+                  <markup><tlfTextObject type="Point" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="explicit" locale="en" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="start" textIndent="0" textJustify="interWord"><span color="#b1011b" fontFamily="NeoTech" fontSize="16" fontStyle="normal" fontWeight="bold" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">Jay Cramer, Patrick Fay, Anthony Ghavami, Aislinn Glennon, Jeremy Le, Bryan Ploof, Richard Rapp</span></p></TextFlow></tlfTextObject></markup>
+                </DOMTLFText>
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/Mouser" name="" centerPoint3DX="331" centerPoint3DY="183.85">
+                  <matrix>
+                    <Matrix a="0.9703369140625" b="-0.241744995117188" c="0.241744995117188" d="0.9703369140625" tx="329.45" ty="183.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1.15" y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
