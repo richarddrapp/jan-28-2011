@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle" itemID="4d43c38e-00000212" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Particle" sourceLibraryItemHRef="Symbol 1" lastModified="1296371250">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle" itemID="4d45173e-000002fa" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Particle" sourceLibraryItemHRef="Symbol 1" lastModified="1296374691" lastUniqueIdentifier="13">
   <timeline>
-    <DOMTimeline name="Particle" currentFrame="1">
+    <DOMTimeline name="Particle">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -9,33 +9,45 @@
                 <script><![CDATA[stop();]]></script>
               </Actionscript>
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#990000"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
-                        <fill>
-                          <SolidColor/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!382 -396[540 -232 540 0!540 0[540 232 382 396!382 396[224 560 0 560!0 560[-224 560 -382 396!-382 396[-540 232 -540 0!-540 0[-540 -232 -382 -396!-382 -396[-224 -560 0 -560!0 -560[224 -560 382 -396"/>
-                    <Edge cubics="!382 -396(382,-396;487,-287 540,-155 540,0q382 -396Q540 -232q540 0);"/>
-                    <Edge cubics="!540 0(540,0;540,155 487,287 382,396q540 0Q540 232q382 396);"/>
-                    <Edge cubics="!-540 0(-540,0;-540,-155 -487,-287 -382,-396q-540 0Q-540 -232q-382 -396);"/>
-                    <Edge cubics="!-382 396(;-487,287 -540,155 -540,0q-382 396Q-540 232q-540 0);"/>
-                    <Edge cubics="!0 560(;-149,560 -277,505 -382,396q0 560Q-224 560q-382 396);"/>
-                    <Edge cubics="!382 396(;277,505 149,560 0,560q382 396Q224 560q0 560);"/>
-                    <Edge cubics="!0 -560(;149,-560 277,-505 382,-396q0 -560Q224 -560q382 -396);"/>
-                    <Edge cubics="!-382 -396(;-277,-505 -149,-560 0,-560q-382 -396Q-224 -560q0 -560);"/>
-                  </edges>
-                </DOMShape>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix tx="1"/>
+                  </matrix>
+                  <members>
+                    <DOMSymbolInstance libraryItemName="Particle_art/rnucleus_r" name="" selected="true" centerPoint3DX="1" centerPoint3DY="0.2">
+                      <matrix>
+                        <Matrix tx="1" ty="0.2"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Particle_art/relecton_1" name="" selected="true" centerPoint3DX="5.7">
+                      <matrix>
+                        <Matrix tx="5.7"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Particle_art/relectron_2" name="" selected="true" centerPoint3DX="1.5" centerPoint3DY="-0.8">
+                      <matrix>
+                        <Matrix tx="1.5" ty="-0.8"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Particle_art/relectron_3" name="" selected="true" centerPoint3DX="-4" centerPoint3DY="-1.3">
+                      <matrix>
+                        <Matrix tx="-4" ty="-1.3"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
               </elements>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
@@ -43,33 +55,14 @@
                 <script><![CDATA[stop();]]></script>
               </Actionscript>
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#000066"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
-                        <fill>
-                          <SolidColor/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!382 -396[540 -232 540 0!540 0[540 232 382 396!382 396[224 560 0 560!0 560[-224 560 -382 396!-382 396[-540 232 -540 0!-540 0[-540 -232 -382 -396!-382 -396[-224 -560 0 -560!0 -560[224 -560 382 -396"/>
-                    <Edge cubics="!382 -396(382,-396;487,-287 540,-155 540,0q382 -396Q540 -232q540 0);"/>
-                    <Edge cubics="!540 0(540,0;540,155 487,287 382,396q540 0Q540 232q382 396);"/>
-                    <Edge cubics="!-540 0(-540,0;-540,-155 -487,-287 -382,-396q-540 0Q-540 -232q-382 -396);"/>
-                    <Edge cubics="!-382 396(;-487,287 -540,155 -540,0q-382 396Q-540 232q-540 0);"/>
-                    <Edge cubics="!0 560(;-149,560 -277,505 -382,396q0 560Q-224 560q-382 396);"/>
-                    <Edge cubics="!382 396(;277,505 149,560 0,560q382 396Q224 560q0 560);"/>
-                    <Edge cubics="!0 -560(;149,-560 277,-505 382,-396q0 -560Q224 -560q382 -396);"/>
-                    <Edge cubics="!-382 -396(;-277,-505 -149,-560 0,-560q-382 -396Q-224 -560q0 -560);"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="Particle_art/atom" name="" centerPoint3DX="0.05" centerPoint3DY="0.45">
+                  <matrix>
+                    <Matrix tx="0.05" ty="0.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

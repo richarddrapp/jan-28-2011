@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Antiparticle" itemID="4d43c3b0-00000216" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Antiparticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296371201">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Antiparticle" itemID="4d45162a-00000228" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Antiparticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296374673" lastUniqueIdentifier="9">
   <timeline>
-    <DOMTimeline name="Antiparticle" currentFrame="1">
+    <DOMTimeline name="Antiparticle">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -9,33 +9,22 @@
                 <script><![CDATA[stop();]]></script>
               </Actionscript>
               <elements>
-                <DOMShape selected="true" isFloating="true">
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#000066"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
-                        <fill>
-                          <SolidColor/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!424 -425S6[600 -249 600 0!600 0[600 249 424 424!424 424[249 600 0 600!0 600[-249 600 -425 424!-425 424[-600 249 -600 0!-600 0[-600 -249 -425 -425!-425 -425[-249 -600 0 -600!0 -600[249 -600 424 -425"/>
-                    <Edge cubics="!0 -600(0,-600;166,-600 307,-542 424,-425q0 -600Q249 -600q424 -425);"/>
-                    <Edge cubics="!-425 -425(-425,-425;-308,-542 -166,-600 0,-600q-425 -425Q-249 -600q0 -600);"/>
-                    <Edge cubics="!424 424(424,424;307,541 166,600 0,600q424 424Q249 600q0 600);"/>
-                    <Edge cubics="!600 0(;600,166 541,307 424,424q600 0Q600 249q424 424);"/>
-                    <Edge cubics="!-425 424(;-542,307 -600,166 -600,0q-425 424Q-600 249q-600 0);"/>
-                    <Edge cubics="!0 600(;-166,600 -308,541 -425,424q0 600Q-249 600q-425 424);"/>
-                    <Edge cubics="!424 -425(;541,-308 600,-166 600,0q424 -425Q600 -249q600 0);"/>
-                    <Edge cubics="!-600 0(;-600,-166 -542,-308 -425,-425q-600 0Q-600 -249q-425 -425);"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="Particle_art/atom" name="" selected="true" centerPoint3DX="0.05">
+                  <matrix>
+                    <Matrix tx="0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Particle_art/atom" name="" selected="true" centerPoint3DX="0.05" centerPoint3DY="0.45">
+                  <matrix>
+                    <Matrix tx="0.05" ty="0.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
@@ -43,33 +32,14 @@
                 <script><![CDATA[stop();]]></script>
               </Actionscript>
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#990000"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
-                        <fill>
-                          <SolidColor/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!424 -425S6[600 -249 600 0!600 0[600 249 424 424!424 424[249 600 0 600!0 600[-249 600 -425 424!-425 424[-600 249 -600 0!-600 0[-600 -249 -425 -425!-425 -425[-249 -600 0 -600!0 -600[249 -600 424 -425"/>
-                    <Edge cubics="!0 -600(0,-600;166,-600 307,-542 424,-425q0 -600Q249 -600q424 -425);"/>
-                    <Edge cubics="!-425 -425(-425,-425;-308,-542 -166,-600 0,-600q-425 -425Q-249 -600q0 -600);"/>
-                    <Edge cubics="!424 424(424,424;307,541 166,600 0,600q424 424Q249 600q0 600);"/>
-                    <Edge cubics="!600 0(;600,166 541,307 424,424q600 0Q600 249q424 424);"/>
-                    <Edge cubics="!-425 424(;-542,307 -600,166 -600,0q-425 424Q-600 249q-600 0);"/>
-                    <Edge cubics="!0 600(;-166,600 -308,541 -425,424q0 600Q-249 600q-425 424);"/>
-                    <Edge cubics="!424 -425(;541,-308 600,-166 600,0q424 -425Q600 -249q600 0);"/>
-                    <Edge cubics="!-600 0(;-600,-166 -542,-308 -425,-425q-600 0Q-600 -249q-425 -425);"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="Particle_art/ratom" name="" centerPoint3DX="0.05" centerPoint3DY="0.45">
+                  <matrix>
+                    <Matrix tx="0.05" ty="0.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

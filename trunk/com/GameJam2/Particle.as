@@ -32,7 +32,7 @@
 		
 		
 		
-		public function Particle(x:Number, y:Number, r:Number) {				
+		public function Particle(x:Number=0, y:Number=0, r:Number=0) {							
 			super(); //density = 0.7								
 			
 			this.x = x;
@@ -45,7 +45,7 @@
 			
 			Density = 2;
 			Friction = 10;
-			isRound = true;			
+			isRound = true;					
 			InitializePhysics();
 			
 			

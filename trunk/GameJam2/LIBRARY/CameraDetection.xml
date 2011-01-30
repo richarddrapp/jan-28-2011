@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CameraDetection" itemID="4d43a4f8-0000020a" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.reddengine.CameraDetection" sourceLibraryItemHRef="Symbol 1" lastModified="1296351964">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CameraDetection" itemID="4d43a4f8-0000020a" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.reddengine.CameraDetection" sourceLibraryItemHRef="Symbol 1" lastModified="1296373368" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="CameraDetection">
       <layers>
@@ -20,6 +20,14 @@
                     <Edge cubics="!12339 7940(;12339,7940 0,7940 0,7940q12339 7940 0 7940);"/>
                   </edges>
                 </DOMShape>
+                <DOMSymbolInstance libraryItemName="Antiparticle" name="" selected="true" centerPoint3DY="0.35">
+                  <matrix>
+                    <Matrix ty="0.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

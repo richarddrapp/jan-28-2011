@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/re2" itemID="4d451b5f-000003b9" sourceLibraryItemHRef="Symbol 4" lastModified="1296374623">
+  <timeline>
+    <DOMTimeline name="re2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <RadialGradient>
+                            <matrix>
+                              <Matrix a="0.0013275146484375" b="-0.0086669921875" c="0.0086669921875" d="0.0013275146484375"/>
+                            </matrix>
+                            <GradientEntry color="#FFFF00" ratio="0"/>
+                            <GradientEntry color="#FF9900" ratio="0.623529411764706"/>
+                            <GradientEntry color="#FF0000" ratio="1"/>
+                          </RadialGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!-142 -22S2[-110 -150 22 -142!22 -142[149 -110 142 22!142 22[110 149 -22 142!-22 142[-150 110 -142 -22"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/nucleus_b" itemID="4d44fd79-00000293" sourceLibraryItemHRef="Symbol 1" lastModified="1296366969">
+  <timeline>
+    <DOMTimeline name="nucleus_b">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true">
+                              <fills>
+                                <FillStyle index="1">
+                                  <RadialGradient>
+                                    <matrix>
+                                      <Matrix a="0.067138671875" d="0.067138671875"/>
+                                    </matrix>
+                                    <GradientEntry color="#00FFF1" ratio="0"/>
+                                    <GradientEntry color="#005CA8" ratio="0.32156862745098"/>
+                                    <GradientEntry color="#00017F" ratio="0.733333333333333"/>
+                                    <GradientEntry ratio="1"/>
+                                  </RadialGradient>
+                                </FillStyle>
+                              </fills>
+                              <edges>
+                                <Edge fillStyle1="1" edges="!778 -778S2[1088 -467 1100 0!1100 0[1088 467 778 778!778 778[467 1088 0 1100!0 1100[-467 1088 -778 778!-778 778[-1088 467 -1100 0!-1100 0[-1088 -467 -778 -778!-778 -778[-467 -1088 0 -1100!0 -1100[467 -1088 778 -778"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
