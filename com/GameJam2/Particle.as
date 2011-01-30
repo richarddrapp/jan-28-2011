@@ -116,9 +116,9 @@
 		
 		public function checkCollisions(robj:ReddObject):void {
 			//camera detection				
-				if (robj == null) {
-					trace("ROBJ IS NULL!!!!");
-				}
+				/*if (robj == null) {
+					trace("ROBJ IS NULL in Particle!!!!");
+				}*/
 				var total:int;
 				if (robj is ShotParticle)
 				{		
