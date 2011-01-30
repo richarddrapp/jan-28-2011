@@ -62,6 +62,31 @@
 			if (age >= death_age) {
 				live = false;
 			}
+			
+			if (ExplosionHandler.getInstance().implosions.length > 0) {
+				var closest:ParticleBlackHole = ExplosionHandler.getInstance().implosions[0];
+				var dist = Math.sqrt(ExplosionHandler.getInstance().implosions[0].x^2 + ExplosionHandler.getInstance().implosions[0].y^2);
+				for (var i = 1; i < ExplosionHandler.getInstance().implosions.length; i++) {
+					var dx = ExplosionHandler.getInstance().implosions[i].x - this.x;
+					var dy = ExplosionHandler.getInstance().implosions[i].y - this.y;
+					var nd = Math.sqrt(dx * dx + dy * dy);
+					if (nd < dist) {
+						dist = nd;
+						closest = ExplosionHandler.getInstance().implosions[i];
+					}
+				}
+				var xchange = closest.x - this.x;
+				var ychange = closest.y - this.y;
+				var mag = Math.sqrt(xchange ^ 2 + ychange ^ 2);
+				xchange /= mag;
+				ychange /= mag;
+				xspeed += xchange/6;
+				yspeed += ychange / 6;
+				if (dist <= 50) {
+					xspeed /= 2;
+					yspeed /= 2;
+				}
+			}
 		}
 		
 		public function respawn() {
