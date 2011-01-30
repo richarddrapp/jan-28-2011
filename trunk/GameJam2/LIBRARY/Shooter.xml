@@ -1,10 +1,13 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Shooter" itemID="4d43c2f8-0000020e" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Shooter" sourceLibraryItemHRef="Symbol 1" lastModified="1296393742">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Shooter" itemID="4d43c2f8-0000020e" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Shooter" sourceLibraryItemHRef="Symbol 1" lastModified="1296411880">
   <timeline>
     <DOMTimeline name="Shooter">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
               <elements>
                 <DOMShape>
                   <fills>
@@ -35,18 +38,17 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
+                    <Edge fillStyle1="2" strokeStyle="2" edges="!42 -511|42 -490!42 -490|10.5 -490"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="!10.5 -490[#7E.C7 #FFFE18.1D 223.5 -440!223.5 -440[#125.59 #FFFE6A.93 353 -347!353 -347[500 -203 500 0!500 0[500 203 353 346!353 346[207 490 0 490!0 490[-207 490 -354 346!-354 346[-500 203 -500 0!-500 0[-500 -203 -354 -347!-354 -347[#FFFEDA.0B
  #FFFE6A.97 -224 -440!-224 -440[#FFFF7F.4D -487 -15 -490"/>
                     <Edge fillStyle1="2" strokeStyle="2" edges="
 !-15 -490|-60 -490!-60 -490|-60 -511"/>
                     <Edge fillStyle1="3" strokeStyle="2" edges="
-!-60 -511S6|-60 -720!-60 -720|42 -720!42 -720|42 -511"/>
-                    <Edge fillStyle1="2" strokeStyle="2" edges="
-!42 -511|42 -490!42 -490|10.5 -490"/>
+!-60 -511|-60 -720!-60 -720|42 -720!42 -720|42 -511"/>
+                    <Edge fillStyle0="2" fillStyle1="3" edges="
+!42 -511|-60 -511"/>
                     <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="
 !10.5 -490|-15 -490"/>
-                    <Edge fillStyle0="2" fillStyle1="3" edges="
-!42 -511S2|-60 -511"/>
                     <Edge cubics="!353 -347(;451,-251 500,-135 500,0q353 -347Q500 -203q500 0);"/>
                     <Edge cubics="!-500 0(;-500,-135 -451,-251 -354,-347q-500 0Q-500 -203q-354 -347);"/>
                     <Edge cubics="!-354 -347(;-314,-386 -271,-417 -224,-440q-354 -347Q-294 -405q-224 -440);"/>
@@ -71,6 +73,110 @@
                     <Edge cubics="!-60 -720(;-60,-720 42,-720 42,-720q-60 -720 42 -720);"/>
                   </edges>
                 </DOMShape>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.1875" d="0.1875" tx="-2.55" ty="3.75"/>
+                  </matrix>
+                  <members>
+                    <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="launcher_red.png">
+                      <matrix>
+                        <Matrix a="0.1875" d="0.1875" tx="-65.3" ty="-47.05"/>
+                      </matrix>
+                    </DOMBitmapInstance>
+                    <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="launcher_red.png">
+                      <matrix>
+                        <Matrix a="-0.1875" d="-0.1875" tx="65.9" ty="47.05"/>
+                      </matrix>
+                    </DOMBitmapInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFF33"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#FFFFFF" alpha="0.411764705882353"/>
+                    </FillStyle>
+                    <FillStyle index="3">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <DashedStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </DashedStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <DashedStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#990000"/>
+                        </fill>
+                      </DashedStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!-60 -511|-60 -720!-60 -720|42 -720!42 -720|42 -511"/>
+                    <Edge fillStyle1="3" strokeStyle="1" edges="
+!42 -511|42 -490!42 -490|10.5 -490"/>
+                    <Edge fillStyle1="2" strokeStyle="2" edges="
+!10.5 -490[#7E.C7 #FFFE18.1D 223.5 -440!223.5 -440[#125.59 #FFFE6A.93 353 -347!353 -347[500 -203 500 0!500 0[500 203 353 346!353 346[207 490 0 490!0 490[-207 490 -354 346!-354 346[-500 203 -500 0!-500 0[-500 -203 -354 -347!-354 -347[#FFFEDA.0B
+ #FFFE6A.97 -224 -440!-224 -440[#FFFF7F.4D -487 -15 -490"/>
+                    <Edge fillStyle1="3" strokeStyle="1" edges="
+!-15 -490|-60 -490!-60 -490|-60 -511"/>
+                    <Edge fillStyle0="3" fillStyle1="1" edges="
+!42 -511|-60 -511"/>
+                    <Edge fillStyle0="2" fillStyle1="3" strokeStyle="2" edges="
+!10.5 -490|-15 -490"/>
+                    <Edge cubics="!353 -347(;451,-251 500,-135 500,0q353 -347Q500 -203q500 0);"/>
+                    <Edge cubics="!-500 0(;-500,-135 -451,-251 -354,-347q-500 0Q-500 -203q-354 -347);"/>
+                    <Edge cubics="!-354 -347(;-314,-386 -271,-417 -224,-440q-354 -347Q-294 -405q-224 -440);"/>
+                    <Edge cubics="!-224 -440(;-160,-471 -91,-488 -15,-490q-224 -440Q-129 -487q-15 -490);"/>
+                    <Edge cubics="!0 490(;-138,490 -256,442 -354,346q0 490Q-207 490q-354 346);"/>
+                    <Edge cubics="!500 0(;500,135 451,251 353,346q500 0Q500 203q353 346);"/>
+                    <Edge cubics="!353 346(;256,442 138,490 0,490q353 346Q207 490q0 490);"/>
+                    <Edge cubics="!-354 346(;-451,251 -500,135 -500,0q-354 346Q-500 203q-500 0);"/>
+                    <Edge cubics="!11 -490(11,-490;91,-488 163,-471 224,-440q11 -490Q127 -488q224 -440)224,-440;"/>
+                    <Edge cubics="!224 -440(;274,-414 315,-384 353,-347q224 -440Q293 -405q353 -347);"/>
+                    <Edge cubics="!42 -511(;42,-511 42,-490 42,-490q42 -511 42 -490)42,-490;"/>
+                    <Edge cubics="!42 -490(;42,-490 11,-490 11,-490q42 -490 11 -490);"/>
+                    <Edge cubics="!-15 -490(;-15,-490 -60,-490 -60,-490q-15 -490 -60 -490);"/>
+                    <Edge cubics="!-60 -490(;-60,-490 -60,-511 -60,-511q-60 -490 -60 -511);"/>
+                    <Edge cubics="!11 -490(;11,-490 -15,-490 -15,-490q11 -490 -15 -490);"/>
+                    <Edge cubics="!-60 -720(;-60,-720 42,-720 42,-720q-60 -720 42 -720);"/>
+                    <Edge cubics="!42 -720(;42,-720 42,-511 42,-511q42 -720 42 -511);"/>
+                    <Edge cubics="!-60 -511(-60,-511;-60,-511 -60,-720 -60,-720q-60 -511 -60 -720);"/>
+                    <Edge cubics="!42 -511(;42,-511 -60,-511 -60,-511q42 -511 -60 -511)-60,-511;"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.175369262695313" d="0.175918579101563" tx="-3.8" ty="-12.4"/>
+                  </matrix>
+                  <members>
+                    <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="launcher_comp1_blue.png">
+                      <matrix>
+                        <Matrix a="0.0438385009765625" d="0.043975830078125" tx="-32" ty="-32"/>
+                      </matrix>
+                    </DOMBitmapInstance>
+                    <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="launcher_comp1_blue.png">
+                      <matrix>
+                        <Matrix a="-0.0438385009765625" d="-0.043975830078125" tx="32.05" ty="32"/>
+                      </matrix>
+                    </DOMBitmapInstance>
+                  </members>
+                </DOMGroup>
               </elements>
             </DOMFrame>
           </frames>
