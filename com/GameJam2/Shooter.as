@@ -20,6 +20,8 @@
 	import com.Box2D.Common.Math.*;
 	import com.Box2D.Dynamics.*;
 	
+	import com.reddengine.SoundEngine;
+	
 	import com.reddengine.ReddObject;
 	import com.reddengine.ReddEngine;
 	import com.senocular.utils.KeyObject;
@@ -88,7 +90,7 @@
 			Density = 0;
 			Friction = 0.3;
 			isRound = true;		
-			debugEnabled = true;
+			debugEnabled = false;
 			
 			radius = this.height / 2;
 			
@@ -281,7 +283,7 @@
 		
 		public function fire():void {
 			//trace("CLICK");
-					
+			//SoundEngine.playShoot();
 			if (canLaunch && Math.abs(orientation-rotation) < 15)
 				{					
 					canLaunch = false;
@@ -316,7 +318,7 @@
 		}
 		
 		public function spawnRandomParticle():void {
-			trace("spawn random particle");
+			//trace("spawn random particle");
 			if (ReddEngine.getInstance().currentFrame != 3)
 			{
 				trace("current frame not 3");

@@ -130,7 +130,7 @@
 				addEventListener(Event.ENTER_FRAME, main);
 				
 				
-				
+				SoundEngine.playBGM();
 				
 				
 		}

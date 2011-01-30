@@ -26,6 +26,7 @@
 	
 	import com.reddengine.ReddObject;
 	import com.reddengine.ReddEngine;
+	import com.reddengine.SoundEngine;
 	
 	public class Particle extends ReddObject {				
 		//public var valueText:TextField;		
@@ -131,6 +132,7 @@
 				
 				if (robj is ShotParticle)
 				{		
+					SoundEngine.playCollision1();
 					total = value + robj.value;
 					//trace("shot collided with matter");
 					// sum the values
@@ -192,20 +194,24 @@
 						{	
 							trace("combining");
 							if (Math.abs(value) > Math.abs(robj.value)) {
+								SoundEngine.playAbsorb();
 								value = total;								
 								width = SetWidthBasedOnValue(value);
 								height = width;		
 								robj.Delete = true;
-							}else {
+							}else {								
 								robj.value = total;
 								robj.width = SetWidthBasedOnValue(robj.value);
 								robj.height = robj.width;		
 								this.Delete = true;
 							}
+						
 							
 							
 							
 						}							
+						else
+							SoundEngine.playCollision2();
 							//convert ShotParticle into Particle/Antiparticle																				
 						/*if (value < 0)						
 						{
@@ -227,6 +233,7 @@
 						
 						if (Body.m_linearVelocity.Length() > robj.Body.m_linearVelocity.Length())
 						{
+							SoundEngine.playAbsorb();
 							value = total;
 							trace("combining");
 							width = SetWidthBasedOnValue(value);
@@ -234,13 +241,15 @@
 							robj.Delete = true;							
 						}										
 						else
-						{
+						{							
 							robj.value = total;
 							robj.width = SetWidthBasedOnValue(total);
 							robj.height = robj.width;							
 							this.Delete = true;
 						}
 					}	
+					else
+						SoundEngine.playCollision1();
 				}
 						
 		}

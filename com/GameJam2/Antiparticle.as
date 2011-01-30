@@ -24,6 +24,9 @@
 	import com.reddengine.ReddObject;
 	import com.reddengine.ReddEngine;
 	import flash.events.TimerEvent;
+	
+	import com.reddengine.SoundEngine;
+	
 	public class Antiparticle extends ReddObject {				
 		
 		//public var valueText:TextField;
@@ -141,6 +144,7 @@
 			var total:int;			
 			if (robj is ShotParticle)
 				{
+					SoundEngine.playCollision2();
 					total = value + robj.value;
 					//trace("shot collided with antimatter");
 					// sum the values					
@@ -201,6 +205,7 @@
 						//if I collide						
 						if (Math.abs(Body.m_linearVelocity.Length() + robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						{	
+							SoundEngine.playAbsorb();
 							trace("combining");
 							//if antiparticle has the bigger balls
 							if (Math.abs(value) > Math.abs(robj.value)) {
@@ -215,10 +220,10 @@
 								robj.width = SetWidthBasedOnValue(robj.value);
 								robj.height = robj.width;		
 								this.Delete = true;
-							}
-							
-							
-						}						
+							}														
+						}	
+						else
+							SoundEngine.playCollision1();
 					}											
 				}
 				else if (robj is Antiparticle)
@@ -232,19 +237,22 @@
 						//if THIS class has the bigger balls
 						if (Body.m_linearVelocity.Length() > robj.Body.m_linearVelocity.Length())
 						{
+							SoundEngine.playAbsorb();
 							value = total;
 							width = SetWidthBasedOnValue(value);
 							height = width;							
 							robj.Delete = true;
 						}										
 						else //if OTHER object has bigger balls
-						{
+						{							
 							robj.value = total;
 							robj.width = SetWidthBasedOnValue(robj.value);
 							robj.height = robj.width;							
 							this.Delete = true;
 						}
 					}	
+					else
+						SoundEngine.playCollision2();
 					
 				}			
 						
