@@ -138,13 +138,16 @@
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
+                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/starfield.jpg">
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="jeremy_art_assets/starfield.jpg">
                                              <matrix>
-                                                  <Matrix tx="-16.7" ty="6"/>
+                                                  <Matrix a="1.02000427246094" d="1.06666564941406" tx="-3.7" ty="-26"/>
                                              </matrix>
+                                             <transformationPoint>
+                                                  <Point x="400" y="300"/>
+                                             </transformationPoint>
                                         </DOMBitmapInstance>
                                    </elements>
                               </DOMFrame>
@@ -497,6 +500,7 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="285146" publishTime="1296384151"/>
           <PublishItem publishSize="285040" publishTime="1296383906"/>
           <PublishItem publishSize="284944" publishTime="1296383858"/>
           <PublishItem publishSize="285107" publishTime="1296382963"/>
@@ -516,6 +520,5 @@ gotoAndStop(2);
           <PublishItem publishSize="57264" publishTime="1296369978"/>
           <PublishItem publishSize="57368" publishTime="1296369892"/>
           <PublishItem publishSize="57424" publishTime="1296369821"/>
-          <PublishItem publishSize="93749" publishTime="1296369814" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>
