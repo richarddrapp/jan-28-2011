@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ShotParticle" itemID="4d43d8a0-00000229" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.ShotParticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296375930" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ShotParticle" itemID="4d43d8a0-00000229" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.ShotParticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296383406" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="ShotParticle">
       <layers>
@@ -6,19 +6,14 @@
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMDynamicText name="num" selected="true" fontRenderingMode="standard" width="176" height="120">
+                <DOMSymbolInstance libraryItemName="numSymbol" name="numSymbol" selected="true" centerPoint3DX="0.5" centerPoint3DY="0.5">
                   <matrix>
-                    <Matrix tx="-87.5" ty="-50.55"/>
+                    <Matrix tx="0.5" ty="0.5"/>
                   </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>00</characters>
-                      <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="9" size="120" bitmapSize="2400" face="NeoTech-Bold" fillColor="#FFFFFF"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMDynamicText>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

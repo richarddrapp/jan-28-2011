@@ -1,26 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&lt;Path&gt;_4" itemID="4d451e41-0000022a" lastModified="1296375361">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&lt;Path&gt;_4" itemID="4d453972-000005e9" lastModified="1296382322">
   <timeline>
     <DOMTimeline name="&lt;Path&gt;_4">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMShape selected="true" isDrawingObject="true">
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#B1011B"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle0="1" edges="!696 3[569 -9 427 14!427 14[142 61 66 238!66 238[-10 415 2 664!2 664[8 788 29 877!29 877|696 877!696 877|696 3"/>
-                    <Edge cubics="!696 3(;696,3 188,-46 66,238q696 3Q569 -9q427 14Q142 61q66 238);"/>
-                    <Edge cubics="!66 238(;-56,521 29,877 29,877q66 238Q-10 415q2 664Q8 788q29 877);"/>
-                    <Edge cubics="!29 877(;29,877 696,877 696,877q29 877 696 877);"/>
-                    <Edge cubics="!696 877(;696,877 696,3 696,3q696 877 696 3);"/>
-                  </edges>
-                </DOMShape>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

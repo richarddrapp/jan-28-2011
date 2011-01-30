@@ -1,53 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 3" itemID="4d4539a8-00000374" lastModified="1296382048">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 3" itemID="4d453f68-00000728" lastModified="1296383848">
   <timeline>
     <DOMTimeline name="Symbol 1 copy 3">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="85.5" ty="24.5"/>
-                  </matrix>
-                  <members>
-                    <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&lt;Path&gt;_1 copy" name="" selected="true" blendMode="layer">
-                      <transformationPoint>
-                        <Point x="85.5" y="24.5"/>
-                      </transformationPoint>
-                      <color>
-                        <Color alphaMultiplier="0.25"/>
-                      </color>
-                    </DOMSymbolInstance>
-                    <DOMShape selected="true" isDrawingObject="true">
-                      <matrix>
-                        <Matrix tx="-2.5" ty="-2.5"/>
-                      </matrix>
-                      <strokes>
-                        <StrokeStyle index="1">
-                          <SolidStroke scaleMode="normal" caps="none" weight="5">
-                            <fill>
-                              <SolidColor color="#3A76B5"/>
-                            </fill>
-                          </SolidStroke>
-                        </StrokeStyle>
-                      </strokes>
-                      <edges>
-                        <Edge strokeStyle="1" edges="!3470 630[3470 796 3353 913!3353 913[3235 1030 3070 1030!3070 1030|450 1030!450 1030[284 1030 167 913!167 913[50 796 50 630!50 630|50 450!50 450[50 284 167 167!167 167[284 50 450 50!450 50|3070 50!3070 50[3235 50 3353 167!3353 167[3470
- 284 3470 450!3470 450|3470 630"/>
-                        <Edge cubics="!3470 630(3470,630;3470,851 3290,1030 3070,1030q3470 630Q3470 796q3353 913Q3235 1030q3070 1030)3070,1030;"/>
-                        <Edge cubics="!3070 1030(3070,1030;3070,1030 450,1030 450,1030q3070 1030 450 1030);"/>
-                        <Edge cubics="!450 1030(;229,1030 50,851 50,630q450 1030Q284 1030q167 913Q50 796q50 630)50,630;"/>
-                        <Edge cubics="!50 630(;50,630 50,450 50,450q50 630 50 450);"/>
-                        <Edge cubics="!50 450(;50,229 229,50 450,50q50 450Q50 284q167 167Q284 50q450 50);"/>
-                        <Edge cubics="!450 50(450,50;450,50 3070,50 3070,50q450 50 3070 50);"/>
-                        <Edge cubics="!3070 50(3070,50;3290,50 3470,229 3470,450q3070 50Q3235 50q3353 167Q3470 284q3470 450);"/>
-                        <Edge cubics="!3470 450(;3470,450 3470,630 3470,630q3470 450 3470 630);"/>
-                      </edges>
-                    </DOMShape>
-                  </members>
-                </DOMGroup>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
