@@ -95,6 +95,7 @@
 		
 		public function Explode() :void {
 		
+			trace("in ReddObject Explode()");
 			this.Delete = true;
 			//call particle effect for particle explosion
 			if (this is Particle) {
@@ -106,6 +107,61 @@
 			}
 		
 			//this.Delete = true;
+			
+			//applyExplosiveImpulse(this.x, this.y, 250, 0, 5);
+		}
+		
+		public function applyExplosiveImpulse(xPos:int, yPos:int, radius:Number, minval:Number, maxval:Number) {
+			var radiusSquared:Number = radius * radius;
+			var distSquared:Number;
+			var xDiff:Number;
+			var yDiff:Number;
+			var particleObjects:Array = new Array();
+			var i:int;
+			for (i = 0; i < ReddEngine.matterObjects.length; i++) {
+				particleObjects.push(ReddEngine.matterObjects[i]);
+			}
+			
+			for (i = 0; i < ReddEngine.antiMatterObjects.length; i++) {
+				particleObjects.push(ReddEngine.antiMatterObjects[i]);
+			}
+			
+			for (i = 0; i < ReddEngine.projectileObjects.length; i++) {
+				particleObjects.push(ReddEngine.projectileObjects[i]);
+			}
+			//the following three loops are all the same just on different arrays.
+			//If those 3 arrays were combined into one array of Reddobjects, it could easily
+			//just do the loop once on that array (it would look better, but have the same runtime)
+			
+			//apply force to matter
+			for (var i:int = 0; i < particleObjects.length; i++) {
+				xDiff = xPos - particleObjects[i].x;
+				yDiff = yPos - particleObjects[i].y;
+				distSquared = Math.pow(xDiff, 2) + Math.pow(yDiff, 2);
+				if (distSquared < radiusSquared) {
+					//ReddEngine.matterObjects[i].Body.
+					var dist:Number = Math.sqrt(distSquared);
+					var weight:Number = (maxval - minval) * (1 - (dist / radius)) + minval;//lerp lerp lerp
+					//var vectorScale:Number = Math.sqrt((xDiff * xDiff + yDiff * yDiff));
+					
+					//a ^ 2 + b ^ 2 = distSquared
+					//(a^2)/x^2 + (b^2)/x^2 = dist/x
+					//distSquared*weight = a^2
+					//*weight
+					
+					//sqrt((a ^ 2 + b ^ 2)) = x;
+					//a ^ 2 + b ^ 2 = 1 * x ^ 2;
+					//a ^ 2 / x ^ 2  +  b ^ 2 / x ^ 2 = 1;
+					//(a / x) ^ 2 + (b / x) ^ 2 = 1;
+					var xFrac:Number = -xDiff / dist;
+					var yFrac:Number = -yDiff / dist;
+					//var xFrac:Number = xDiff / (xDiff + yDiff);
+					//var yFrac:Number = yDiff / (xDiff + yDiff);
+					
+					particleObjects[i].Body.ApplyImpulse(new b2Vec2(weight * xFrac, weight * yFrac), particleObjects[i].Body.GetWorldCenter());
+					//trace("explosive force applied with weight: " + weight + " xDiff: " + xDiff + " yDiff: " + yDiff, " xFrac: " + xFrac + " yFrac: " + yFrac);
+				}
+			}
 		}
 		
 		public function BlackHole() :void {
@@ -114,6 +170,8 @@
 			trace("A black hole is being spawned. WOOOOOOOOOOOOSH!");
 			
 			ExplosionHandler.getInstance().implode_at(this.x, this.y, 1000, 80);
+			
+			applyExplosiveImpulse(this.x, this.y, 250, 0, -5);
 			
 			this.Delete = true;
 		}

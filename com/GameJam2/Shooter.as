@@ -296,6 +296,7 @@
 					} else {
 						//super crazy powerup
 					}
+					//trace("shooting: Apply impulse x: " + newVX * mis.value + " y: " + newVY * mis.value);
 					mis.Body.ApplyImpulse(new b2Vec2(newVX*mis.value, newVY*mis.value), mis.Body.GetWorldCenter());					
 					ReddEngine.getInstance().addChild(mis);
 				}			
