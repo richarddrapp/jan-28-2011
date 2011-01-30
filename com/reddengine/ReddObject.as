@@ -97,11 +97,11 @@
 		
 			//call particle effect for particle explosion
 			if (this is Particle) {
-				ExplosionHandler.getInstance().explode_at(this.x, this.y, 35, 12, 220, 20, 0, 0.8, 20, 220, 0, 0.1, true);
+				ExplosionHandler.getInstance().explode_at(this.x, this.y, 70, 12, 220, 20, 0, 0.8, 20, 220, 0, 0.1, true);
 			}
 			//call particle effect for antiparticle explosion
 			if (this is Particle) {
-				ExplosionHandler.getInstance().explode_at(this.x, this.y, 35, 12, 0, 220, 220, 0.8, 0, 220, 220, 0.1, true);
+				ExplosionHandler.getInstance().explode_at(this.x, this.y, 70, 12, 0, 220, 220, 0.8, 0, 220, 220, 0.1, true);
 			}
 		
 		}
