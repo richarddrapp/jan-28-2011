@@ -84,7 +84,13 @@
 			
 			valueText.text = "" + value;
 			valueText.x = this.x -valueText.textWidth;
-			valueText.y = this.y -valueText.textHeight/2;
+			valueText.y = this.y -valueText.textHeight / 2;
+			
+			if (this.value <= -25) {
+				
+				this.Explode();
+				this.Delete = true;
+			}
 			
 			if (debugEnabled)
 				debug();							
