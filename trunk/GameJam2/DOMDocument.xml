@@ -16,17 +16,16 @@
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0" itemID="4d4548df-000003d7"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1" itemID="4d4548df-000003d8"/>
           <DOMFolderItem name="Particle_art" itemID="4d451bd8-000003dd"/>
-          <DOMFolderItem name="Particles" itemID="4d451cf5-00000244"/>
      </folders>
      <fonts>
           <DOMFontItem name="Font 1" itemID="4d453972-000005e5" font="NeoTech-Bold" size="0" id="1" sourceLastImported="1296382322" embedRanges="3|4"/>
      </fonts>
      <media>
-          <DOMBitmapItem name="Particles/bBitmap 1" itemID="4d45b714-0000091b" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296414484" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particles\bBitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
-          <DOMBitmapItem name="Particles/bBitmap 2" itemID="4d45b70e-0000091a" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296414478" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particles\bBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
+          <DOMBitmapItem name="Particle_art/bBitmap 1" itemID="4d45b714-0000091b" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296414484" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\bBitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
+          <DOMBitmapItem name="Particle_art/bBitmap 2" itemID="4d45b70e-0000091a" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296414478" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\bBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
+          <DOMBitmapItem name="Particle_art/bBitmap 3" itemID="4d45bbaa-000009ad" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296415658" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\bBitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
           <DOMBitmapItem name="Particle_art/Bitmap 1" itemID="4d45b6e7-00000912" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
           <DOMBitmapItem name="Particle_art/Bitmap 2" itemID="4d45b6e7-00000915" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
-          <DOMBitmapItem name="Particles/Bitmap 3" itemID="4d44f656-0000026d" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particles\Bitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
           <DOMBitmapItem name="Particle_art/Bitmap 3" itemID="4d45b6e7-0000090f" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
           <DOMBitmapItem name="launcher_comp1_blue.png" itemID="4d45ac53-00000848" sourceExternalFilepath=".\LIBRARY\launcher_comp1_blue.png" sourceLastImported="1296411347" externalFileSize="213808" originalCompressionType="lossless" quality="50" href="launcher_comp1_blue.png" bitmapDataHRef="M 10 1296411654.dat" frameRight="29160" frameBottom="14640"/>
           <DOMBitmapItem name="launcher_red.png" itemID="4d45b330-000008c9" sourceExternalFilepath=".\LIBRARY\launcher_red.png" sourceLastImported="1296413341" externalFileSize="124487" originalCompressionType="lossless" quality="50" href="launcher_red.png" bitmapDataHRef="M 11 1296411654.dat" frameRight="7000" frameBottom="3520"/>
@@ -82,12 +81,21 @@
           <Include href="numSymbol.xml" loadImmediate="false"/>
           <Include href="Particle.xml"/>
           <Include href="Particle_art/atom.xml" loadImmediate="false"/>
+          <Include href="Particle_art/be1.xml" loadImmediate="false"/>
+          <Include href="Particle_art/be2.xml" loadImmediate="false"/>
+          <Include href="Particle_art/be3.xml" loadImmediate="false"/>
+          <Include href="Particle_art/belecton_1.xml" loadImmediate="false"/>
+          <Include href="Particle_art/belectron_2.xml" loadImmediate="false"/>
+          <Include href="Particle_art/belectron_3.xml" loadImmediate="false"/>
+          <Include href="Particle_art/bhParticle.xml"/>
+          <Include href="Particle_art/bnucleus_b.xml" loadImmediate="false"/>
           <Include href="Particle_art/e1.xml" loadImmediate="false"/>
           <Include href="Particle_art/e2.xml" loadImmediate="false"/>
           <Include href="Particle_art/e3.xml" loadImmediate="false"/>
           <Include href="Particle_art/electon_1.xml" loadImmediate="false"/>
           <Include href="Particle_art/electron_2.xml" loadImmediate="false"/>
           <Include href="Particle_art/electron_3.xml" loadImmediate="false"/>
+          <Include href="Particle_art/gParticle.xml"/>
           <Include href="Particle_art/nucleus_b.xml" loadImmediate="false"/>
           <Include href="Particle_art/ratom.xml" loadImmediate="false"/>
           <Include href="Particle_art/re1.xml" loadImmediate="false"/>
@@ -97,15 +105,6 @@
           <Include href="Particle_art/relectron_2.xml" loadImmediate="false"/>
           <Include href="Particle_art/relectron_3.xml" loadImmediate="false"/>
           <Include href="Particle_art/rnucleus_r.xml" loadImmediate="false"/>
-          <Include href="Particles/be1.xml" loadImmediate="false"/>
-          <Include href="Particles/be2.xml" loadImmediate="false"/>
-          <Include href="Particles/be3.xml" loadImmediate="false"/>
-          <Include href="Particles/belecton_1.xml" loadImmediate="false"/>
-          <Include href="Particles/belectron_2.xml" loadImmediate="false"/>
-          <Include href="Particles/belectron_3.xml" loadImmediate="false"/>
-          <Include href="Particles/bhParticle.xml"/>
-          <Include href="Particles/bnucleus_b.xml" loadImmediate="false"/>
-          <Include href="Particles/gParticle.xml"/>
           <Include href="PhysicsLimb.xml"/>
           <Include href="Platformer.xml"/>
           <Include href="Projectile.xml"/>
@@ -117,7 +116,7 @@
           <Include href="WorldDefender.xml"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="2">
+          <DOMTimeline name="Scene 1" currentFrame="1">
                <layers>
                     <DOMLayer name="flash0.ai" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
@@ -126,7 +125,7 @@
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="TitleScreen" name="" centerPoint3DX="401.35" centerPoint3DY="306.1">
+                                        <DOMSymbolInstance libraryItemName="TitleScreen" name="" selected="true" centerPoint3DX="401.35" centerPoint3DY="306.1">
                                              <matrix>
                                                   <Matrix tx="401.35" ty="306.1"/>
                                              </matrix>
@@ -570,6 +569,8 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="395567" publishTime="1296415276"/>
+          <PublishItem publishSize="395621" publishTime="1296415093"/>
           <PublishItem publishSize="395581" publishTime="1296413958"/>
           <PublishItem publishSize="395560" publishTime="1296413812"/>
           <PublishItem publishSize="395579" publishTime="1296413596"/>
@@ -588,7 +589,5 @@ gotoAndStop(2);
           <PublishItem publishSize="331080" publishTime="1296407862"/>
           <PublishItem publishSize="331094" publishTime="1296407534"/>
           <PublishItem publishSize="331122" publishTime="1296407466"/>
-          <PublishItem publishSize="330957" publishTime="1296407368"/>
-          <PublishItem publishSize="329850" publishTime="1296393670"/>
      </publishHistory>
 </DOMDocument>
