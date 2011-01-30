@@ -55,7 +55,7 @@
 			age++;
 			x += xspeed;
 			y += yspeed;
-			
+			//trace(x + "," + y);
 			xspeed *= drag;
 			yspeed *= drag;
 			
@@ -88,14 +88,23 @@
 				var xchange = go_x - (this.x+parent.x);
 				var ychange = go_y - (this.y+parent.y);
 				var mag = Math.sqrt(xchange ^ 2 + ychange ^ 2);
-				xchange /= mag;
-				ychange /= mag;
+				if(mag != 0) {
+					xchange /= mag;
+					ychange /= mag;
+				} else {
+					xchange = 0;
+					ychange = 0;
+				}
 				xspeed += xchange/6;
 				yspeed += ychange / 6;
 				if (dist <= 50) {
 					xspeed /= 2;
 					yspeed /= 2;
 				}
+				//var speed = Math.sqrt(xspeed ^ 2 + yspeed ^ 2);
+				//var angle = Math.acos(xspeed / speed);
+				//this.rotation = angle / Math.PI * 180;
+				//trace(angle);
 			}
 		}
 		

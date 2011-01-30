@@ -294,7 +294,7 @@
 					newVX = (LaunchSpeed * Math.sin(orientation * Math.PI / 180));
 					newVY = (LaunchSpeed * -Math.cos(orientation * Math.PI / 180));
 					
-					var mis:ShotParticle = new ShotParticle(newX, newY, 10);
+					var mis:ShotParticle = new ShotParticle(newX, newY, 10, orientation);
 					var strength:int;
 					//update the strength number
 					if (((mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH) + 1) >= MAX_FIRING_STRENGTH) {//at max strength
