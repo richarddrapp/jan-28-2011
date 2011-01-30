@@ -29,8 +29,8 @@
 		
 		public function BlackHoleParticle(x:Number=0, y:Number=0, r:Number=0) 
 		{
-			this.x = x;
-			this.y = y;			
+			this.x = 0;
+			this.y = 0;			
 			
 			value = Math.random() * 3 + 6;// 6 to 9
 			if (Math.random() > .5) {//flip a coin for negative
@@ -75,7 +75,7 @@
 			super.Update(e);
 			
 			numSymbol.numText.text = "" + value;
-			numSymbol.rotation = -rotation;
+			numSymbol.rotation = -parent.rotation;
 			
 			if (debugEnabled)
 				debug();							
@@ -86,9 +86,10 @@
 		}
 		
 		public function checkCollisions(robj:ReddObject) {
+			trace("BLACKHOLE COLLISHUN!");
 			if (robj is Particle)
 			{
-				if (value = -1 * robj.value) {
+				if (value == -robj.value) {
 					//if it matches our magic value
 					//REMOVE BLACK HOLE AND ROBJ, YAY!!!!
 					//explosion for effect?
@@ -99,7 +100,7 @@
 			}
 			else if (robj is Antiparticle)
 			{
-				if (value = -1 * robj.value) {
+				if (value == -robj.value) {
 					//if it matches our magic value
 					//REMOVE BLACK HOLE AND ROBJ, YAY!!!!
 					//explosion for effect?
