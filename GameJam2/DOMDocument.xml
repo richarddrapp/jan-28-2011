@@ -17,16 +17,48 @@
      <timelines>
           <DOMTimeline name="Scene 1" currentFrame="1">
                <layers>
-                    <DOMLayer name="Active" color="#FF4FFF" autoNamed="false">
+                    <DOMLayer name="Active" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Shooter" name="" centerPoint3DX="382.2" centerPoint3DY="599.95">
+                                        <DOMSymbolInstance libraryItemName="Shooter" name="" selected="true" centerPoint3DX="382.2" centerPoint3DY="599.95">
                                              <matrix>
                                                   <Matrix a="3.125" d="3.125" tx="382.2" ty="599.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" selected="true" centerPoint3DX="807.7" centerPoint3DY="333.85">
+                                             <matrix>
+                                                  <Matrix a="0.116302490234375" d="18.1254577636719" tx="807.7" ty="333.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" selected="true" centerPoint3DX="-8" centerPoint3DY="333.85">
+                                             <matrix>
+                                                  <Matrix a="0.116302490234375" d="17.9218444824219" tx="-8" ty="333.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" selected="true" centerPoint3DX="402.25" centerPoint3DY="690.15">
+                                             <matrix>
+                                                  <Matrix a="9.78837585449219" d="0.300018310546875" tx="402.25" ty="690.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" selected="true" centerPoint3DX="402.25" centerPoint3DY="-13.65">
+                                             <matrix>
+                                                  <Matrix a="9.78837585449219" d="0.300018310546875" tx="402.25" ty="-13.65"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
@@ -36,30 +68,10 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BG" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="BG" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
-                                   <elements>
-                                        <DOMShape>
-                                             <fills>
-                                                  <FillStyle index="1">
-                                                       <SolidColor color="#000033"/>
-                                                  </FillStyle>
-                                             </fills>
-                                             <strokes>
-                                                  <StrokeStyle index="1">
-                                                       <SolidStroke scaleMode="normal">
-                                                            <fill>
-                                                                 <SolidColor color="#182129"/>
-                                                            </fill>
-                                                       </SolidStroke>
-                                                  </StrokeStyle>
-                                             </strokes>
-                                             <edges>
-                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!12339 0|12339 8140!12339 8140|0 8140!0 8140|0 0!0 0|12339 0"/>
-                                             </edges>
-                                        </DOMShape>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
                                    <elements>
@@ -69,18 +81,8 @@
                                                        <SolidColor color="#000033"/>
                                                   </FillStyle>
                                              </fills>
-                                             <strokes>
-                                                  <StrokeStyle index="1">
-                                                       <SolidStroke scaleMode="normal">
-                                                            <fill>
-                                                                 <SolidColor color="#182129"/>
-                                                            </fill>
-                                                       </SolidStroke>
-                                                  </StrokeStyle>
-                                             </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!1700 3839|1700 3799!1700 3799|14039 3799!14039 3799|14039 3839"/>
-                                                  <Edge fillStyle1="1" edges="!14039 3839|14039 11979!14039 11979|1700 11979!1700 11979|1700 3839!1700 3839|14039 3839"/>
+                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -434,25 +436,25 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="55975" publishTime="1296351949"/>
-          <PublishItem publishSize="55999" publishTime="1296351898"/>
-          <PublishItem publishSize="55972" publishTime="1296351871"/>
-          <PublishItem publishSize="55948" publishTime="1296351859"/>
-          <PublishItem publishSize="56040" publishTime="1296351840"/>
-          <PublishItem publishSize="55981" publishTime="1296351806"/>
-          <PublishItem publishSize="55911" publishTime="1296351767"/>
-          <PublishItem publishSize="55765" publishTime="1296349562"/>
-          <PublishItem publishSize="55740" publishTime="1296349487"/>
-          <PublishItem publishSize="55792" publishTime="1296349384"/>
-          <PublishItem publishSize="55102" publishTime="1296339016"/>
-          <PublishItem publishSize="55165" publishTime="1296338610"/>
-          <PublishItem publishSize="55049" publishTime="1296338415"/>
-          <PublishItem publishSize="55196" publishTime="1296338126"/>
-          <PublishItem publishSize="55181" publishTime="1296338058"/>
-          <PublishItem publishSize="55138" publishTime="1296337923"/>
-          <PublishItem publishSize="55100" publishTime="1296337846"/>
-          <PublishItem publishSize="54876" publishTime="1296337695"/>
-          <PublishItem publishSize="55080" publishTime="1296337473"/>
-          <PublishItem publishSize="1394" publishTime="1296337455"/>
+          <PublishItem publishSize="56370" publishTime="1296364057"/>
+          <PublishItem publishSize="92570" publishTime="1296364051" publishDebug="true"/>
+          <PublishItem publishSize="56486" publishTime="1296363987"/>
+          <PublishItem publishSize="56455" publishTime="1296363892"/>
+          <PublishItem publishSize="56393" publishTime="1296363862"/>
+          <PublishItem publishSize="56266" publishTime="1296363680"/>
+          <PublishItem publishSize="56156" publishTime="1296363576"/>
+          <PublishItem publishSize="56275" publishTime="1296363285"/>
+          <PublishItem publishSize="56179" publishTime="1296363173"/>
+          <PublishItem publishSize="56330" publishTime="1296363128"/>
+          <PublishItem publishSize="56316" publishTime="1296363036"/>
+          <PublishItem publishSize="56237" publishTime="1296362977"/>
+          <PublishItem publishSize="56267" publishTime="1296362815"/>
+          <PublishItem publishSize="92159" publishTime="1296362810" publishDebug="true"/>
+          <PublishItem publishSize="56159" publishTime="1296362742"/>
+          <PublishItem publishSize="56313" publishTime="1296362679"/>
+          <PublishItem publishSize="56265" publishTime="1296362656"/>
+          <PublishItem publishSize="56157" publishTime="1296362592"/>
+          <PublishItem publishSize="56206" publishTime="1296362571"/>
+          <PublishItem publishSize="56327" publishTime="1296362545"/>
      </publishHistory>
 </DOMDocument>

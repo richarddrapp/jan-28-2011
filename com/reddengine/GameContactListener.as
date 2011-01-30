@@ -21,8 +21,7 @@ package  com.reddengine
                					
 				/*trace("Ob1: " + obj1.toString());
 				trace("Ob1: " + obj2.toString());*/
-				
-				
+								
 				
 				if (obj1 is Particle)
 					(obj1 as Particle).checkCollisions(obj2);
@@ -32,8 +31,7 @@ package  com.reddengine
 					(obj2 as Particle).checkCollisions(obj1);
 				else if (obj2 is Antiparticle)
 					(obj2 as Antiparticle).checkCollisions(obj1);
-				
-				
+								
 				
         }
 }

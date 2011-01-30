@@ -24,6 +24,7 @@
 		public var stageRef:Stage;		
 		public var engineRef:ReddEngine;								
 		public var debugEnabled:Boolean;
+		public var Delete:Boolean = false;
 		
 		public var grounded:Boolean;		
 		public var Velocity:b2Vec2;				
@@ -83,9 +84,12 @@
 		}
 		
 		public function Destroy() :void {
+			trace("FUCK");
+			
+			ReddEngine.getInstance().World.DestroyBody(this.Body);			
 			removeEventListener(Event.ENTER_FRAME, Update);
-			parent.removeChild(this);
-			ReddEngine.getInstance().World.DestroyBody(this.Body);
+			parent.removeChild(this);			
+			
 		}
 		
 		public function debug() : void {

@@ -88,11 +88,10 @@
 			
 			if (debugEnabled)
 				debug();							
+						
 			
-			if (!this.hitTestObject(ReddEngine.camera))
-			{
-				this.Destroy();
-			}
+			if (this.Delete)
+				Destroy();
 			
 		}		
 		
@@ -136,14 +135,30 @@
 						//convert ShotParticle into Particle/Antiparticle
 					}											
 				}
+				else if (robj is Antiparticle)
+				{
+					trace("combining");
+					var tempP:Antiparticle;
+					if (value > robj.value)
+					{						
+						width += 10;
+						height = width;							
+						robj.Delete = true;
+					}
+					else	
+					{
+						robj.width += 10;
+						robj.height = robj.width;						
+						this.Delete = true;
+					}	
+					
+				}
 			
 						
 		}
 		
 		override public function Destroy() : void {
-			removeEventListener(Event.ENTER_FRAME, Update);
-			parent.removeChild(this);
-			ReddEngine.getInstance().World.DestroyBody(this.Body);
+			super.Destroy();
 			ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.antiMatterObjects.splice(ReddEngine.antiMatterObjects.indexOf(this), 1);
 		}
