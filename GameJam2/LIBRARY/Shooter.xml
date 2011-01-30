@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Shooter" itemID="4d43c2f8-0000020e" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Shooter" sourceLibraryItemHRef="Symbol 1" lastModified="1296413557">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Shooter" itemID="4d43c2f8-0000020e" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Shooter" sourceLibraryItemHRef="Symbol 1" lastModified="1296418506">
   <timeline>
-    <DOMTimeline name="Shooter" currentFrame="1">
+    <DOMTimeline name="Shooter">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -25,7 +25,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!51 201|-37 201!-37 201|-22 -804!-22 -804|26 -804!26 -804|51 201"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!26 -804|51 201!51 201|-37 201!-37 201|-22 -804!-22 -804|26 -804"/>
                     <Edge cubics="!26 -804(;26,-804 51,201 51,201q26 -804 51 201);"/>
                     <Edge cubics="!-37 201(;-37,201 -22,-804 -22,-804q-37 201 -22 -804);"/>
                     <Edge cubics="!-22 -804(;-22,-804 26,-804 26,-804q-22 -804 26 -804);"/>
@@ -65,9 +65,8 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" edges="!-22.5 -775|-22 -804!-22 -804|26 -804!26 -804|51 201!51 201|48.5 201"/>
                     <Edge strokeStyle="1" edges="!48.5 201|49 230!49 230|-39 230!-39 230|-24 -775!-24 -775|-22.5 -775"/>
-                    <Edge fillStyle1="1" edges="!48.5 201|-37 201!-37 201|-22.5 -775"/>
+                    <Edge fillStyle1="1" edges="!-22.5 -775|-22 -804!-22 -804|26 -804!26 -804|51 201!51 201|48.5 201!48.5 201|-37 201!-37 201|-22.5 -775"/>
                     <Edge cubics="!24 -775(;24,-775 49,201 49,201q24 -775 49 201);"/>
                     <Edge cubics="!49 201(;49,201 49,230 49,230q49 201 49 230);"/>
                     <Edge cubics="!-39 230(;-39,230 -24,-775 -24,-775q-39 230 -24 -775);"/>
@@ -90,7 +89,7 @@
                     <Point x="730.35" y="729.7"/>
                   </transformationPoint>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="launcher_comp1_blue.png">
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="launcher_comp1_blue.png">
                   <matrix>
                     <Matrix a="-0.04388427734375" d="-0.0437164306640625" tx="31.85" ty="31.55"/>
                   </matrix>

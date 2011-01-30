@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/e1" itemID="4d450c17-00000371" sourceLibraryItemHRef="Symbol 2" lastModified="1296370711">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="re1" itemID="4d45c3b1-00000289" sourceLibraryItemHRef="Symbol 2" lastModified="1296417713">
   <timeline>
-    <DOMTimeline name="e1">
+    <DOMTimeline name="re1">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -15,9 +15,9 @@
                             <matrix>
                               <Matrix a="0.0083770751953125" b="-0.0025787353515625" c="0.0025787353515625" d="0.0083770751953125" tx="0.05"/>
                             </matrix>
-                            <GradientEntry color="#00FFF1" ratio="0"/>
-                            <GradientEntry color="#0080C8" ratio="0.623529411764706"/>
-                            <GradientEntry color="#00019F" ratio="1"/>
+                            <GradientEntry color="#FFFF00" ratio="0"/>
+                            <GradientEntry color="#FF9900" ratio="0.623529411764706"/>
+                            <GradientEntry color="#FF0000" ratio="1"/>
                           </RadialGradient>
                         </FillStyle>
                       </fills>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/e2" itemID="4d450c1b-00000372" sourceLibraryItemHRef="Symbol 4" lastModified="1296411077">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/e2" itemID="4d450c1b-00000372" sourceLibraryItemHRef="Symbol 4" lastModified="1296370715">
   <timeline>
     <DOMTimeline name="e2">
       <layers>
@@ -6,22 +6,23 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <fills>
                         <FillStyle index="1">
                           <RadialGradient>
                             <matrix>
-                              <Matrix a="0.00946044921875" d="0.00946044921875"/>
+                              <Matrix a="0.0013275146484375" b="-0.0086669921875" c="0.0086669921875" d="0.0013275146484375"/>
                             </matrix>
-                            <GradientEntry color="#FFFFFF" ratio="0"/>
-                            <GradientEntry ratio="1"/>
+                            <GradientEntry color="#00FFF1" ratio="0"/>
+                            <GradientEntry color="#0080C8" ratio="0.623529411764706"/>
+                            <GradientEntry color="#00019F" ratio="1"/>
                           </RadialGradient>
                         </FillStyle>
                       </fills>
                       <edges>
-                        <Edge fillStyle1="1" edges="!142 22[110 149 -22 142!-22 142[-150 110 -142 -22!-142 -22[-110 -150 22 -142!22 -142[149 -110 142 22"/>
+                        <Edge fillStyle1="1" edges="!-142 -22S2[-110 -150 22 -142!22 -142[149 -110 142 22!142 22[110 149 -22 142!-22 142[-150 110 -142 -22"/>
                       </edges>
                     </DOMShape>
                   </members>

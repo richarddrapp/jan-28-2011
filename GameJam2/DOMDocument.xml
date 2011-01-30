@@ -24,11 +24,11 @@
           <DOMBitmapItem name="Particle_art/bBitmap 1" itemID="4d45b714-0000091b" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296414484" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\bBitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
           <DOMBitmapItem name="Particle_art/bBitmap 2" itemID="4d45b70e-0000091a" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296414478" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\bBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
           <DOMBitmapItem name="Particle_art/bBitmap 3" itemID="4d45bbaa-000009ad" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296415658" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\bBitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
-          <DOMBitmapItem name="Particle_art/Bitmap 1" itemID="4d45b6e7-00000912" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
-          <DOMBitmapItem name="Particle_art/Bitmap 2" itemID="4d45b6e7-00000915" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
-          <DOMBitmapItem name="Particle_art/Bitmap 3" itemID="4d45b6e7-0000090f" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
+          <DOMBitmapItem name="Particle_art/Bitmap 1" itemID="4d44f656-00000269" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
+          <DOMBitmapItem name="Particle_art/Bitmap 2" itemID="4d44f656-0000026b" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
+          <DOMBitmapItem name="Particle_art/Bitmap 3" itemID="4d44f656-0000026d" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
           <DOMBitmapItem name="launcher_comp1_blue.png" itemID="4d45ac53-00000848" sourceExternalFilepath=".\LIBRARY\launcher_comp1_blue.png" sourceLastImported="1296411347" externalFileSize="213808" originalCompressionType="lossless" quality="50" href="launcher_comp1_blue.png" bitmapDataHRef="M 10 1296411654.dat" frameRight="29160" frameBottom="14640"/>
-          <DOMBitmapItem name="launcher_red.png" itemID="4d45b330-000008c9" sourceExternalFilepath=".\LIBRARY\launcher_red.png" sourceLastImported="1296413341" externalFileSize="124487" originalCompressionType="lossless" quality="50" href="launcher_red.png" bitmapDataHRef="M 11 1296411654.dat" frameRight="7000" frameBottom="3520"/>
+          <DOMBitmapItem name="launcher_red.png" itemID="4d45c6cc-0000036d" sourceExternalFilepath=".\LIBRARY\launcher_red.png" sourceLastImported="1296413340" externalFileSize="124487" originalCompressionType="lossless" quality="50" href="launcher_red.png" bitmapDataHRef="M 11 1296411654.dat" frameRight="7000" frameBottom="3520"/>
           <DOMBitmapItem name="Particle_art/rBitmap 1" itemID="4d451b49-000003b4" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296374601" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
           <DOMBitmapItem name="Particle_art/rBitmap 2" itemID="4d451b4f-000003b5" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296374607" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
           <DOMBitmapItem name="Particle_art/rBitmap 3" itemID="4d451b53-000003b6" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296374611" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
@@ -125,7 +125,7 @@
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="TitleScreen" name="" selected="true" centerPoint3DX="401.35" centerPoint3DY="306.1">
+                                        <DOMSymbolInstance libraryItemName="TitleScreen" name="" centerPoint3DX="401.35" centerPoint3DY="306.1">
                                              <matrix>
                                                   <Matrix tx="401.35" ty="306.1"/>
                                              </matrix>
@@ -133,7 +133,7 @@
                                                   <Point x="1.55" y="1.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Shooter" name="" selected="true" centerPoint3DX="397.85" centerPoint3DY="598.8">
+                                        <DOMSymbolInstance libraryItemName="Shooter" name="" centerPoint3DX="397.85" centerPoint3DY="598.8">
                                              <matrix>
                                                   <Matrix a="3.125" d="3.125" tx="397.85" ty="598.8"/>
                                              </matrix>
@@ -208,7 +208,7 @@
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
+                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/smoke_background3.png"/>
@@ -569,6 +569,7 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="398471" publishTime="1296418451"/>
           <PublishItem publishSize="396756" publishTime="1296416189"/>
           <PublishItem publishSize="396768" publishTime="1296416094"/>
           <PublishItem publishSize="396780" publishTime="1296416004"/>
@@ -588,6 +589,5 @@ gotoAndStop(2);
           <PublishItem publishSize="331278" publishTime="1296409089"/>
           <PublishItem publishSize="331230" publishTime="1296408677"/>
           <PublishItem publishSize="270891" publishTime="1296408639"/>
-          <PublishItem publishSize="331133" publishTime="1296407982"/>
      </publishHistory>
 </DOMDocument>

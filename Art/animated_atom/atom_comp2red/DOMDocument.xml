@@ -1,18 +1,18 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#000000" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <media>
-          <DOMBitmapItem name="Bitmap 1" itemID="4d44f656-00000269" sourceExternalFilepath="../../../../Documents/GGJ/Flash/animations/atom_comp2/LIBRARY/Bitmap 1" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Bitmap 1./Documents/GGJ/Flash/animations/atom_comp2/LIBRARY/Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
-          <DOMBitmapItem name="Bitmap 2" itemID="4d44f656-0000026b" sourceExternalFilepath="../../../../Documents/GGJ/Flash/animations/atom_comp2/LIBRARY/Bitmap 2" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Bitmap 2./Documents/GGJ/Flash/animations/atom_comp2/LIBRARY/Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
-          <DOMBitmapItem name="Bitmap 3" itemID="4d44f656-0000026d" sourceExternalFilepath="../../../../Documents/GGJ/Flash/animations/atom_comp2/LIBRARY/Bitmap 3" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Bitmap 3./Documents/GGJ/Flash/animations/atom_comp2/LIBRARY/Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
+          <DOMBitmapItem name="rBitmap 1" itemID="4d45c3a5-00000285" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296417701" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="rBitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
+          <DOMBitmapItem name="rBitmap 2" itemID="4d45c3a7-00000286" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296417703" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="rBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
+          <DOMBitmapItem name="rBitmap 3" itemID="4d45c3aa-00000287" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296417706" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="rBitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
      </media>
      <symbols>
-          <Include href="atom.xml" loadImmediate="false"/>
-          <Include href="e1.xml" loadImmediate="false"/>
-          <Include href="e2.xml" loadImmediate="false"/>
-          <Include href="e3.xml" loadImmediate="false"/>
-          <Include href="electon_1.xml" loadImmediate="false"/>
-          <Include href="electron_2.xml" loadImmediate="false"/>
-          <Include href="electron_3.xml" loadImmediate="false"/>
-          <Include href="nucleus_r.xml" loadImmediate="false"/>
+          <Include href="ratom.xml" loadImmediate="false"/>
+          <Include href="re1.xml" loadImmediate="false"/>
+          <Include href="re2.xml" loadImmediate="false"/>
+          <Include href="re3.xml" loadImmediate="false"/>
+          <Include href="relecton_1.xml" loadImmediate="false"/>
+          <Include href="relectron_2.xml" loadImmediate="false"/>
+          <Include href="relectron_3.xml" loadImmediate="false"/>
+          <Include href="rnucleus_r.xml" loadImmediate="false"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -21,7 +21,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="atom" name="" selected="true" centerPoint3DX="279" centerPoint3DY="183.8">
+                                        <DOMSymbolInstance libraryItemName="ratom" name="" centerPoint3DX="279" centerPoint3DY="183.8">
                                              <matrix>
                                                   <Matrix tx="279" ty="183.8"/>
                                              </matrix>
@@ -344,6 +344,6 @@
                </swatches>
           </swatchList>
      </extendedSwatchLists>
-     <PrinterSettings platform="macintosh"/>
+     <PrinterSettings/>
      <publishHistory/>
 </DOMDocument>
