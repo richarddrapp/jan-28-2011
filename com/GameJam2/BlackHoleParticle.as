@@ -104,9 +104,16 @@
 					SoundEngine.stopBHHum();
 					SoundEngine.playExplosion();
 					//explosion for effect?
+				} else if (Math.abs(robj.value) < Math.abs(value)) {//if object is closer to 0 than black hole
+					if(value > 0){//if it's opposite side of 0 as me
+						robj.Delete = true;//eat it
+					} else {
+						value += robj.value;
+						robj.Delete = true;//decrement and eat it
+					}
 				} else {
-					//CONSOME THAT MOTHER FUCKER
-					robj.Delete = true;
+					//IGNORE THAT MOTHER FUCKER, TOO BIG TO EAT
+					//robj.Delete = true;
 				}									
 			}
 			else if (robj is Antiparticle)
@@ -117,15 +124,19 @@
 					particleBlackHole.off();
 					robj.Delete = true;
 					this.Explode();
-					//explosion for effect?
-					robj.Delete = true;
-					this.Explode();
 					SoundEngine.stopBHHum();
 					SoundEngine.playExplosion();
-
+					//explosion for effect?
+				} else if (Math.abs(robj.value) < Math.abs(value)) {//if object is closer to 0 than black hole
+					if(value < 0){//if it's on the same side of 0 as me
+						robj.Delete = true;//eat it
+					} else {
+						value += robj.value;
+						robj.Delete = true;//decrement and eat it
+					}
 				} else {
-					//CONSOME THAT MOTHER FUCKER
-					robj.Delete = true;
+					//IGNORE THAT MOTHER FUCKER, TOO BIG TO EAT
+					//robj.Delete = true;
 				}	
 			} else if (robj != null){
 				//CONSUME THAT MOTHER FUCKER
