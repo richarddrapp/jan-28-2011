@@ -1,186 +1,29 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" viewAngle3D="74.2651684569297" nextSceneIdentifier="2" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
-     <folders>
-          <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols" itemID="4d453972-000005e6"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets" itemID="4d45406e-000002a0" isExpanded="true"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets copy" itemID="4d4542dc-000002fa"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets copy/Layer 1" itemID="4d4541f7-000002cb"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets/Layer 1" itemID="4d45406e-000002a1" isExpanded="true"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0" itemID="4d4540ca-000002af"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0 copy" itemID="4d4542dc-000002fb"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0 copy/Layer 1" itemID="4d454236-000002e1"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1" itemID="4d4540ca-000002b0"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_1" itemID="4d454240-000002e4" isExpanded="true"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_1/Layer 1" itemID="4d454240-000002e5" isExpanded="true"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols" itemID="4d4548df-000003d6"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0" itemID="4d4548df-000003d7"/>
-          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1" itemID="4d4548df-000003d8"/>
-          <DOMFolderItem name="Particle_art" itemID="4d451bd8-000003dd"/>
-          <DOMFolderItem name="Particles" itemID="4d451cf5-00000244"/>
-     </folders>
-     <fonts>
-          <DOMFontItem name="Font 1" itemID="4d453972-000005e5" font="NeoTech-Bold" size="0" id="1" sourceLastImported="1296382322" embedRanges="3|4"/>
-     </fonts>
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <media>
-          <DOMBitmapItem name="Particles/bBitmap 1" itemID="4d45b714-0000091b" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296414484" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particles\bBitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
-          <DOMBitmapItem name="Particles/bBitmap 2" itemID="4d45b70e-0000091a" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296414478" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particles\bBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
-          <DOMBitmapItem name="Particle_art/Bitmap 1" itemID="4d45b6e7-00000912" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
-          <DOMBitmapItem name="Particle_art/Bitmap 2" itemID="4d45b6e7-00000915" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
-          <DOMBitmapItem name="Particles/Bitmap 3" itemID="4d44f656-0000026d" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particles\Bitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
-          <DOMBitmapItem name="Particle_art/Bitmap 3" itemID="4d45b6e7-0000090f" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
-          <DOMBitmapItem name="launcher_comp1_blue.png" itemID="4d45ac53-00000848" sourceExternalFilepath=".\LIBRARY\launcher_comp1_blue.png" sourceLastImported="1296411347" externalFileSize="213808" originalCompressionType="lossless" quality="50" href="launcher_comp1_blue.png" bitmapDataHRef="M 10 1296411654.dat" frameRight="29160" frameBottom="14640"/>
-          <DOMBitmapItem name="launcher_red.png" itemID="4d45b330-000008c9" sourceExternalFilepath=".\LIBRARY\launcher_red.png" sourceLastImported="1296413341" externalFileSize="124487" originalCompressionType="lossless" quality="50" href="launcher_red.png" bitmapDataHRef="M 11 1296411654.dat" frameRight="7000" frameBottom="3520"/>
-          <DOMBitmapItem name="Particle_art/rBitmap 1" itemID="4d451b49-000003b4" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296374601" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
-          <DOMBitmapItem name="Particle_art/rBitmap 2" itemID="4d451b4f-000003b5" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296374607" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
-          <DOMBitmapItem name="Particle_art/rBitmap 3" itemID="4d451b53-000003b6" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296374611" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
-          <DOMBitmapItem name="jeremy_art_assets/smoke_background3.png" itemID="4d4513af-0000023c" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\smoke_background3.png" sourceLastImported="1296372655" externalFileSize="369199" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\smoke_background3.png" bitmapDataHRef="M 1 1296371706.dat" frameRight="16000" frameBottom="12000"/>
-          <DOMBitmapItem name="jeremy_art_assets/starfield.jpg" itemID="4d4529f6-0000024a" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\starfield.jpg" sourceLastImported="1296377501" externalFileSize="210126" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\starfield.jpg" bitmapDataHRef="M 2 1296371719.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
-          <DOMBitmapItem name="jeremy_art_assets/stars.jpg" itemID="4d4540b9-000002ae" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\stars.jpg" sourceLastImported="1296387006" externalFileSize="220999" quality="50" href="jeremy_art_assets\stars.jpg" bitmapDataHRef="M 9 1296384083.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
+          <DOMBitmapItem name="bBitmap 1" itemID="4d45b714-0000091b" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296414484" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="bBitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
+          <DOMBitmapItem name="bBitmap 2" itemID="4d45b70e-0000091a" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296414478" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="bBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
+          <DOMBitmapItem name="Bitmap 3" itemID="4d44f656-0000026d" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Bitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
      </media>
      <symbols>
-          <Include href="Antiparticle.xml"/>
-          <Include href="BlackHoleParticle.xml"/>
-          <Include href="CameraDetection.xml"/>
-          <Include href="Collidable.xml"/>
-          <Include href="jeremy_art_assets/AlertSign.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/allpurpose_button.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/BlueBar.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/BlueBorder.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/BlueFill.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/crosshair.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Mouser.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/RedBar.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/RedBorder.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/RedFill.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/start_button.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/title_bar.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_1.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_1 copy.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_1_0.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_2.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_2 copy.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_4.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_4 copy.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_5.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_5 copy.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets copy/Layer 1/&amp;#60Path&amp;#62.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets/Layer 1/&amp;#60Path&amp;#62_1.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets/Layer 1/&amp;#60Path&amp;#62_2.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0 copy/Layer 1/&amp;#60Path&amp;#62.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1/&amp;#60Path&amp;#62_1.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_1/Layer 1/&amp;#60Path&amp;#62.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 2.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 3.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 4.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 14.xml" itemIcon="1" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/title_screen_styles.ai.xml" itemIcon="1" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1/&amp;#60Path&amp;#62_1.xml" loadImmediate="false"/>
-          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/Symbol 1 copy.xml" loadImmediate="false"/>
-          <Include href="Meteor.xml"/>
-          <Include href="numSymbol.xml" loadImmediate="false"/>
-          <Include href="Particle.xml"/>
-          <Include href="Particle_art/atom.xml" loadImmediate="false"/>
-          <Include href="Particle_art/e1.xml" loadImmediate="false"/>
-          <Include href="Particle_art/e2.xml" loadImmediate="false"/>
-          <Include href="Particle_art/e3.xml" loadImmediate="false"/>
-          <Include href="Particle_art/electon_1.xml" loadImmediate="false"/>
-          <Include href="Particle_art/electron_2.xml" loadImmediate="false"/>
-          <Include href="Particle_art/electron_3.xml" loadImmediate="false"/>
-          <Include href="Particle_art/nucleus_b.xml" loadImmediate="false"/>
-          <Include href="Particle_art/ratom.xml" loadImmediate="false"/>
-          <Include href="Particle_art/re1.xml" loadImmediate="false"/>
-          <Include href="Particle_art/re2.xml" loadImmediate="false"/>
-          <Include href="Particle_art/re3.xml" loadImmediate="false"/>
-          <Include href="Particle_art/relecton_1.xml" loadImmediate="false"/>
-          <Include href="Particle_art/relectron_2.xml" loadImmediate="false"/>
-          <Include href="Particle_art/relectron_3.xml" loadImmediate="false"/>
-          <Include href="Particle_art/rnucleus_r.xml" loadImmediate="false"/>
-          <Include href="Particles/be1.xml" loadImmediate="false"/>
-          <Include href="Particles/be2.xml" loadImmediate="false"/>
-          <Include href="Particles/be3.xml" loadImmediate="false"/>
-          <Include href="Particles/belecton_1.xml" loadImmediate="false"/>
-          <Include href="Particles/belectron_2.xml" loadImmediate="false"/>
-          <Include href="Particles/belectron_3.xml" loadImmediate="false"/>
-          <Include href="Particles/bhParticle.xml"/>
-          <Include href="Particles/bnucleus_b.xml" loadImmediate="false"/>
-          <Include href="Particles/gParticle.xml"/>
-          <Include href="PhysicsLimb.xml"/>
-          <Include href="Platformer.xml"/>
-          <Include href="Projectile.xml"/>
-          <Include href="Rollable.xml"/>
-          <Include href="Shooter.xml"/>
-          <Include href="ShotParticle.xml"/>
-          <Include href="StaticWallFloor.xml"/>
-          <Include href="TitleScreen.xml"/>
-          <Include href="WorldDefender.xml"/>
+          <Include href="be1.xml" loadImmediate="false"/>
+          <Include href="be2.xml" loadImmediate="false"/>
+          <Include href="be3.xml" loadImmediate="false"/>
+          <Include href="belecton_1.xml" loadImmediate="false"/>
+          <Include href="belectron_2.xml" loadImmediate="false"/>
+          <Include href="belectron_3.xml" loadImmediate="false"/>
+          <Include href="BlackHoleParticle.xml" loadImmediate="false"/>
+          <Include href="bnucleus_b.xml" loadImmediate="false"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="2">
+          <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="flash0.ai" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Layer 9" color="#4FFF4F" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="1" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="TitleScreen" name="" centerPoint3DX="401.35" centerPoint3DY="306.1">
+                                        <DOMSymbolInstance libraryItemName="BlackHoleParticle" name="" selected="true" centerPoint3DX="279" centerPoint3DY="183.8">
                                              <matrix>
-                                                  <Matrix tx="401.35" ty="306.1"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="1.55" y="1.5"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Shooter" name="" selected="true" centerPoint3DX="397.85" centerPoint3DY="598.8">
-                                             <matrix>
-                                                  <Matrix a="3.125" d="3.125" tx="397.85" ty="598.8"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
-                              <DOMFrame index="2" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Shooter" name="" centerPoint3DX="382.2" centerPoint3DY="599.95">
-                                             <matrix>
-                                                  <Matrix a="3.125" d="3.125" tx="382.2" ty="599.95"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" centerPoint3DX="807.7" centerPoint3DY="333.85">
-                                             <matrix>
-                                                  <Matrix a="0.116302490234375" d="18.1254577636719" tx="807.7" ty="333.85"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" centerPoint3DX="-8" centerPoint3DY="333.85">
-                                             <matrix>
-                                                  <Matrix a="0.116302490234375" d="17.9218444824219" tx="-8" ty="333.85"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" centerPoint3DX="402.25" centerPoint3DY="607.15">
-                                             <matrix>
-                                                  <Matrix a="9.78837585449219" d="0.300018310546875" tx="402.25" ty="607.15"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="StaticWallFloor" name="" centerPoint3DX="402.25" centerPoint3DY="-13.65">
-                                             <matrix>
-                                                  <Matrix a="9.78837585449219" d="0.300018310546875" tx="402.25" ty="-13.65"/>
+                                                  <Matrix tx="279" ty="183.8"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
@@ -190,76 +33,9 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BG" color="#9933CC" locked="true" autoNamed="false">
+                    <DOMLayer name="Layer 1" color="#4FFF4F">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="1" keyMode="9728">
-                                   <elements>
-                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/stars.jpg"/>
-                                   </elements>
-                              </DOMFrame>
-                              <DOMFrame index="2" keyMode="9728">
-                                   <elements>
-                                        <DOMShape>
-                                             <fills>
-                                                  <FillStyle index="1">
-                                                       <SolidColor color="#000033"/>
-                                                  </FillStyle>
-                                             </fills>
-                                             <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
-                                             </edges>
-                                        </DOMShape>
-                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/smoke_background3.png"/>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="Script" color="#4FFF4F" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
-                                   <Actionscript>
-                                        <script><![CDATA[stop();
- 
-addEventListener(Event.ENTER_FRAME, loadProgress);
- 
-function loadProgress(event:Event) {
-// get bytes loaded and bytes total
-var movieBytesLoaded:int = this.root.loaderInfo.bytesLoaded;
-var movieBytesTotal:int = this.root.loaderInfo.bytesTotal;
- 
- 
-// convert to KiloBytes
-var movieKLoaded:int = movieBytesLoaded/1024;
-var movieKTotal:int = movieBytesTotal/1024;
-var percentageLoaded:Number=Math.round((movieKLoaded/movieKTotal))*100;
- 
-// show progress
-//progressText.text =""+percentageLoaded+"% Loaded";
- 
-// move on if done
-if (movieBytesLoaded >= movieBytesTotal) {
- 
-removeEventListener(Event.ENTER_FRAME, loadProgress);
- 
-gotoAndStop(2); 
-}
-}]]></script>
-                                   </Actionscript>
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="1" keyMode="9728">
-                                   <Actionscript>
-                                        <script><![CDATA[stop();]]></script>
-                                   </Actionscript>
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="2" keyMode="9728">
-                                   <Actionscript>
-                                        <script><![CDATA[stop();]]></script>
-                                   </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -569,26 +345,5 @@ gotoAndStop(2);
           </swatchList>
      </extendedSwatchLists>
      <PrinterSettings/>
-     <publishHistory>
-          <PublishItem publishSize="395581" publishTime="1296413958"/>
-          <PublishItem publishSize="395560" publishTime="1296413812"/>
-          <PublishItem publishSize="395579" publishTime="1296413596"/>
-          <PublishItem publishSize="396706" publishTime="1296413221"/>
-          <PublishItem publishSize="396618" publishTime="1296413194"/>
-          <PublishItem publishSize="396715" publishTime="1296413134"/>
-          <PublishItem publishSize="331343" publishTime="1296410490"/>
-          <PublishItem publishSize="331224" publishTime="1296410160"/>
-          <PublishItem publishSize="331236" publishTime="1296410128"/>
-          <PublishItem publishSize="331278" publishTime="1296410087"/>
-          <PublishItem publishSize="331278" publishTime="1296409089"/>
-          <PublishItem publishSize="331230" publishTime="1296408677"/>
-          <PublishItem publishSize="270891" publishTime="1296408639"/>
-          <PublishItem publishSize="331133" publishTime="1296407982"/>
-          <PublishItem publishSize="331022" publishTime="1296407921"/>
-          <PublishItem publishSize="331080" publishTime="1296407862"/>
-          <PublishItem publishSize="331094" publishTime="1296407534"/>
-          <PublishItem publishSize="331122" publishTime="1296407466"/>
-          <PublishItem publishSize="330957" publishTime="1296407368"/>
-          <PublishItem publishSize="329850" publishTime="1296393670"/>
-     </publishHistory>
+     <publishHistory/>
 </DOMDocument>
