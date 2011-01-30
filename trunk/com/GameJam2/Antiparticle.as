@@ -99,13 +99,12 @@
 			if (robj is ShotParticle)
 				{
 					total = value + robj.value;
-					var newP:Particle
 					//trace("shot collided with antimatter");
 					// sum the values
 					var total = value + robj.value;
 					// if 0, explode
 					if (total == 0) {
-						//this.explode();
+						this.BlackHole();
 						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
 						trace("CALL EXPLOSIONS");
@@ -118,6 +117,7 @@
 							(robj as ShotParticle).needConvert = true;
 							(robj as ShotParticle).conversion.start();
 						}
+						
 					}						
 				}
 				else if (robj is Particle)
@@ -127,7 +127,7 @@
 					// sum the values					
 					// if 0, explode
 					if (total == 0) {
-						//this.explode();
+						this.BlackHole();
 						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
 						trace("CALL EXPLOSIONS");
@@ -135,11 +135,28 @@
 					else
 					{		
 						value = total;
-						robj.value = total;
-						//convert ShotParticle into Particle/Antiparticle\
+						trace("combining");
+						if (value > robj.value)
+						{						
+							width = total * 10;
+							height = width;							
+							robj.Delete = true;
+						}
+						else	
+						{							
+							robj.width = total * 10;
+							robj.height = robj.width;						
+							this.Delete = true;
+						}	
+							//convert ShotParticle into Particle/Antiparticle
+							
+							
+						}	
+						
+						if (value > 0)
 						gotoAndStop(2);
 					}											
-				}
+				
 				else if (robj is Antiparticle)
 				{
 					total = value + robj.value;

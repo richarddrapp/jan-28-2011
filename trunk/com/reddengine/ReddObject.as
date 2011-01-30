@@ -90,6 +90,19 @@
 			
 		}
 		
+		public function Explode() :void {
+		
+			//call particle effect
+			trace ("This is an explosion.  BOOM!!");
+		
+		}
+		
+		public function BlackHole() :void {
+			
+			//call particle effect
+			trace("A black hole is being spawned. WOOOOOOOOOOOOSH!");
+		}
+		
 		public function debug() : void {
 			trace("Debug is enabled. Override this in subclasses.");
 			
