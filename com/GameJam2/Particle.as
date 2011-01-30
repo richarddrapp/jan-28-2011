@@ -5,9 +5,11 @@
 	import flash.display.MovieClip;
 	import flash.display.Stage;
 	import flash.display.BitmapData;
+	import flash.events.TimerEvent;
 	import flash.geom.*;
 	import flash.text.AntiAliasType;
 	import flash.text.engine.BreakOpportunity;
+	import flash.utils.Timer;
 	
 	import flash.display.Sprite;
     import flash.text.TextField;
@@ -26,8 +28,9 @@
 	import com.reddengine.ReddEngine;
 	
 	public class Particle extends ReddObject {				
-		
 		public var valueText:TextField;		
+		
+		
 		
 		public function Particle(x:Number, y:Number, r:Number) {				
 			super(); //density = 0.7								
@@ -44,6 +47,9 @@
 			Friction = 10;
 			isRound = true;			
 			InitializePhysics();
+			
+			
+			
 			addEventListener(Event.ENTER_FRAME, Update);
 			ReddEngine.matterObjects.push(this);
 		}
@@ -89,13 +95,13 @@
 			
 			
 			if (debugEnabled)
-				debug();
-												
-					
+				debug();																
 			
 			if (this.Delete)
 				Destroy();
 						
+				
+			
 		}		
 		
 		public function checkCollisions(robj:ReddObject):void {
@@ -114,9 +120,13 @@
 						trace("CALL EXPLOSIONS");
 					}
 					else
-					{		
+					{			
 						value = total;
-						//convert ShotParticle into Particle/Antiparticle
+						if (!(robj as ShotParticle).needConvert)
+						{
+							(robj as ShotParticle).needConvert = true;
+							(robj as ShotParticle).conversion.start();
+						}
 					}						
 				}					
 				else if (robj is Antiparticle)
@@ -132,10 +142,11 @@
 						trace("CALL EXPLOSIONS");
 					}
 					else
-					{		
-						value = total;
-						robj.value = total;
+					{							
+						value = total;						
 						//convert ShotParticle into Particle/Antiparticle
+						
+						
 					}											
 				}
 				else if (robj is Particle)
@@ -164,6 +175,7 @@
 			ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.matterObjects.splice(ReddEngine.matterObjects.indexOf(this), 1);
 		}
+			
 		
 		override public function debug() : void {
 			label.appendText("\nCol posy : " + this.y);
