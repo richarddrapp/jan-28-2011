@@ -1,13 +1,13 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/electron_2" itemID="4d44fc93-0000027e" sourceLibraryItemHRef="Symbol 1" lastModified="1296371024" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="relectron_2" itemID="4d45c3bd-0000028d" sourceLibraryItemHRef="Symbol 1" lastModified="1296417725" lastUniqueIdentifier="1">
   <timeline>
-    <DOMTimeline name="electron_2">
+    <DOMTimeline name="relectron_2">
       <layers>
-        <DOMLayer name="Layer 4" color="#FF4FFF" animationType="motion object">
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true" animationType="motion object">
           <frames>
             <DOMFrame index="0" duration="120" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="120000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-21.5" next="10323,-13.3" previous="-9323,-29.7" roving="0" timevalue="28000"/><Keyframe anchor="0,76.8" next="9990,108.3" previous="-10322,45.3" roving="0" timevalue="59000"/><Keyframe anchor="0,149" next="4789,149.028" previous="-9989,148.8" roving="0" timevalue="89000"/><Keyframe anchor="0,126.6" next="3341,124.705" previous="-4789,141.65" roving="1" timevalue="103366"/><Keyframe anchor="0,111.05" next="1871,111.05" previous="-3341,116.7" roving="1" timevalue="113388"/><Keyframe anchor="0,104" next="0,104" previous="-1871,104" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-34.5" next="10323,-46.8" previous="-9323,-22.2" roving="0" timevalue="28000"/><Keyframe anchor="0,26.3" next="9990,52.8" previous="-10322,-0.2" roving="0" timevalue="59000"/><Keyframe anchor="0,101.25" next="4789,102.694" previous="-9989,88.8" roving="0" timevalue="89000"/><Keyframe anchor="0,102.55" next="3341,102.006" previous="-4789,106.9" roving="1" timevalue="103366"/><Keyframe anchor="0,97.3" next="1871,97.3" previous="-3341,99.45" roving="1" timevalue="113388"/><Keyframe anchor="0,91.4" next="0,91.4" previous="-1871,91.4" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="119000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,64.7888" next="0,64.7888" previous="0,64.7888" roving="0" timevalue="0"/><Keyframe anchor="0,78.8727" next="0,78.8727" previous="0,78.8727" roving="0" timevalue="28000"/><Keyframe anchor="0,205.595" next="0,205.595" previous="0,205.595" roving="0" timevalue="59000"/><Keyframe anchor="0,114.069" next="0,114.069" previous="0,114.069" roving="0" timevalue="89000"/><Keyframe anchor="0,64.772" next="0,64.772" previous="0,64.772" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,64.7888" next="0,64.7888" previous="0,64.7888" roving="0" timevalue="0"/><Keyframe anchor="0,78.8727" next="0,78.8727" previous="0,78.8727" roving="0" timevalue="28000"/><Keyframe anchor="0,205.62" next="0,205.62" previous="0,205.62" roving="0" timevalue="59000"/><Keyframe anchor="0,114.079" next="0,114.079" previous="0,114.079" roving="0" timevalue="89000"/><Keyframe anchor="0,64.7858" next="0,64.7858" previous="0,64.7858" roving="0" timevalue="119000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <motionObjectXML><AnimationCore TimeScale="24000" Version="1" duration="120000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-21.5" next="10323,-13.3" previous="-9323,-29.7" roving="0" timevalue="28000"/><Keyframe anchor="0,76.8" next="9990,108.3" previous="-10322,45.3" roving="0" timevalue="59000"/><Keyframe anchor="0,149" next="4789,149.028" previous="-9989,148.8" roving="0" timevalue="89000"/><Keyframe anchor="0,126.6" next="3341,124.705" previous="-4789,141.65" roving="1" timevalue="103366"/><Keyframe anchor="0,111.05" next="1871,111.05" previous="-3341,116.7" roving="1" timevalue="113388"/><Keyframe anchor="0,104" next="0,104" previous="-1871,104" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-34.5" next="10323,-46.8" previous="-9323,-22.2" roving="0" timevalue="28000"/><Keyframe anchor="0,26.3" next="9990,52.8" previous="-10322,-0.2" roving="0" timevalue="59000"/><Keyframe anchor="0,101.25" next="4789,102.694" previous="-9989,88.8" roving="0" timevalue="89000"/><Keyframe anchor="0,102.55" next="3341,102.006" previous="-4789,106.9" roving="1" timevalue="103366"/><Keyframe anchor="0,97.3" next="1871,97.3" previous="-3341,99.45" roving="1" timevalue="113388"/><Keyframe anchor="0,91.4" next="0,91.4" previous="-1871,91.4" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="119000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,64.7888" next="0,64.7888" previous="0,64.7888" roving="0" timevalue="0"/><Keyframe anchor="0,78.8727" next="0,78.8727" previous="0,78.8727" roving="0" timevalue="28000"/><Keyframe anchor="0,205.595" next="0,205.595" previous="0,205.595" roving="0" timevalue="59000"/><Keyframe anchor="0,114.069" next="0,114.069" previous="0,114.069" roving="0" timevalue="89000"/><Keyframe anchor="0,64.772" next="0,64.772" previous="0,64.772" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,64.7888" next="0,64.7888" previous="0,64.7888" roving="0" timevalue="0"/><Keyframe anchor="0,78.8727" next="0,78.8727" previous="0,78.8727" roving="0" timevalue="28000"/><Keyframe anchor="0,205.62" next="0,205.62" previous="0,205.62" roving="0" timevalue="59000"/><Keyframe anchor="0,114.079" next="0,114.079" previous="0,114.079" roving="0" timevalue="89000"/><Keyframe anchor="0,64.7858" next="0,64.7858" previous="0,64.7858" roving="0" timevalue="119000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
               <elements>
-                <DOMSymbolInstance libraryItemName="Particle_art/e2" name="" centerPoint3DX="-62.8" centerPoint3DY="-36.3">
+                <DOMSymbolInstance libraryItemName="re2" name="" selected="true" centerPoint3DX="-62.8" centerPoint3DY="-36.3">
                   <matrix>
                     <Matrix a="0.647872924804688" d="0.647872924804688" tx="-62.8" ty="-36.3"/>
                   </matrix>
@@ -19,7 +19,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" duration="29" keyMode="9728">
               <elements>
@@ -34,7 +34,7 @@
                                 <DOMShape>
                                   <fills>
                                     <FillStyle index="1">
-                                      <BitmapFill bitmapPath="Particle_art/Bitmap 1" bitmapIsClipped="true">
+                                      <BitmapFill bitmapPath="rBitmap 1" bitmapIsClipped="true">
                                         <matrix>
                                           <Matrix a="20" d="20" tx="-101" ty="-88.5"/>
                                         </matrix>
@@ -88,7 +88,7 @@
                                 <DOMShape selected="true">
                                   <fills>
                                     <FillStyle index="1">
-                                      <BitmapFill bitmapPath="Particle_art/Bitmap 1" bitmapIsClipped="true">
+                                      <BitmapFill bitmapPath="rBitmap 1" bitmapIsClipped="true">
                                         <matrix>
                                           <Matrix a="20" d="20" tx="-101" ty="-88.5"/>
                                         </matrix>
@@ -144,7 +144,7 @@
                                 <DOMShape selected="true">
                                   <fills>
                                     <FillStyle index="1">
-                                      <BitmapFill bitmapPath="Particle_art/Bitmap 1" bitmapIsClipped="true">
+                                      <BitmapFill bitmapPath="rBitmap 1" bitmapIsClipped="true">
                                         <matrix>
                                           <Matrix a="20" d="20" tx="-101" ty="-88.5"/>
                                         </matrix>
@@ -200,7 +200,7 @@
                                 <DOMShape selected="true">
                                   <fills>
                                     <FillStyle index="1">
-                                      <BitmapFill bitmapPath="Particle_art/Bitmap 1" bitmapIsClipped="true">
+                                      <BitmapFill bitmapPath="rBitmap 1" bitmapIsClipped="true">
                                         <matrix>
                                           <Matrix a="20" d="20" tx="-101" ty="-88.5"/>
                                         </matrix>
@@ -256,7 +256,7 @@
                                 <DOMShape selected="true">
                                   <fills>
                                     <FillStyle index="1">
-                                      <BitmapFill bitmapPath="Particle_art/Bitmap 1" bitmapIsClipped="true">
+                                      <BitmapFill bitmapPath="rBitmap 1" bitmapIsClipped="true">
                                         <matrix>
                                           <Matrix a="20" d="20" tx="-101" ty="-88.5"/>
                                         </matrix>

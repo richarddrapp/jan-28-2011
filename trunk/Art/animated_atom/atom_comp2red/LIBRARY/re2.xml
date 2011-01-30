@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/e1" itemID="4d450c17-00000371" sourceLibraryItemHRef="Symbol 2" lastModified="1296370711">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="re2" itemID="4d45c3b4-0000028a" sourceLibraryItemHRef="Symbol 4" lastModified="1296417716">
   <timeline>
-    <DOMTimeline name="e1">
+    <DOMTimeline name="re2">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -13,16 +13,16 @@
                         <FillStyle index="1">
                           <RadialGradient>
                             <matrix>
-                              <Matrix a="0.0083770751953125" b="-0.0025787353515625" c="0.0025787353515625" d="0.0083770751953125" tx="0.05"/>
+                              <Matrix a="0.0013275146484375" b="-0.0086669921875" c="0.0086669921875" d="0.0013275146484375"/>
                             </matrix>
-                            <GradientEntry color="#00FFF1" ratio="0"/>
-                            <GradientEntry color="#0080C8" ratio="0.623529411764706"/>
-                            <GradientEntry color="#00019F" ratio="1"/>
+                            <GradientEntry color="#FFFF00" ratio="0"/>
+                            <GradientEntry color="#FF9900" ratio="0.623529411764706"/>
+                            <GradientEntry color="#FF0000" ratio="1"/>
                           </RadialGradient>
                         </FillStyle>
                       </fills>
                       <edges>
-                        <Edge fillStyle1="1" edges="!-42 -138S2[88 -164 138 -43!138 -43[165 87 43 137!43 137[-86 164 -137 42!-137 42[-163 -87 -42 -138"/>
+                        <Edge fillStyle1="1" edges="!142 22S2[110 149 -22 142!-22 142[-150 110 -142 -22!-142 -22[-110 -150 22 -142!22 -142[149 -110 142 22"/>
                       </edges>
                     </DOMShape>
                   </members>

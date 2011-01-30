@@ -1,34 +1,43 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle_art/atom" itemID="4d45b6e6-0000090c" sourceLibraryItemHRef="Symbol 1" lastModified="1296418441" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ratom" itemID="4d45c3ae-00000288" sourceLibraryItemHRef="Symbol 1" lastModified="1296417710" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="atom">
+    <DOMTimeline name="ratom">
       <layers>
         <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Particle_art/electon_1" name="" centerPoint3DX="10.65">
+                <DOMSymbolInstance libraryItemName="relecton_1" name="" selected="true" centerPoint3DX="10.65">
                   <matrix>
                     <Matrix tx="10.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="35" blurY="35" color="#FFFF33" quality="2" strength="2.1"/>
+                  </filters>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Particle_art/electron_2" name="" centerPoint3DX="6.45" centerPoint3DY="-0.8">
+                <DOMSymbolInstance libraryItemName="relectron_2" name="" selected="true" centerPoint3DX="6.45" centerPoint3DY="-0.8">
                   <matrix>
                     <Matrix tx="6.45" ty="-0.8"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="35" blurY="35" color="#FFFF33" quality="2" strength="2.1"/>
+                  </filters>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Particle_art/electron_3" name="" centerPoint3DX="0.95" centerPoint3DY="-1.3">
+                <DOMSymbolInstance libraryItemName="relectron_3" name="" selected="true" centerPoint3DX="0.95" centerPoint3DY="-1.3">
                   <matrix>
                     <Matrix tx="0.95" ty="-1.3"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="35" blurY="35" color="#FFFF33" quality="2" strength="2.1"/>
+                  </filters>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
@@ -38,7 +47,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Particle_art/nucleus_b" name="" centerPoint3DX="5.95" centerPoint3DY="0.2">
+                <DOMSymbolInstance libraryItemName="rnucleus_r" name="" centerPoint3DX="5.95" centerPoint3DY="0.2">
                   <matrix>
                     <Matrix tx="5.95" ty="0.2"/>
                   </matrix>
