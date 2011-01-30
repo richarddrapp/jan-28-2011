@@ -133,7 +133,7 @@
 			/*if (robj == null) {
 				trace("ROBJ IS NULL in AntiParticle!!!!");
 			}*/
-			var total:int;
+			var total:int;			
 			if (robj is ShotParticle)
 				{
 					total = value + robj.value;
@@ -154,7 +154,7 @@
 						{
 							value = total;
 							trace("combining");				
-							width += robj.value;
+							width = Math.abs(total) * 10;
 							height = width;							
 							robj.Delete = true;											
 							if (value > 0)
@@ -179,11 +179,12 @@
 				else if (robj is Particle)
 				{
 					total = value + robj.value;
+					
 					//trace("matter collided with antimatter");
 					// sum the values					
 					// if 0, explode
 					if (total == 0) {
-						this.BlackHole();
+						this.Explode();
 						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
 						trace("CALL EXPLOSIONS");
@@ -194,7 +195,7 @@
 						if (Math.abs(Body.m_linearVelocity.Length() + robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						{						
 							trace("combining");
-							width + robj.width;
+							width = Math.abs(value) * 10;
 							height = width;							
 							robj.Delete = true;
 						}							
@@ -215,20 +216,21 @@
 				{
 					total = value + robj.value;
 					if (Math.abs(Body.m_linearVelocity.Length()+robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
-					{			
+					{		
+						
 						if (Body.m_linearVelocity.Length() > robj.Body.m_linearVelocity.Length())
 						{
+							value = total;
 							trace("combining");
-							width += robj.value;
+							width = Math.abs(value) * 10;
 							height = width;							
 							robj.Delete = true;
-							value = total;
 						}										
 						else
 						{
-							robj.width += value;
-							robj.height = robj.width;
 							robj.value = total;
+							robj.width = Math.abs(total) * 10;
+							robj.height = robj.width;							
 							this.Delete = true;
 						}
 					}	

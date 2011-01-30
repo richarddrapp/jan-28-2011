@@ -119,7 +119,10 @@
 				/*if (robj == null) {
 					trace("ROBJ IS NULL in Particle!!!!");
 				}*/
+				
+				
 				var total:int;
+				
 				if (robj is ShotParticle)
 				{		
 					total = value + robj.value;
@@ -139,7 +142,7 @@
 						if (Math.abs(robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						{							
 								value = total;								
-								width += robj.value * 10;
+								width = Math.abs(total) * 10;
 								height = width;							
 								robj.Delete = true;			
 								
@@ -164,13 +167,12 @@
 				}					
 				else if (robj is Antiparticle)
 				{
-					// sum the values
-					total = value + robj.value;
-					//trace("matter collided with antimatter");
 					
+					//trace("matter collided with antimatter");
+					total = value + robj.value;
 					// if 0, explode
 					if (total == 0) {
-						this.BlackHole();
+						this.Explode();
 						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
 						trace("CALL EXPLOSIONS");
@@ -181,7 +183,7 @@
 						if (Math.abs(Body.m_linearVelocity.Length() + robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						{						
 							trace("combining");
-							width + robj.width;
+							width = Math.abs(value) * 10;
 							height = width;							
 							robj.Delete = true;
 						}							
@@ -195,29 +197,27 @@
 							}
 							
 						}
-						
-						
 					}											
 				}
 				else if (robj is Particle)
 				{					
 					total = value + robj.value;
-					
 					if (Math.abs(Body.m_linearVelocity.Length()+robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
-					{			
+					{	
+						
 						if (Body.m_linearVelocity.Length() > robj.Body.m_linearVelocity.Length())
 						{
-							trace("combining");
-							width += robj.value;
-							height = width;							
-							robj.Delete = true;
 							value = total;
+							trace("combining");
+							width = Math.abs(value) * 10;
+							height = width;							
+							robj.Delete = true;							
 						}										
 						else
 						{
-							robj.width += value;
-							robj.height = robj.width;
 							robj.value = total;
+							robj.width = Math.abs(total) * 10;
+							robj.height = robj.width;							
 							this.Delete = true;
 						}
 					}	
