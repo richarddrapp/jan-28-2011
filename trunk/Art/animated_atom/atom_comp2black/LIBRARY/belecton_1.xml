@@ -1,0 +1,251 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="belecton_1" itemID="4d45b727-00000920" sourceLibraryItemHRef="Symbol 1" lastModified="1296414503" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="belecton_1">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="120" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="24000" Version="1" duration="120000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.498246" xformPtYOffsetPct="0.498246" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,27.55" next="14319,39.5" previous="-5327,15.6" roving="0" timevalue="16000"/><Keyframe anchor="0,15.05" next="9990,-3.95" previous="-14318,34.05" roving="0" timevalue="59000"/><Keyframe anchor="0,-34.7" next="9990,-46.7" previous="-9989,-22.7" roving="0" timevalue="89000"/><Keyframe anchor="0,-43.2" next="0,-43.2" previous="0,-43.2" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-26.35" next="14319,-22.5" previous="-5327,-30.2" roving="0" timevalue="16000"/><Keyframe anchor="0,93.15" next="9990,146.65" previous="-14318,39.65" roving="0" timevalue="59000"/><Keyframe anchor="0,183.4" next="9990,182.65" previous="-9989,184.15" roving="0" timevalue="89000"/><Keyframe anchor="0,138.9" next="0,138.9" previous="0,138.9" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="119000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,85.965" next="0,85.965" previous="0,85.965" roving="0" timevalue="0"/><Keyframe anchor="0,212.28" next="0,212.28" previous="0,212.28" roving="0" timevalue="59000"/><Keyframe anchor="0,121.056" next="0,121.056" previous="0,121.056" roving="0" timevalue="89000"/><Keyframe anchor="0,71.933" next="0,71.933" previous="0,71.933" roving="0" timevalue="119000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,85.965" next="0,85.965" previous="0,85.965" roving="0" timevalue="0"/><Keyframe anchor="0,212.28" next="0,212.28" previous="0,212.28" roving="0" timevalue="59000"/><Keyframe anchor="0,121.056" next="0,121.056" previous="0,121.056" roving="0" timevalue="89000"/><Keyframe anchor="0,71.933" next="0,71.933" previous="0,71.933" roving="0" timevalue="119000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="be1" name="" centerPoint3DX="3.95" centerPoint3DY="-78.15">
+                  <matrix>
+                    <Matrix a="0.859649658203125" d="0.859649658203125" tx="3.95" ty="-78.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="59" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMGroup selected="true">
+                              <members>
+                                <DOMShape selected="true">
+                                  <fills>
+                                    <FillStyle index="1">
+                                      <BitmapFill bitmapPath="Bitmap 3" bitmapIsClipped="true">
+                                        <matrix>
+                                          <Matrix a="20" d="20" tx="-54.5" ty="-122.5"/>
+                                        </matrix>
+                                      </BitmapFill>
+                                    </FillStyle>
+                                  </fills>
+                                  <edges>
+                                    <Edge fillStyle1="1" edges="!1090 -2450S2|1090 2450!1090 2450|-1090 2450!-1090 2450|-1090 -2450!-1090 -2450|1090 -2450"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                            <DOMGroup selected="true">
+                              <members>
+                                <DOMShape selected="true">
+                                  <fills>
+                                    <FillStyle index="1">
+                                      <SolidColor color="#FEFFF0"/>
+                                    </FillStyle>
+                                  </fills>
+                                  <edges>
+                                    <Edge fillStyle1="1" edges="!498 -2108S2[548 -2143 614 -2136!614 -2136[622 -2134 629 -2132!629 -2132[637 -2129 644 -2125!644 -2125[658 -2118 670 -2108!670 -2108[693 -2086 708 -2060!708 -2060[736 -2008 750 -1952!750 -1952[775 -1839 779 -1725!779 -1725[787 -1496 761
+ -1270!761 -1270[736 -1044 696 -821!696 -821[614 -374 490 62!490 62[366 499 202 922!202 922[120 1134 24 1340!24 1340[-70 1546 -188 1741!-188 1741[-246 1839 -315 1930!-315 1930[-383 2023 -476 2094!-476 2094[-524 2130 -587 2137!-587 2137
+[-602 2137 -618 2134!-618 2134[-621 2133 -626 2132!-626 2132|-632 2129!-632 2129[-640 2126 -647 2122!-647 2122[-675 2107 -692 2082!-692 2082[-727 2032 -741 1976!-741 1976[-757 1920 -764 1864!-764 1864[-786 1636 -763 1410!-763 1410[-744
+ 1184 -703 961!-703 961[-737 1185 -753 1411!-753 1411[-771 1637 -744 1861!-744 1861[-737 1917 -721 1970!-721 1970[-706 2024 -675 2068!-675 2068[-641 2114 -588 2113!-588 2113[-536 2108 -491 2073!-491 2073[-404 2005 -338 1913!-338 1913
+[-271 1823 -214 1725!-214 1725[9 1333 168 909!168 909[329 487 452 51!452 51[577 -383 660 -828!660 -828[701 -1050 726 -1274!726 -1274[753 -1498 748 -1723!748 -1723[746 -1836 723 -1945!723 -1945[710 -1999 685 -2047!685 -2047[658 -2097 609
+ -2111!609 -2111[558 -2118 510 -2087!510 -2087[464 -2058 424 -2018!424 -2018[346 -1939 282 -1845!282 -1845[154 -1659 53 -1456!53 -1456[-50 -1255 -138 -1046!-138 -1046[-56 -1257 43 -1461!43 -1461[141 -1666 266 -1856!266 -1856[329 -1951
+ 408 -2034!408 -2034[448 -2076 498 -2108"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="30" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMGroup selected="true">
+                              <members>
+                                <DOMShape selected="true">
+                                  <fills>
+                                    <FillStyle index="1">
+                                      <BitmapFill bitmapPath="Bitmap 3" bitmapIsClipped="true">
+                                        <matrix>
+                                          <Matrix a="20" d="20" tx="-54.5" ty="-122.5"/>
+                                        </matrix>
+                                      </BitmapFill>
+                                    </FillStyle>
+                                  </fills>
+                                  <edges>
+                                    <Edge fillStyle1="1" edges="
+!1090 -2450S2|1090 2450!1090 2450|-1090 2450!-1090 2450|-1090 -2450!-1090 -2450|1090 -2450"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                            <DOMGroup selected="true">
+                              <members>
+                                <DOMShape selected="true">
+                                  <fills>
+                                    <FillStyle index="1">
+                                      <SolidColor color="#FEFFF0"/>
+                                    </FillStyle>
+                                  </fills>
+                                  <edges>
+                                    <Edge fillStyle1="1" edges="
+!498 -2108S2[548 -2143 614 -2136!614 -2136[622 -2134 629 -2132!629 -2132[637 -2129 644 -2125!644 -2125[658 -2118 670 -2108!670 -2108[693 -2086 708 -2060!708 -2060[736 -2008 750 -1952!750 -1952[775 -1839 779 -1725!779 -1725[787 -1496 761
+ -1270!761 -1270[736 -1044 696 -821!696 -821[614 -374 490 62!490 62[366 499 202 922!202 922[120 1134 24 1340!24 1340[-70 1546 -188 1741!-188 1741[-246 1839 -315 1930!-315 1930[-383 2023 -476 2094!-476 2094[-524 2130 -587 2137!-587 2137
+[-602 2137 -618 2134!-618 2134[-621 2133 -626 2132!-626 2132|-632 2129!-632 2129[-640 2126 -647 2122!-647 2122[-675 2107 -692 2082!-692 2082[-727 2032 -741 1976!-741 1976[-757 1920 -764 1864!-764 1864[-786 1636 -763 1410!-763 1410[-744
+ 1184 -703 961!-703 961[-737 1185 -753 1411!-753 1411[-771 1637 -744 1861!-744 1861[-737 1917 -721 1970!-721 1970[-706 2024 -675 2068!-675 2068[-641 2114 -588 2113!-588 2113[-536 2108 -491 2073!-491 2073[-404 2005 -338 1913!-338 1913
+[-271 1823 -214 1725!-214 1725[9 1333 168 909!168 909[329 487 452 51!452 51[577 -383 660 -828!660 -828[701 -1050 726 -1274!726 -1274[753 -1498 748 -1723!748 -1723[746 -1836 723 -1945!723 -1945[710 -1999 685 -2047!685 -2047[658 -2097 609
+ -2111!609 -2111[558 -2118 510 -2087!510 -2087[464 -2058 424 -2018!424 -2018[346 -1939 282 -1845!282 -1845[154 -1659 53 -1456!53 -1456[-50 -1255 -138 -1046!-138 -1046[-56 -1257 43 -1461!43 -1461[141 -1666 266 -1856!266 -1856[329 -1951
+ 408 -2034!408 -2034[448 -2076 498 -2108"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="89" duration="30" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMGroup selected="true">
+                              <members>
+                                <DOMShape selected="true">
+                                  <fills>
+                                    <FillStyle index="1">
+                                      <BitmapFill bitmapPath="Bitmap 3" bitmapIsClipped="true">
+                                        <matrix>
+                                          <Matrix a="20" d="20" tx="-54.5" ty="-122.5"/>
+                                        </matrix>
+                                      </BitmapFill>
+                                    </FillStyle>
+                                  </fills>
+                                  <edges>
+                                    <Edge fillStyle1="1" edges="
+!1090 -2450S2|1090 2450!1090 2450|-1090 2450!-1090 2450|-1090 -2450!-1090 -2450|1090 -2450"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                            <DOMGroup selected="true">
+                              <members>
+                                <DOMShape selected="true">
+                                  <fills>
+                                    <FillStyle index="1">
+                                      <SolidColor color="#FEFFF0"/>
+                                    </FillStyle>
+                                  </fills>
+                                  <edges>
+                                    <Edge fillStyle1="1" edges="
+!498 -2108S2[548 -2143 614 -2136!614 -2136[622 -2134 629 -2132!629 -2132[637 -2129 644 -2125!644 -2125[658 -2118 670 -2108!670 -2108[693 -2086 708 -2060!708 -2060[736 -2008 750 -1952!750 -1952[775 -1839 779 -1725!779 -1725[787 -1496 761
+ -1270!761 -1270[736 -1044 696 -821!696 -821[614 -374 490 62!490 62[366 499 202 922!202 922[120 1134 24 1340!24 1340[-70 1546 -188 1741!-188 1741[-246 1839 -315 1930!-315 1930[-383 2023 -476 2094!-476 2094[-524 2130 -587 2137!-587 2137
+[-602 2137 -618 2134!-618 2134[-621 2133 -626 2132!-626 2132|-632 2129!-632 2129[-640 2126 -647 2122!-647 2122[-675 2107 -692 2082!-692 2082[-727 2032 -741 1976!-741 1976[-757 1920 -764 1864!-764 1864[-786 1636 -763 1410!-763 1410[-744
+ 1184 -703 961!-703 961[-737 1185 -753 1411!-753 1411[-771 1637 -744 1861!-744 1861[-737 1917 -721 1970!-721 1970[-706 2024 -675 2068!-675 2068[-641 2114 -588 2113!-588 2113[-536 2108 -491 2073!-491 2073[-404 2005 -338 1913!-338 1913
+[-271 1823 -214 1725!-214 1725[9 1333 168 909!168 909[329 487 452 51!452 51[577 -383 660 -828!660 -828[701 -1050 726 -1274!726 -1274[753 -1498 748 -1723!748 -1723[746 -1836 723 -1945!723 -1945[710 -1999 685 -2047!685 -2047[658 -2097 609
+ -2111!609 -2111[558 -2118 510 -2087!510 -2087[464 -2058 424 -2018!424 -2018[346 -1939 282 -1845!282 -1845[154 -1659 53 -1456!53 -1456[-50 -1255 -138 -1046!-138 -1046[-56 -1257 43 -1461!43 -1461[141 -1666 266 -1856!266 -1856[329 -1951
+ 408 -2034!408 -2034[448 -2076 498 -2108"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="119" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMGroup selected="true">
+                              <members>
+                                <DOMShape selected="true">
+                                  <fills>
+                                    <FillStyle index="1">
+                                      <BitmapFill bitmapPath="Bitmap 3" bitmapIsClipped="true">
+                                        <matrix>
+                                          <Matrix a="20" d="20" tx="-54.5" ty="-122.5"/>
+                                        </matrix>
+                                      </BitmapFill>
+                                    </FillStyle>
+                                  </fills>
+                                  <edges>
+                                    <Edge fillStyle1="1" edges="
+!1090 -2450S2|1090 2450!1090 2450|-1090 2450!-1090 2450|-1090 -2450!-1090 -2450|1090 -2450"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                            <DOMGroup selected="true">
+                              <members>
+                                <DOMShape selected="true">
+                                  <fills>
+                                    <FillStyle index="1">
+                                      <SolidColor color="#FEFFF0"/>
+                                    </FillStyle>
+                                  </fills>
+                                  <edges>
+                                    <Edge fillStyle1="1" edges="
+!498 -2108S2[548 -2143 614 -2136!614 -2136[622 -2134 629 -2132!629 -2132[637 -2129 644 -2125!644 -2125[658 -2118 670 -2108!670 -2108[693 -2086 708 -2060!708 -2060[736 -2008 750 -1952!750 -1952[775 -1839 779 -1725!779 -1725[787 -1496 761
+ -1270!761 -1270[736 -1044 696 -821!696 -821[614 -374 490 62!490 62[366 499 202 922!202 922[120 1134 24 1340!24 1340[-70 1546 -188 1741!-188 1741[-246 1839 -315 1930!-315 1930[-383 2023 -476 2094!-476 2094[-524 2130 -587 2137!-587 2137
+[-602 2137 -618 2134!-618 2134[-621 2133 -626 2132!-626 2132|-632 2129!-632 2129[-640 2126 -647 2122!-647 2122[-675 2107 -692 2082!-692 2082[-727 2032 -741 1976!-741 1976[-757 1920 -764 1864!-764 1864[-786 1636 -763 1410!-763 1410[-744
+ 1184 -703 961!-703 961[-737 1185 -753 1411!-753 1411[-771 1637 -744 1861!-744 1861[-737 1917 -721 1970!-721 1970[-706 2024 -675 2068!-675 2068[-641 2114 -588 2113!-588 2113[-536 2108 -491 2073!-491 2073[-404 2005 -338 1913!-338 1913
+[-271 1823 -214 1725!-214 1725[9 1333 168 909!168 909[329 487 452 51!452 51[577 -383 660 -828!660 -828[701 -1050 726 -1274!726 -1274[753 -1498 748 -1723!748 -1723[746 -1836 723 -1945!723 -1945[710 -1999 685 -2047!685 -2047[658 -2097 609
+ -2111!609 -2111[558 -2118 510 -2087!510 -2087[464 -2058 424 -2018!424 -2018[346 -1939 282 -1845!282 -1845[154 -1659 53 -1456!53 -1456[-50 -1255 -138 -1046!-138 -1046[-56 -1257 43 -1461!43 -1461[141 -1666 266 -1856!266 -1856[329 -1951
+ 408 -2034!408 -2034[448 -2076 498 -2108"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
