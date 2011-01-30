@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1" itemID="4d452857-00000274" lastModified="1296377943">
+  <timeline>
+    <DOMTimeline name="Symbol 1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <DashedStroke dash1="26" dash2="26" scaleMode="normal" weight="5">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </DashedStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!1425 244S4[1670 489 1670 835!1670 835[1670 1181 1425 1425!1425 1425[1181 1670 835 1670!835 1670[489 1670 244 1425!244 1425[0 1181 0 835!0 835[0 489 244 244!244 244[489 0 835 0!835 0[1181 0 1425 244"/>
+                    <Edge cubics="!835 0(;1066,0 1262,81 1425,244q835 0Q1181 0q1425 244);"/>
+                    <Edge cubics="!1425 1425(;1262,1588 1066,1670 835,1670q1425 1425Q1181 1670q835 1670);"/>
+                    <Edge cubics="!1670 835(;1670,1066 1588,1262 1425,1425q1670 835Q1670 1181q1425 1425)1425,1425;"/>
+                    <Edge cubics="!1425 244(;1588,407 1670,604 1670,835q1425 244Q1670 489q1670 835)1670,835;"/>
+                    <Edge cubics="!244 1425(;81,1262 0,1066 0,835q244 1425Q0 1181q0 835)0,835;"/>
+                    <Edge cubics="!0 835(;0,604 81,407 244,244q0 835Q0 489q244 244)244,244;"/>
+                    <Edge cubics="!244 244(;407,81 604,0 835,0q244 244Q489 0q835 0)835,0;"/>
+                    <Edge cubics="!835 1670(;604,1670 407,1588 244,1425q835 1670Q489 1670q244 1425);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,49 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 2" itemID="4d452d04-000002ee" lastModified="1296379190">
+  <timeline>
+    <DOMTimeline name="Symbol 1 copy 2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix tx="85.5" ty="24.5"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-314.5" ty="-191.15"/>
+                      </matrix>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" weight="5">
+                            <fill>
+                              <SolidColor color="#3A76B5"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!9593 3940[9710 4057 9710 4223!9710 4223|9710 4403!9710 4403[9710 4569 9593 4686!9593 4686[9475 4803 9310 4803!9310 4803|6690 4803!6690 4803[6524 4803 6407 4686!6407 4686[6290 4569 6290 4403!6290 4403|6290 4223!6290 4223[6290 4057 6407
+ 3940!6407 3940[6524 3823 6690 3823!6690 3823|9310 3823!9310 3823[9475 3823 9593 3940"/>
+                        <Edge cubics="!9710 4403(;9710,4624 9530,4803 9310,4803q9710 4403Q9710 4569q9593 4686Q9475 4803q9310 4803);"/>
+                        <Edge cubics="!9310 4803(;9310,4803 6690,4803 6690,4803q9310 4803 6690 4803);"/>
+                        <Edge cubics="!6690 4803(;6469,4803 6290,4624 6290,4403q6690 4803Q6524 4803q6407 4686Q6290 4569q6290 4403);"/>
+                        <Edge cubics="!6290 4403(;6290,4403 6290,4223 6290,4223q6290 4403 6290 4223);"/>
+                        <Edge cubics="!6290 4223(;6290,4002 6469,3823 6690,3823q6290 4223Q6290 4057q6407 3940Q6524 3823q6690 3823);"/>
+                        <Edge cubics="!6690 3823(;6690,3823 9310,3823 9310,3823q6690 3823 9310 3823);"/>
+                        <Edge cubics="!9310 3823(;9530,3823 9710,4002 9710,4223q9310 3823Q9475 3823q9593 3940Q9710 4057q9710 4223);"/>
+                        <Edge cubics="!9710 4223(;9710,4223 9710,4403 9710,4403q9710 4223 9710 4403);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
