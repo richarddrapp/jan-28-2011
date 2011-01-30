@@ -106,8 +106,7 @@
 				{
 					total = value + robj.value;
 					//trace("shot collided with antimatter");
-					// sum the values
-					var total = value + robj.value;
+					// sum the values					
 					// if 0, explode
 					if (total == 0) {
 						this.Explode();
