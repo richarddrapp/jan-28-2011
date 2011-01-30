@@ -1,20 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="BlackHoleCenter" itemID="4d45a93c-00000c4a" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.BlackHoleCenter" sourceLibraryItemHRef="Antiparticle copy" lastModified="1296411303" lastUniqueIdentifier="12">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="BlackHoleCenter" itemID="4d45a93c-00000c4a" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.BlackHoleCenter" sourceLibraryItemHRef="Antiparticle copy" lastModified="1296412437" lastUniqueIdentifier="12">
   <timeline>
     <DOMTimeline name="BlackHoleCenter">
       <layers>
         <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="numSymbol" name="numSymbol" centerPoint3DX="4" centerPoint3DY="1">
-                  <matrix>
-                    <Matrix a="0.932769775390625" tx="4" ty="1"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -24,24 +15,7 @@
               <Actionscript>
                 <script><![CDATA[stop();]]></script>
               </Actionscript>
-              <elements>
-                <DOMSymbolInstance libraryItemName="Particle_art/atom" name="" centerPoint3DX="0.05">
-                  <matrix>
-                    <Matrix tx="0.05"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Particle_art/atom" name="" centerPoint3DX="0.05" centerPoint3DY="0.45">
-                  <matrix>
-                    <Matrix tx="0.05" ty="0.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <Actionscript>

@@ -160,10 +160,12 @@
 			var fillColor:uint;
 			if (canLaunch) {
 				if (projectileType == PROJECTILETYPE_MATTER) {//matter = red
+					gotoAndStop(1);
 					borderColor = 0x550000;
 					backgroundColor = 0x880000;
 					fillColor = 0xFF0000;
 				} else if (projectileType == PROJECTILETYPE_ANTIMATTER) {//antimatter = blue
+					gotoAndStop(2);
 					borderColor = 0x000055;
 					backgroundColor = 0x000088;
 					fillColor = 0x0000FF;
