@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Background" itemID="4c2b4f56-00000280" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.Kory2.Background" sourceLibraryItemHRef="Symbol 2" lastModified="1289292415">
+  <timeline>
+    <DOMTimeline name="Background">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.0072479248046875" b="0.252792358398438" c="-0.372955322265625" d="0.0089569091796875" tx="300.05" ty="200"/>
+                        </matrix>
+                        <GradientEntry color="#021720" ratio="0"/>
+                        <GradientEntry ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 0|12000 0!12000 0|12000 8000!12000 8000|0 8000!0 8000|0 0"/>
+                  </edges>
+                </DOMShape>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="metal 2">
+                  <matrix>
+                    <Matrix a="0.80010986328125" d="0.431915283203125"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

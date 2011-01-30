@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Rollable" itemID="4d420eb3-000001d7" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.reddengine.Rollable" sourceLibraryItemHRef="Symbol 1" lastModified="1296174771">
+  <timeline>
+    <DOMTimeline name="Rollable">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#000085"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!286 -287S2[405 -168 405 0!405 0[405 168 286 286!286 286[168 405 0 405!0 405[-168 405 -287 286!-287 286[-405 168 -405 0!-405 0[-405 -168 -287 -287!-287 -287[-168 -405 0 -405!0 -405[168 -405 286 -287"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

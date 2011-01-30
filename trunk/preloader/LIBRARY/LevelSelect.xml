@@ -1,0 +1,190 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LevelSelect" itemID="4cb12e22-0000029a" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GUI.levelSelect" sourceLibraryItemHRef="Symbol 2" lastModified="1291684069" lastUniqueIdentifier="24">
+  <timeline>
+    <DOMTimeline name="LevelSelect">
+      <layers>
+        <DOMLayer name="lv3-3" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="lv3-3" name="lv6" centerPoint3DX="442" centerPoint3DY="253">
+                  <matrix>
+                    <Matrix tx="442" ty="253"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lv3-2" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="lv3-2" name="lv5" centerPoint3DX="255" centerPoint3DY="253">
+                  <matrix>
+                    <Matrix tx="255" ty="253"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lv3-1" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="lv3-1" name="lv4" centerPoint3DX="70" centerPoint3DY="253">
+                  <matrix>
+                    <Matrix tx="70" ty="253"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lv2" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="lv2" name="lv3" centerPoint3DX="70" centerPoint3DY="148">
+                  <matrix>
+                    <Matrix tx="70" ty="148"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lv1-2" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="lv1-2" name="lv2" centerPoint3DX="255" centerPoint3DY="47">
+                  <matrix>
+                    <Matrix tx="255" ty="47"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lv1" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="lv1" name="lv1" centerPoint3DX="70" centerPoint3DY="47">
+                  <matrix>
+                    <Matrix tx="70" ty="47"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="54.2" height="15.55" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="42.7" ty="89.25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Level 1-1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" face="TimesNewRomanPSMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText width="54.2" height="15.55" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="223.65" ty="91.25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Level 1-2</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" face="TimesNewRomanPSMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText width="42.55" height="15.55" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="44.7" ty="193.25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Level 2</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" face="TimesNewRomanPSMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText width="54.2" height="15.55" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="43.7" ty="295.25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Level 3-1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" face="TimesNewRomanPSMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText width="54.2" height="15.55" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="226.65" ty="295.25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Level 3-2</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" face="TimesNewRomanPSMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText width="54.2" height="15.55" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="418.65" ty="296.25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Level 3-3</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" face="TimesNewRomanPSMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

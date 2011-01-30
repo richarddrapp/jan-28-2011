@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="lv1-2" itemID="4cb12de7-00000280" sourceLibraryItemHRef="Symbol 2" lastModified="1286680039">
+  <timeline>
+    <DOMTimeline name="lv1-2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="lv1-2.png">
+                  <matrix>
+                    <Matrix a="0.199996948242188" d="0.199996948242188" tx="-60" ty="-39.9"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
