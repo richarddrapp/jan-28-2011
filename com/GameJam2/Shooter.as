@@ -224,7 +224,7 @@
 			
 			mouseDownUpdate();
 			mouseMovement();	
-			updateFireMeter();
+			//updateFireMeter();
 				
 			if (debugEnabled)
 				debug();
