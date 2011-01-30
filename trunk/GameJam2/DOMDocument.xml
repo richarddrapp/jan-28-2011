@@ -569,6 +569,10 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="396756" publishTime="1296416189"/>
+          <PublishItem publishSize="396768" publishTime="1296416094"/>
+          <PublishItem publishSize="396780" publishTime="1296416004"/>
+          <PublishItem publishSize="396689" publishTime="1296415901"/>
           <PublishItem publishSize="395567" publishTime="1296415276"/>
           <PublishItem publishSize="395621" publishTime="1296415093"/>
           <PublishItem publishSize="395581" publishTime="1296413958"/>
@@ -585,9 +589,5 @@ gotoAndStop(2);
           <PublishItem publishSize="331230" publishTime="1296408677"/>
           <PublishItem publishSize="270891" publishTime="1296408639"/>
           <PublishItem publishSize="331133" publishTime="1296407982"/>
-          <PublishItem publishSize="331022" publishTime="1296407921"/>
-          <PublishItem publishSize="331080" publishTime="1296407862"/>
-          <PublishItem publishSize="331094" publishTime="1296407534"/>
-          <PublishItem publishSize="331122" publishTime="1296407466"/>
      </publishHistory>
 </DOMDocument>

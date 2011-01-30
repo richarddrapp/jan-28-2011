@@ -7,6 +7,7 @@ package  com.reddengine
 	import com.Box2D.Dynamics.*;
 	import com.Box2D.Dynamics.Contacts.*;
 	import com.GameJam2.Antiparticle;
+	import com.GameJam2.BlackHoleParticle;
 	import com.GameJam2.Particle;
 	import com.GameJam2.ShotParticle;
 	
@@ -21,8 +22,11 @@ package  com.reddengine
 					
 				
 				
-				
-					if (obj1 is Particle)
+					if (obj1 is BlackHoleParticle)
+						(obj1 as BlackHoleParticle).checkCollisions(obj2);
+					else if (obj2 is BlackHoleParticle)
+						(obj2 as BlackHoleParticle).checkCollisions(obj2);
+					else if (obj1 is Particle)
 						(obj1 as Particle).checkCollisions(obj2);
 					else if (obj1 is Antiparticle)
 						(obj1 as Antiparticle).checkCollisions(obj2);								

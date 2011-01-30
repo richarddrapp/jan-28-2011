@@ -27,7 +27,10 @@
 			this.x = x;
 			this.y = y;
 			
-			blackHoleParticle = new BlackHoleParticle(x, y, radius);
+			trace("BH.X = " + this.x);
+			trace("BH.Y = " + this.y);
+			
+			blackHoleParticle = new BlackHoleParticle(this.x, this.y, 20);
 			addChild(blackHoleParticle);
 			
 			var p;
