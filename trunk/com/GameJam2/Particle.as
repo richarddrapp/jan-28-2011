@@ -86,7 +86,7 @@
 				
 			Body=ReddEngine.getInstance().World.CreateBody(BodyDef);					
 			Body.CreateShape(CircleDef);						
-			Body.m_linearDamping = 0.1;
+			Body.m_linearDamping = 0.05;
 			Body.SetUserData(this);
 			
 			Body.SetMassFromShapes();		
@@ -178,10 +178,13 @@
 					total = value + robj.value;
 					// if 0, explode
 					if (total == 0) {
-						trace("CALL EXPLOSIONS");
-						this.Explode();
-						robj.Delete = true;
-						//ReddEngine.antiMatterObjects[i].explode();
+						if (Math.abs(Body.m_linearVelocity.Length() + robj.Body.m_linearVelocity.Length()) > (ReddEngine.COMBINE_V - 5)) {
+							trace("CALL EXPLOSIONS");
+							this.Explode();
+							robj.Delete = true;
+							//ReddEngine.antiMatterObjects[i].explode();
+						}
+						
 						
 					}
 					else

@@ -42,7 +42,7 @@
 		var time_count:Timer;
 		public static var WORLD_CONSTANT:Number = 30;
 		
-		public static var COMBINE_V:Number = 4;
+		public static var COMBINE_V:Number = 7;
 		
 		
 		public static var playerObject:Platformer;		
