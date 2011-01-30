@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/&lt;Path&gt;_5" itemID="4d45126a-000001f2" lastModified="1296372330">
+  <timeline>
+    <DOMTimeline name="&lt;Path&gt;_5">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#3A76B5"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!926 0[514 0 355 145!355 145[179 306 179 746!179 746[179 1080 90 1428!90 1428[36 1637 28 1675!28 1675[0 1809 0 1926!0 1926[0 2224 187 2414!187 2414[402 2632 802 2632!802 2632[1208 2632 1391 2324!1391 2324[1552 2053 1552 1512!1552 1512
+[1552 1298 1564 759!1564 759[1571 473 1552 352!1552 352[1523 168 1424 98!1424 98[1287 0 926 0"/>
+                    <Edge cubics="!1552 1512(;1552,840 1585,562 1552,352q1552 1512Q1552 1298q1564 759Q1571 473q1552 352);"/>
+                    <Edge cubics="!1552 352(;1519,143 1452,0 926,0q1552 352Q1523 168q1424 98Q1287 0q926 0);"/>
+                    <Edge cubics="!926 0(;399,0 179,139 179,746q926 0Q514 0q355 145Q179 306q179 746);"/>
+                    <Edge cubics="!179 746(;179,1352 0,1566 0,1926q179 746Q179 1080q90 1428Q36 1637q28 1675Q0 1809q0 1926);"/>
+                    <Edge cubics="!0 1926(;0,2286 232,2632 802,2632q0 1926Q0 2224q187 2414Q402 2632q802 2632);"/>
+                    <Edge cubics="!802 2632(;1372,2632 1552,2185 1552,1512q802 2632Q1208 2632q1391 2324Q1552 2053q1552 1512);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Button" itemID="4d451389-00000233" lastModified="1296372617">
+  <timeline>
+    <DOMTimeline name="Button">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMSymbolInstance libraryItemName="jeremy_art_assets/&lt;Path&gt;_1_0" name="" selected="true" blendMode="layer">
+                      <matrix>
+                        <Matrix tx="-85.5" ty="-24.5"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="85.5" y="24.5"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.25"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" weight="5">
+                            <fill>
+                              <SolidColor color="#3A76B5"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!-1310 -490|1310 -490!1310 -490[1475 -490 1593 -373!1593 -373[1710 -256 1710 -90!1710 -90|1710 90!1710 90[1710 256 1593 373!1593 373[1475 490 1310 490!1310 490|-1310 490!-1310 490[-1476 490 -1593 373!-1593 373[-1710 256 -1710 90!-1710
+ 90|-1710 -90!-1710 -90[-1710 -256 -1593 -373!-1593 -373[-1476 -490 -1310 -490"/>
+                        <Edge cubics="!1710 90(;1710,311 1530,490 1310,490q1710 90Q1710 256q1593 373Q1475 490q1310 490);"/>
+                        <Edge cubics="!1310 490(;1310,490 -1310,490 -1310,490q1310 490 -1310 490);"/>
+                        <Edge cubics="!-1310 490(;-1531,490 -1710,311 -1710,90q-1310 490Q-1476 490q-1593 373Q-1710 256q-1710 90);"/>
+                        <Edge cubics="!-1710 90(;-1710,90 -1710,-90 -1710,-90q-1710 90 -1710 -90);"/>
+                        <Edge cubics="!-1710 -90(;-1710,-311 -1531,-490 -1310,-490q-1710 -90Q-1710 -256q-1593 -373Q-1476 -490q-1310 -490);"/>
+                        <Edge cubics="!-1310 -490(;-1310,-490 1310,-490 1310,-490q-1310 -490 1310 -490);"/>
+                        <Edge cubics="!1310 -490(;1530,-490 1710,-311 1710,-90q1310 -490Q1475 -490q1593 -373Q1710 -256q1710 -90);"/>
+                        <Edge cubics="!1710 -90(;1710,-90 1710,90 1710,90q1710 -90 1710 90);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
