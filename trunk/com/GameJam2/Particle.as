@@ -111,7 +111,7 @@
 				if (robj is ShotParticle)
 				{		
 					total = value + robj.value;
-					trace("shot collided with matter");
+					//trace("shot collided with matter");
 					// sum the values
 					
 					// if 0, explode
@@ -134,7 +134,7 @@
 				else if (robj is Antiparticle)
 				{
 					total = value + robj.value;
-					trace("matter collided with antimatter");
+					//trace("matter collided with antimatter");
 					// sum the values
 					var total = value + robj.value;
 					// if 0, explode
@@ -158,7 +158,7 @@
 				else if (robj is Particle)
 				{					
 					total = value + robj.value;
-					trace("combining");
+					//trace("combining");
 					var tempP:Particle;
 					if (value > robj.value)
 					{						
