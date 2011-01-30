@@ -15,6 +15,7 @@
 		var dead:Vector.<bhParticle> = new Vector.<bhParticle>();
 		
 		var on:Boolean;
+		var kill:Boolean;
 		
 		var blackHoleParticle:BlackHoleParticle;
 		
@@ -43,6 +44,7 @@
 			}
 			
 			on = true;
+			kill = false;
 		}
 		
 		public function setImplosivePhysicsAttributes(reddObj:ReddObject, radius:Number, minval:Number, maxval:Number) {
@@ -76,10 +78,15 @@
 				}
 			}
 			this.rotation += 0.5;
+			
+			if ((alive.length == 0) && (kill)) {
+				ExplosionHandler.getInstance().kill(this);
+			}
 		}
 		
 		public function off() {
 			on = false;
+			kill = true;
 		}
 	}
 }
