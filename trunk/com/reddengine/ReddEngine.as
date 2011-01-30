@@ -56,6 +56,7 @@
 		public static var matterObjects:Array = new Array();
 		public static var antiMatterObjects:Array = new Array();
 		public static var projectileObjects:Array = new Array();
+		public static var blackHoleObjects:Array = new Array();
 		
 		//used to fix a few issues with the camera zooming
 		public static var zooming1:Boolean = false;
