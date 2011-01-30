@@ -262,6 +262,7 @@
 			super.Destroy();
 			//ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.antiMatterObjects.splice(ReddEngine.antiMatterObjects.indexOf(this), 1);
+			ReddEngine.getInstance().checkGameOver();
 		}
 		
 		override public function debug() : void {
