@@ -118,8 +118,10 @@
 		public function checkCollisions(robj:ReddObject):void {
 			//camera detection				
 				
+				trace("debug1");
 				var total:int;
 				total = value + robj.value;
+				trace("debug2");
 				
 				//Particle colliding with ShotParticle
 				if (robj is ShotParticle)
@@ -241,7 +243,7 @@
 		}								
 		
 		public function convert(e:TimerEvent):void {				
-			//trace("Converting");	
+			trace("Converting");	
 				//trace("In Val: " + value);														
 					var newAP:Antiparticle = new Antiparticle(this.x, this.y, 15);	
 					newAP.Body.SetLinearVelocity(Body.GetLinearVelocity());

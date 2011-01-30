@@ -68,7 +68,7 @@
 		}*/
 		
 		public function convert(e:TimerEvent):void {				
-			//trace("Converting");	
+			trace("Converting");	
 				//trace("In Val: " + value);				
 							
 				if (value > 0)
