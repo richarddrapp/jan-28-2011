@@ -2,6 +2,7 @@
 	
 	import com.Box2D.Collision.Shapes.b2CircleDef;
 	import com.Box2D.Dynamics.b2Body;
+	import com.reddengine.StaticWallFloor;
 	import flash.display.MovieClip;
 	import flash.display.Stage;
 	import flash.display.BitmapData;
@@ -128,11 +129,21 @@
 			if (this.Delete)
 				Destroy();
 			
-			
+			checkCollisions();
 		}		
 		
 		public function checkCollisions():void {
-			
+			for each (var wall:StaticWallFloor in ReddEngine.wallfloors)
+			{
+				if (this.hitTestObject(wall))
+				{
+					if (!needConvert)
+					{
+						needConvert = true;
+						conversion.start();
+					}
+				}				
+			}
 		}
 		
 		override public function Destroy() : void {

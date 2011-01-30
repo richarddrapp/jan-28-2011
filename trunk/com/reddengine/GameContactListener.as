@@ -20,6 +20,8 @@ package  com.reddengine
                 var obj2:ReddObject = point.shape2.GetBody().GetUserData() as ReddObject;               									
 					
 				
+				
+				
 					if (obj1 is Particle)
 						(obj1 as Particle).checkCollisions(obj2);
 					else if (obj1 is Antiparticle)
@@ -27,8 +29,7 @@ package  com.reddengine
 					else if (obj2 is Particle)
 						(obj2 as Particle).checkCollisions(obj1);
 					else if (obj2 is Antiparticle)
-						(obj2 as Antiparticle).checkCollisions(obj1);
-													
+						(obj2 as Antiparticle).checkCollisions(obj1);												
         }
 }
 
