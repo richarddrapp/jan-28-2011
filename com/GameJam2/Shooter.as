@@ -96,14 +96,15 @@
 			ReddEngine.getInstance().stage.addEventListener(KeyboardEvent.KEY_UP, keyUp);
 			ReddEngine.getInstance().stage.addEventListener(MouseEvent.MOUSE_DOWN, mouseDown);
 			ReddEngine.getInstance().stage.addEventListener(MouseEvent.MOUSE_UP, mouseUp);
+						
 			
 			initFireMeter();
 			
 			LaunchTimer = new Timer(TIME_PER_SHOT, 1);
 			SpawnTimer = new Timer(MATTER_SPAWN_TIME, 0);
-			LaunchTimer.addEventListener(TimerEvent.TIMER, reload);
-			SpawnTimer.addEventListener(TimerEvent.TIMER, spawnMeteor);
-			SpawnTimer.start();
+			LaunchTimer.addEventListener(TimerEvent.TIMER, reload);			
+			SpawnTimer.addEventListener(TimerEvent.TIMER, spawnMeteor);						
+				SpawnTimer.start();
 		}
 		
 		public function initFireMeter() {//this init has odd colors, but they should be overrulled in the first update
@@ -300,48 +301,51 @@
 				}			
 		}
 		
-		public function spawnMeteor(e:TimerEvent):void {				
-			if (Math.random() > 0.4)
+		public function spawnMeteor(e:TimerEvent):void {		
+			if (ReddEngine.getInstance().currentFrame == 3)
 			{
-				var met:Particle;
-				if(Math.random() > 0.5)
-					met = new Particle(0, Math.random()*400, 15);
-				else
-					met = new Particle(600, Math.random()*400, 15);
-					
-				atkAngle = Math.atan((met.y - this.y) / (met.x - this.x))
-				metVX = (2) * Math.cos(atkAngle);
-				metVY = (2) * Math.sin(atkAngle);
-				if (met.x > 500)
+				if (Math.random() > 0.4)
 				{
-					metVX *= -1;
-					metVY *= -1;
-				}
-				
-				met.Body.ApplyImpulse(new b2Vec2(metVX, metVY), met.Body.GetWorldCenter());
-				ReddEngine.getInstance().addChild(met);
-				ReddEngine.reddObjects.push(met);
-			}
-			else
-			{
-				var met2:Antiparticle
-				if(Math.random() > 0.5)
-					met2 = new Antiparticle(0, Math.random()*400, 15);
-				else
-					met2 = new Antiparticle(600, Math.random()*400, 15);
+					var met:Particle;
+					if(Math.random() > 0.5)
+						met = new Particle(0, Math.random()*400, 15);
+					else
+						met = new Particle(600, Math.random()*400, 15);
+						
+					atkAngle = Math.atan((met.y - this.y) / (met.x - this.x))
+					metVX = (2) * Math.cos(atkAngle);
+					metVY = (2) * Math.sin(atkAngle);
+					if (met.x > 500)
+					{
+						metVX *= -1;
+						metVY *= -1;
+					}
 					
-				atkAngle = Math.atan((met2.y - this.y) / (met2.x - this.x))
-				metVX = (2) * Math.cos(atkAngle);
-				metVY = (2) * Math.sin(atkAngle);
-				if (met2.x > 500)
-				{
-					metVX *= -1;
-					metVY *= -1;
+					met.Body.ApplyImpulse(new b2Vec2(metVX, metVY), met.Body.GetWorldCenter());
+					ReddEngine.getInstance().addChild(met);
+					ReddEngine.reddObjects.push(met);
 				}
-				
-				met2.Body.ApplyImpulse(new b2Vec2(metVX, metVY), met2.Body.GetWorldCenter());
-				ReddEngine.getInstance().addChild(met2);
-				ReddEngine.reddObjects.push(met2);
+				else
+				{
+					var met2:Antiparticle
+					if(Math.random() > 0.5)
+						met2 = new Antiparticle(0, Math.random()*400, 15);
+					else
+						met2 = new Antiparticle(600, Math.random()*400, 15);
+						
+					atkAngle = Math.atan((met2.y - this.y) / (met2.x - this.x))
+					metVX = (2) * Math.cos(atkAngle);
+					metVY = (2) * Math.sin(atkAngle);
+					if (met2.x > 500)
+					{
+						metVX *= -1;
+						metVY *= -1;
+					}
+					
+					met2.Body.ApplyImpulse(new b2Vec2(metVX, metVY), met2.Body.GetWorldCenter());
+					ReddEngine.getInstance().addChild(met2);
+					ReddEngine.reddObjects.push(met2);
+				}
 			}
 		}
 		

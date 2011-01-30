@@ -99,10 +99,11 @@
           <Include href="Shooter.xml"/>
           <Include href="ShotParticle.xml"/>
           <Include href="StaticWallFloor.xml"/>
+          <Include href="TitleScreen.xml"/>
           <Include href="WorldDefender.xml"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1">
+          <DOMTimeline name="Scene 1" currentFrame="1">
                <layers>
                     <DOMLayer name="flash0.ai" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
@@ -111,7 +112,27 @@
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Shooter" name="" centerPoint3DX="382.2" centerPoint3DY="599.95">
+                                        <DOMSymbolInstance libraryItemName="TitleScreen" name="" centerPoint3DX="401.35" centerPoint3DY="306.1">
+                                             <matrix>
+                                                  <Matrix tx="401.35" ty="306.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="1.55" y="1.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Shooter" name="" selected="true" centerPoint3DX="397.85" centerPoint3DY="598.8">
+                                             <matrix>
+                                                  <Matrix a="3.125" d="3.125" tx="397.85" ty="598.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Shooter" name="" selected="true" centerPoint3DX="382.2" centerPoint3DY="599.95">
                                              <matrix>
                                                   <Matrix a="3.125" d="3.125" tx="382.2" ty="599.95"/>
                                              </matrix>
@@ -153,43 +174,6 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="2" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="jeremy_art_assets/title_bar" name="" centerPoint3DX="400" centerPoint3DY="75.5">
-                                             <matrix>
-                                                  <Matrix tx="400" ty="75.5"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="jeremy_art_assets/start_button" name="" centerPoint3DX="400" centerPoint3DY="233.4">
-                                             <matrix>
-                                                  <Matrix tx="400" ty="233.4"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMTLFText name="" left="-7459" right="7545" bottom="387">
-                                             <matrix>
-                                                  <Matrix tx="398" ty="137"/>
-                                             </matrix>
-                                             <tlfFonts>
-                                                  <TLFFont platformName="NeoTech" psName="NeoTech-Bold" bold="true"/>
-                                             </tlfFonts>
-                                             <markup><tlfTextObject type="Point" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="explicit" locale="en" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="start" textIndent="0" textJustify="interWord"><span color="#b1011b" fontFamily="NeoTech" fontSize="16" fontStyle="normal" fontWeight="bold" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">Jay Cramer, Patrick Fay, Anthony Ghavami, Aislinn Glennon, Jeremy Le, Bryan Ploof, Richard Rapp</span></p></TextFlow></tlfTextObject></markup>
-                                        </DOMTLFText>
-                                        <DOMSymbolInstance libraryItemName="jeremy_art_assets/Mouser" name="" centerPoint3DX="732.35" centerPoint3DY="489.95">
-                                             <matrix>
-                                                  <Matrix a="0.9703369140625" b="-0.241744995117188" c="0.241744995117188" d="0.9703369140625" tx="730.8" ty="489.65"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="1.2" y="-0.05"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="BG" color="#9933CC" locked="true" autoNamed="false">
@@ -198,6 +182,11 @@
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/stars.jpg"/>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -210,11 +199,6 @@
                                              </edges>
                                         </DOMShape>
                                         <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/smoke_background3.png"/>
-                                   </elements>
-                              </DOMFrame>
-                              <DOMFrame index="2" keyMode="9728">
-                                   <elements>
-                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/stars.jpg"/>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -259,6 +243,9 @@ gotoAndStop(2);
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="2" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();]]></script>
+                                   </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -569,6 +556,7 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="380119" publishTime="1296390798"/>
           <PublishItem publishSize="380302" publishTime="1296389303"/>
           <PublishItem publishSize="380282" publishTime="1296387548"/>
           <PublishItem publishSize="380341" publishTime="1296387017"/>
@@ -588,6 +576,5 @@ gotoAndStop(2);
           <PublishItem publishSize="57616" publishTime="1296370752"/>
           <PublishItem publishSize="57617" publishTime="1296370634"/>
           <PublishItem publishSize="57379" publishTime="1296370454"/>
-          <PublishItem publishSize="57424" publishTime="1296370406"/>
      </publishHistory>
 </DOMDocument>
