@@ -29,8 +29,8 @@
 		
 		public function BlackHoleParticle(x:Number=0, y:Number=0, r:Number=0) 
 		{
-			this.x = 0;
-			this.y = 0;			
+			this.x = x;
+			this.y = y;			
 			
 			value = Math.random() * 3 + 6;// 6 to 9
 			if (Math.random() > .5) {//flip a coin for negative
@@ -43,7 +43,7 @@
 			height = width;	
 			
 			Density = 0;
-			Friction = 10;
+			Friction = 1;
 			isRound = true;			
 			InitializePhysics();
 			addEventListener(Event.ENTER_FRAME, Update);
@@ -75,7 +75,7 @@
 			super.Update(e);
 			
 			numSymbol.numText.text = "" + value;
-			numSymbol.rotation = -parent.rotation;
+			numSymbol.rotation = rotation;
 			
 			if (debugEnabled)
 				debug();							
@@ -92,6 +92,8 @@
 				if (value == -robj.value) {
 					//if it matches our magic value
 					//REMOVE BLACK HOLE AND ROBJ, YAY!!!!
+					robj.Delete = true;
+					this.Explode();
 					//explosion for effect?
 				} else {
 					//CONSOME THAT MOTHER FUCKER
