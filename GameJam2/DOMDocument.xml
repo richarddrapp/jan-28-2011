@@ -110,15 +110,17 @@
           <Include href="Projectile.xml"/>
           <Include href="Rollable.xml"/>
           <Include href="Shooter.xml"/>
+          <Include href="shot_shield.xml" loadImmediate="false"/>
           <Include href="ShotParticle.xml"/>
           <Include href="StaticWallFloor.xml"/>
+          <Include href="Symbol 1.xml" loadImmediate="false"/>
           <Include href="TitleScreen.xml"/>
           <Include href="WorldDefender.xml"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Crosshair" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Crosshair" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -145,7 +147,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="flash0.ai" color="#FF4FFF" autoNamed="false">
+                    <DOMLayer name="flash0.ai" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -596,6 +598,11 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="434619" publishTime="1296422980"/>
+          <PublishItem publishSize="398734" publishTime="1296422678"/>
+          <PublishItem publishSize="398717" publishTime="1296422618"/>
+          <PublishItem publishSize="398777" publishTime="1296422537"/>
+          <PublishItem publishSize="398440" publishTime="1296422472"/>
           <PublishItem publishSize="398202" publishTime="1296421948"/>
           <PublishItem publishSize="398193" publishTime="1296421922"/>
           <PublishItem publishSize="337504" publishTime="1296421807"/>
@@ -611,10 +618,5 @@ gotoAndStop(2);
           <PublishItem publishSize="398193" publishTime="1296421165"/>
           <PublishItem publishSize="398110" publishTime="1296421112"/>
           <PublishItem publishSize="398156" publishTime="1296421105"/>
-          <PublishItem publishSize="398471" publishTime="1296418451"/>
-          <PublishItem publishSize="396756" publishTime="1296416189"/>
-          <PublishItem publishSize="396768" publishTime="1296416094"/>
-          <PublishItem publishSize="396780" publishTime="1296416004"/>
-          <PublishItem publishSize="396689" publishTime="1296415901"/>
      </publishHistory>
 </DOMDocument>
