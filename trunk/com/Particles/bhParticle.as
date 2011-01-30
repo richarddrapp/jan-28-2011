@@ -56,6 +56,8 @@
 				live = false;
 			}
 			
+	
+			
 		}
 		
 		public function respawn() {
