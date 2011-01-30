@@ -8,7 +8,7 @@
 	public class ParticleBlackHole extends MovieClip {
 		var radius:Number;
 		
-		var density = 2;
+		var density = 4;
 		
 		var alive:Vector.<bhParticle> = new Vector.<bhParticle>();
 		var dead:Vector.<bhParticle> = new Vector.<bhParticle>();

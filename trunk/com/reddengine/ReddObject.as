@@ -171,7 +171,7 @@
 			trace("A black hole is being spawned. WOOOOOOOOOOOOSH!");
 			
 			//ExplosionHandler.getInstance().setImplosiveAttributes(this, 400, 0, -1);
-			ExplosionHandler.getInstance().implode_at(this.x, this.y, 200, 200, this, 400, 0, -.5);
+			ExplosionHandler.getInstance().implode_at(this.x, this.y, 500, 200, this, 400, 0, -.5);
 			
 			//applyExplosiveImpulse(this.x, this.y, 400, 0, -1);
 			

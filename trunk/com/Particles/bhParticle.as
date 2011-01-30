@@ -70,10 +70,10 @@
 				y = Math.sin(angle) * radius;
 			
 			
-			this.rotation = angle / Math.PI * 180 + 90;
+			this.rotation = angle / Math.PI * 180;
 			
-			xspeed = (-1) * Math.cos(angle) / 4;
-			yspeed = (-1) * Math.sin(angle) / 4;
+			xspeed = (-2) * Math.cos(angle);
+			yspeed = (-2) * Math.sin(angle);
 			
 			this.alpha = 0;
 			live = true;
