@@ -38,6 +38,15 @@
 		public var isMouseDown:Boolean = false;
 		public var mouseDownTime:int = 0;
 		
+		public static var TIME_TO_NEXT_FIRING_STRENGTH:int = 15;
+		
+		var fireMeter:MovieClip = new MovieClip;
+		var fireMeterBackground:Sprite = new Sprite;
+		var fireMeterFill:Sprite = new Sprite;
+		var fireMeterBorder:Sprite = new Sprite;
+		var fireMeterRect:Rectangle = new Rectangle(500, 500, 100, 50);
+		var fireMeterText:TextField;
+		
 		var radius:Number;
 		var newX:Number;
 		var newY:Number;
@@ -73,12 +82,61 @@
 			ReddEngine.getInstance().stage.addEventListener(MouseEvent.MOUSE_DOWN, mouseDown);
 			ReddEngine.getInstance().stage.addEventListener(MouseEvent.MOUSE_UP, mouseUp);
 			
+			initFireMeter();
 			
 			LaunchTimer = new Timer(1000, 1);
 			SpawnTimer = new Timer(2000, 0);
 			LaunchTimer.addEventListener(TimerEvent.TIMER, reload);
 			SpawnTimer.addEventListener(TimerEvent.TIMER, spawnMeteor);
 			SpawnTimer.start();
+		}
+		
+		public function initFireMeter() {
+			fireMeterBackground.graphics.beginFill(0x222222, 1);
+			fireMeterBackground.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
+			fireMeterBackground.graphics.endFill();
+			
+			fireMeterFill.graphics.beginFill(0x00DD00, 1);
+			//trace("% of bar: " + (mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH);
+			fireMeterFill.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width*((mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH), fireMeterRect.height);
+			fireMeterFill.graphics.endFill();
+			
+			fireMeterBorder.graphics.lineStyle(1, 0x000000, 1, false, "normal", null, null, 3);
+			fireMeterBorder.graphics.beginFill(0x000000, 0);
+			fireMeterBorder.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
+			fireMeterBorder.graphics.endFill();
+			
+			fireMeter.addChild(fireMeterBackground);
+			fireMeter.addChild(fireMeterFill);
+			fireMeter.addChild(fireMeterBorder);
+			ReddEngine.getInstance().stage.addChild(fireMeter);
+			
+			fireMeterText = new TextField();
+			var fireMeterTextFormat:TextFormat = new TextFormat();
+			fireMeterTextFormat.size = 30;
+			fireMeterTextFormat.color = 0x000000;
+			fireMeterText.setTextFormat(fireMeterTextFormat);
+			fireMeterText.selectable = false;
+			fireMeterText.x = fireMeterRect.x + fireMeterRect.width/2;
+			fireMeterText.y = fireMeterRect.y + fireMeterRect.height/2;
+			fireMeterText.width = fireMeterRect.width;
+			fireMeterText.height = fireMeterRect.height;		
+			ReddEngine.getInstance().stage.addChild(fireMeterText);
+			fireMeterText.text = "" + int(mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1);
+			fireMeterText.x = fireMeterRect.x -fireMeterText.textWidth;
+			fireMeterText.y = fireMeterRect.y -fireMeterText.textHeight/2;
+		}
+		
+		public function updateFireMeter() {
+			fireMeterFill.graphics.clear();
+			fireMeterFill.graphics.beginFill(0x00DD00, 1);
+			//trace("% of bar: " + (mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH);
+			fireMeterFill.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width*((mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH), fireMeterRect.height);
+			fireMeterFill.graphics.endFill();
+			
+			fireMeterText.text = "" + int(mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1);
+			fireMeterText.x = fireMeterRect.x + fireMeterRect.width/2 -fireMeterText.textWidth;
+			fireMeterText.y = fireMeterRect.y + fireMeterRect.height/2 -fireMeterText.textHeight/2;
 		}
 		
 		override public function InitializePhysics():void
@@ -105,7 +163,8 @@
 			//this.x -= 1;												
 			
 			mouseDownUpdate();
-			mouseMovement();										
+			mouseMovement();	
+			updateFireMeter();
 				
 			if (debugEnabled)
 				debug();
@@ -147,7 +206,7 @@
 					newVY = (LaunchSpeed * -Math.cos(orientation * Math.PI / 180));
 					
 					var mis:ShotParticle = new ShotParticle(newX, newY, 10);
-					mis.value = mouseDownTime / 15 + 1;
+					mis.value = mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH + 1;
 					mis.Body.ApplyImpulse(new b2Vec2(newVX, newVY), mis.Body.GetWorldCenter());					
 					ReddEngine.getInstance().addChild(mis);
 				}			
