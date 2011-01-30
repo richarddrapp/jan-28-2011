@@ -25,7 +25,7 @@ package  com.reddengine
 					if (obj1 is BlackHoleParticle)
 						(obj1 as BlackHoleParticle).checkCollisions(obj2);
 					else if (obj2 is BlackHoleParticle)
-						(obj2 as BlackHoleParticle).checkCollisions(obj2);
+						(obj2 as BlackHoleParticle).checkCollisions(obj1);
 					else if (obj1 is Particle)
 						(obj1 as Particle).checkCollisions(obj2);
 					else if (obj1 is Antiparticle)

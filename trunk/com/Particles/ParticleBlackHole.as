@@ -5,6 +5,7 @@
 	import flash.events.MouseEvent;
 	import flash.geom.ColorTransform;
 	import com.reddengine.ReddObject;
+	import com.reddengine.ReddEngine;
 	public class ParticleBlackHole extends MovieClip {
 		var radius:Number;
 		
@@ -33,7 +34,7 @@
 			trace("BH.Y = " + this.y);
 			
 			blackHoleParticle = new BlackHoleParticle(this.x, this.y, 20);
-			addChild(blackHoleParticle);
+			ReddEngine.getInstance().addChild(blackHoleParticle);
 			
 			var p;
 			for (var i = 0; i < number; i++) {
