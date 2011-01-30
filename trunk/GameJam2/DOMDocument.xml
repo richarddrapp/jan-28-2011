@@ -3,7 +3,7 @@
           <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238"/>
           <DOMFolderItem name="jeremy_art_assets/Layer 1" itemID="4d45126a-000001e4" isExpanded="true"/>
           <DOMFolderItem name="Particle_art" itemID="4d451bd8-000003dd"/>
-          <DOMFolderItem name="Particles" itemID="4d451cf5-00000244" isExpanded="true"/>
+          <DOMFolderItem name="Particles" itemID="4d451cf5-00000244"/>
      </folders>
      <media>
           <DOMBitmapItem name="Particle_art/Bitmap 1" itemID="4d44f656-00000269" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
@@ -12,7 +12,7 @@
           <DOMBitmapItem name="Particle_art/rBitmap 1" itemID="4d451b49-000003b4" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296374601" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
           <DOMBitmapItem name="Particle_art/rBitmap 2" itemID="4d451b4f-000003b5" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296374607" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
           <DOMBitmapItem name="Particle_art/rBitmap 3" itemID="4d451b53-000003b6" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296374611" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
-          <DOMBitmapItem name="jeremy_art_assets/smoke_background3.png" itemID="4d4513af-0000023c" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\smoke_background3.png" sourceLastImported="1296372655" externalFileSize="369199" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\smoke_background3.png" bitmapDataHRef="M 1 1296371706.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
+          <DOMBitmapItem name="jeremy_art_assets/smoke_background3.png" itemID="4d4513af-0000023c" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\smoke_background3.png" sourceLastImported="1296372655" externalFileSize="369199" originalCompressionType="lossless" quality="50" href="jeremy_art_assets\smoke_background3.png" bitmapDataHRef="M 1 1296371706.dat" frameRight="16000" frameBottom="12000"/>
           <DOMBitmapItem name="jeremy_art_assets/starfield.jpg" itemID="4d4513b0-0000023d" sourceExternalFilepath=".\LIBRARY\jeremy_art_assets\starfield.jpg" sourceLastImported="1296372655" externalFileSize="249111" quality="50" href="jeremy_art_assets\starfield.jpg" bitmapDataHRef="M 2 1296371719.dat" frameRight="16000" frameBottom="12000" isJPEG="true"/>
      </media>
      <symbols>
@@ -486,6 +486,7 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="321104" publishTime="1296375374"/>
           <PublishItem publishSize="320594" publishTime="1296374708"/>
           <PublishItem publishSize="57687" publishTime="1296371037"/>
           <PublishItem publishSize="57544" publishTime="1296370809"/>
@@ -505,6 +506,5 @@ gotoAndStop(2);
           <PublishItem publishSize="57627" publishTime="1296369457"/>
           <PublishItem publishSize="57388" publishTime="1296369288"/>
           <PublishItem publishSize="1609" publishTime="1296369231"/>
-          <PublishItem publishSize="57362" publishTime="1296369168"/>
      </publishHistory>
 </DOMDocument>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particles/gParticle" itemID="4b7661c5-0000005a" linkageExportForAS="true" linkageClassName="gParticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296354733">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particles/gParticle" itemID="4b7661c5-0000005a" linkageExportForAS="true" linkageClassName="com.Particles.gParticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296375368">
   <timeline>
     <DOMTimeline name="gParticle">
       <layers>
