@@ -5,7 +5,9 @@
 	import flash.display.MovieClip;
 	import flash.display.Stage;
 	import flash.display.BitmapData;
+	import flash.events.TimerEvent;
 	import flash.geom.*;
+	import flash.utils.Timer;
 	
 	import flash.display.Sprite;
     import flash.text.TextField;
@@ -29,6 +31,7 @@
 		public var engineRef:ReddEngine;								
 		public var debugEnabled:Boolean;
 		public var Delete:Boolean = false;
+		private var timer:Timer;
 		
 		public var grounded:Boolean;		
 		public var Velocity:b2Vec2;				
@@ -109,7 +112,7 @@
 		
 			//this.Delete = true;
 			
-			applyExplosiveImpulse(this.x, this.y, 400, 0, 15);
+			applyExplosiveImpulse(this.x, this.y, 400, 0, 30);
 		}
 		
 		public function applyExplosiveImpulse(xPos:int, yPos:int, radius:Number, minval:Number, maxval:Number) {
@@ -172,10 +175,17 @@
 			
 			//ExplosionHandler.getInstance().setImplosiveAttributes(this, 400, 0, -1);
 			ExplosionHandler.getInstance().implode_at(this.x, this.y, 500, 200, this, 400, 0, -.5);
+			timer = new Timer (10000, 0);
+			timer.addEventListener(TimerEvent.TIMER, timerListener);
+			timer.start();
 			
 			//applyExplosiveImpulse(this.x, this.y, 400, 0, -1);
 			
 			this.Delete = true;
+		}
+		
+		function timerListener (e: TimerEvent):void {
+			ReddEngine.getInstance().StopGame();
 		}
 		
 		public function debug() : void {

@@ -110,6 +110,8 @@
 			//trace("num.text before:" + num.text);
 			numSymbol.numText.text = "" + value;
 			numSymbol.rotation = -rotation;
+			this.width = SetWidthBasedOnValue(value);
+			this.height = width;
 			//num.text = "0";
 			//trace("num.text after:" + num.text);
 			//setText("" + value);
