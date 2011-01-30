@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy" itemID="4d4548df-000003df" lastModified="1296385339">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/Symbol 1 copy" itemID="4d4548da-000003bd" lastModified="1296385339">
   <timeline>
     <DOMTimeline name="Symbol 1 copy">
       <layers>
@@ -8,7 +8,7 @@
               <elements>
                 <DOMGroup selected="true">
                   <members>
-                    <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1/&lt;Path&gt;_1" name="" selected="true" blendMode="layer">
+                    <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1/&lt;Path&gt;_1" name="" selected="true" blendMode="layer">
                       <transformationPoint>
                         <Point x="85.5" y="24.5"/>
                       </transformationPoint>

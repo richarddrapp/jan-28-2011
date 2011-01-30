@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" viewAngle3D="74.2651684569297" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="800" height="600" frameRate="30" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" guidesSnapTo="false" snapAlign="false" objectsSnapTo="false" viewAngle3D="74.2651684569297" nextSceneIdentifier="2" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238" isExpanded="true"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols" itemID="4d453972-000005e6"/>
@@ -12,6 +12,9 @@
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1" itemID="4d4540ca-000002b0"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_1" itemID="4d454240-000002e4" isExpanded="true"/>
           <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/flash0.ai Assets_1/Layer 1" itemID="4d454240-000002e5" isExpanded="true"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols" itemID="4d4548df-000003d6"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0" itemID="4d4548df-000003d7"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1" itemID="4d4548df-000003d8"/>
           <DOMFolderItem name="Particle_art" itemID="4d451bd8-000003dd"/>
           <DOMFolderItem name="Particles" itemID="4d451cf5-00000244"/>
      </folders>
@@ -34,9 +37,11 @@
           <Include href="CameraDetection.xml"/>
           <Include href="Collidable.xml"/>
           <Include href="jeremy_art_assets/AlertSign.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/allpurpose_button.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/BlueBar.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/BlueBorder.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/BlueFill.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/crosshair.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Mouser.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/RedBar.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/RedBorder.xml" loadImmediate="false"/>
@@ -62,8 +67,11 @@
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 2.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 3.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 4.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 14.xml" itemIcon="1" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/title_screen_styles.ai.xml" itemIcon="1" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/flash0.ai Assets_0/Layer 1/&amp;#60Path&amp;#62_1.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Useless Symbols That Go In Other Symbols/Symbol 1 copy.xml" loadImmediate="false"/>
           <Include href="Meteor.xml"/>
           <Include href="numSymbol.xml" loadImmediate="false"/>
           <Include href="Particle.xml"/>
