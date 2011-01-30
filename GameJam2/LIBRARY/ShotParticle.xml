@@ -1,8 +1,29 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ShotParticle" itemID="4d43d8a0-00000229" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.ShotParticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296374694" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ShotParticle" itemID="4d43d8a0-00000229" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.ShotParticle" sourceLibraryItemHRef="Symbol 1" lastModified="1296375930" lastUniqueIdentifier="1">
   <timeline>
-    <DOMTimeline name="ShotParticle" currentFrame="1">
+    <DOMTimeline name="ShotParticle">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="num" selected="true" fontRenderingMode="standard" width="176" height="120">
+                  <matrix>
+                    <Matrix tx="-87.5" ty="-50.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>00</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="9" size="120" bitmapSize="2400" face="NeoTech-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -52,9 +73,9 @@
                 <script><![CDATA[stop();]]></script>
               </Actionscript>
               <elements>
-                <DOMSymbolInstance libraryItemName="Particle_art/atom" name="" selected="true" centerPoint3DX="0.05" centerPoint3DY="0.45">
+                <DOMSymbolInstance libraryItemName="Particle_art/atom" name="" centerPoint3DX="-1.95" centerPoint3DY="0.45">
                   <matrix>
-                    <Matrix tx="0.05" ty="0.45"/>
+                    <Matrix tx="-1.95" ty="0.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
