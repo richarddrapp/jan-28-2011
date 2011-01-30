@@ -36,7 +36,7 @@
 			this.width = r*2;
 			this.height = r * 2;
 			
-			value = Math.random() * -8 +1;
+			value = Math.random() * -8 -1;
 			initText();
 			
 			Density = 2;
@@ -95,9 +95,10 @@
 		}		
 		
 		public function checkCollisions(robj:ReddObject) {
-			
+			var total:int;
 			if (robj is ShotParticle)
 				{
+					total = value + robj.value;
 					var newP:Particle
 					trace("shot collided with antimatter");
 					// sum the values
@@ -121,9 +122,9 @@
 				}
 				else if (robj is Particle)
 				{
+					total = value + robj.value;
 					trace("matter collided with antimatter");
-					// sum the values
-					var total = value + robj.value;
+					// sum the values					
 					// if 0, explode
 					if (total == 0) {
 						//this.explode();
@@ -140,19 +141,23 @@
 				}
 				else if (robj is Antiparticle)
 				{
+					total = value + robj.value;
 					trace("combining");
-					var tempP:Antiparticle;
+					var tempP:Antiparticle;					
 					if (value > robj.value)
-					{						
+					{												
 						width += 10;
 						height = width;							
 						robj.Delete = true;
+						value = total;
 					}
 					else	
 					{
+						
 						robj.width += 10;
 						robj.height = robj.width;						
 						this.Delete = true;
+						robj.value = total;
 					}	
 					
 				}
