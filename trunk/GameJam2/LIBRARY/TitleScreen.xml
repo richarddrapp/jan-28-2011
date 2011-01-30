@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TitleScreen" itemID="4d455a7a-000005d8" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.TitleScreen" sourceLibraryItemHRef="Symbol 1" lastModified="1296393016" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TitleScreen" itemID="4d455a7a-000005d8" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.TitleScreen" sourceLibraryItemHRef="Symbol 1" lastModified="1296425184" lastUniqueIdentifier="5">
   <timeline>
     <DOMTimeline name="TitleScreen">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="jeremy_art_assets/title_bar" name="" selected="true" centerPoint3DX="-1.35" centerPoint3DY="-230.6">
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/title_bar" name="" centerPoint3DX="-1.35" centerPoint3DY="-230.6">
                   <matrix>
                     <Matrix tx="-1.35" ty="-230.6"/>
                   </matrix>
@@ -40,7 +40,23 @@
                     <Matrix a="0.9703369140625" b="-0.241744995117188" c="0.241744995117188" d="0.9703369140625" tx="329.45" ty="183.55"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="0.65" y="-0.4"/>
+                    <Point x="0.6" y="-0.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/howtoplay_button" name="" selected="true" centerPoint3DX="230" centerPoint3DY="-18">
+                  <matrix>
+                    <Matrix tx="230" ty="-18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/about_button" name="" centerPoint3DX="-230" centerPoint3DY="-13">
+                  <matrix>
+                    <Matrix tx="-230" ty="-13"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
