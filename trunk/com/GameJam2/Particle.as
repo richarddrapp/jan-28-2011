@@ -255,6 +255,7 @@
 			super.Destroy();	
 			//ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.matterObjects.splice(ReddEngine.matterObjects.indexOf(this), 1);
+			ReddEngine.getInstance().checkGameOver();
 		}
 			
 		

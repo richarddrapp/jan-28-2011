@@ -292,6 +292,23 @@
 			return CollisionDetection.isColliding(obj1, obj2, this, true, 1);
 		}
 		
+		public function checkGameOver():Boolean{
+			//if there's no objects, you win!
+			//if there's no objects but is a black hole, you lose!
+			if (matterObjects.length == 0 && antiMatterObjects.length == 0 && projectileObjects.length == 0) {
+				if (blackHoleObjects.length == 0) {
+					//win
+					trace("you win!");
+					return true;
+				} else {
+					//lose
+					trace("you lose!");
+					return true;
+				}
+			}
+			return false;
+		}
+		
 		public function StopGame():void {
 			
 			//stop all shit here

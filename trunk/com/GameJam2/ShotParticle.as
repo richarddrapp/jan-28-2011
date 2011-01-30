@@ -171,6 +171,7 @@
 			//ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.projectileObjects.splice(ReddEngine.projectileObjects.indexOf(this), 1);
 			ReddEngine.getInstance().removeChild(trail);
+			ReddEngine.getInstance().checkGameOver();
 		}
 		
 		override public function debug() : void {
