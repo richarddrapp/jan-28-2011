@@ -74,7 +74,7 @@
 				{
 					var newP:Particle = new Particle(this.x, this.y, 15);	
 					newP.Body.SetLinearVelocity(Body.GetLinearVelocity());
-					newP.value = 0;
+					newP.value = value;
 					ReddEngine.getInstance().addChild(newP);
 					ReddEngine.reddObjects.push(newP);
 					ReddEngine.matterObjects.push(newP);
@@ -83,7 +83,7 @@
 				{
 					var newAP:Antiparticle = new Antiparticle(this.x, this.y, 15);	
 					newAP.Body.SetLinearVelocity(Body.GetLinearVelocity());
-					newAP.value = 0;
+					newAP.value = value;
 					ReddEngine.getInstance().addChild(newAP);
 					ReddEngine.reddObjects.push(newAP);
 					ReddEngine.matterObjects.push(newAP);

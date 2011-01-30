@@ -116,13 +116,22 @@
 					}
 					else
 					{		
-						value = total;
-						if (!(robj as ShotParticle).needConvert)
+						if (Math.abs(robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						{
-							(robj as ShotParticle).needConvert = true;
-							(robj as ShotParticle).conversion.start();
+							value = total;
+							trace("combining");				
+							width += robj.value;
+							height = width;							
+							robj.Delete = true;											
 						}
-						
+						else
+						{							
+							if (!(robj as ShotParticle).needConvert)
+							{	
+								(robj as ShotParticle).needConvert = true;
+								(robj as ShotParticle).conversion.start();							
+							}
+						}
 					}						
 				}
 				else if (robj is Particle)
@@ -139,52 +148,46 @@
 					}
 					else
 					{		
-						value = total;
-						trace("combining");
-						if (value > robj.value)
+						value = total;						
+						if (Math.abs(Body.m_linearVelocity.Length() + robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
 						{						
-							width = total * 10;
+							trace("combining");
+							width + robj.width;
 							height = width;							
 							robj.Delete = true;
-						}
-						else	
-						{							
-							robj.width = total * 10;
-							robj.height = robj.width;						
-							this.Delete = true;
-						}	
+						}							
+							//convert ShotParticle into Particle/Antiparticle																				
+						if (value > 0)						
+						{
+							
 							//convert ShotParticle into Particle/Antiparticle
-							
-							
-						}	
+						}
 						
-						if (value > 0)
-						gotoAndStop(2);
 					}											
-				
+				}
 				else if (robj is Antiparticle)
 				{
 					total = value + robj.value;
-					//trace("combining");
-					var tempP:Antiparticle;					
-					if (value > robj.value)
-					{												
-						width += 10;
-						height = width;							
-						robj.Delete = true;
-						value = total;
-					}
-					else	
-					{
-						
-						robj.width += 10;
-						robj.height = robj.width;						
-						this.Delete = true;
-						robj.value = total;
+					if (Math.abs(Body.m_linearVelocity.Length()+robj.Body.m_linearVelocity.Length()) > ReddEngine.COMBINE_V)
+					{			
+						if (Body.m_linearVelocity.Length() > robj.Body.m_linearVelocity.Length())
+						{
+							trace("combining");
+							width += robj.value;
+							height = width;							
+							robj.Delete = true;
+							value = total;
+						}										
+						else
+						{
+							robj.width += value;
+							robj.height = robj.width;
+							robj.value = total;
+							this.Delete = true;
+						}
 					}	
 					
-				}
-			
+				}			
 						
 		}
 		
