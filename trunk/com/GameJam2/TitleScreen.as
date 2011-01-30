@@ -1,8 +1,9 @@
-package com.GameJam2
+﻿package com.GameJam2
 {
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
+	import flash.ui.Mouse;
 	
 	import com.reddengine.ReddEngine;
 	import com.reddengine.ReddObject;
@@ -17,6 +18,7 @@ package com.GameJam2
 		{
 			trace("title screen");											
 			addEventListener(Event.ENTER_FRAME, start);
+			Mouse.hide();
 			
 		}
 		
