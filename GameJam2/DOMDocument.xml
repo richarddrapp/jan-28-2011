@@ -26,7 +26,7 @@
           <DOMBitmapItem name="Particle_art/Bitmap 2" itemID="4d44f656-0000026b" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
           <DOMBitmapItem name="Particle_art/Bitmap 3" itemID="4d44f656-0000026d" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
           <DOMBitmapItem name="launcher_comp1_blue.png" itemID="4d45ac53-00000848" sourceExternalFilepath=".\LIBRARY\launcher_comp1_blue.png" sourceLastImported="1296411347" externalFileSize="213808" originalCompressionType="lossless" quality="50" href="launcher_comp1_blue.png" bitmapDataHRef="M 10 1296411654.dat" frameRight="29160" frameBottom="14640"/>
-          <DOMBitmapItem name="launcher_red.png" itemID="4d45ac53-00000849" sourceExternalFilepath=".\LIBRARY\launcher_red.png" sourceLastImported="1296408710" externalFileSize="37312" originalCompressionType="lossless" quality="50" href="launcher_red.png" bitmapDataHRef="M 11 1296411654.dat" frameRight="16000" frameBottom="12000"/>
+          <DOMBitmapItem name="launcher_red.png" itemID="4d45b330-000008c9" sourceExternalFilepath=".\LIBRARY\launcher_red.png" sourceLastImported="1296413341" externalFileSize="124487" originalCompressionType="lossless" quality="50" href="launcher_red.png" bitmapDataHRef="M 11 1296411654.dat" frameRight="7000" frameBottom="3520"/>
           <DOMBitmapItem name="Particle_art/rBitmap 1" itemID="4d451b49-000003b4" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296374601" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
           <DOMBitmapItem name="Particle_art/rBitmap 2" itemID="4d451b4f-000003b5" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296374607" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
           <DOMBitmapItem name="Particle_art/rBitmap 3" itemID="4d451b53-000003b6" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" sourceLastImported="1296374611" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\rBitmap 3.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 3" bitmapDataHRef="M 3 1296365142.dat" frameRight="2180" frameBottom="4900"/>
@@ -560,6 +560,9 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="396706" publishTime="1296413221"/>
+          <PublishItem publishSize="396618" publishTime="1296413194"/>
+          <PublishItem publishSize="396715" publishTime="1296413134"/>
           <PublishItem publishSize="331343" publishTime="1296410490"/>
           <PublishItem publishSize="331224" publishTime="1296410160"/>
           <PublishItem publishSize="331236" publishTime="1296410128"/>
@@ -577,8 +580,5 @@ gotoAndStop(2);
           <PublishItem publishSize="329949" publishTime="1296393651"/>
           <PublishItem publishSize="329191" publishTime="1296393333"/>
           <PublishItem publishSize="329182" publishTime="1296393266"/>
-          <PublishItem publishSize="329268" publishTime="1296393028"/>
-          <PublishItem publishSize="380683" publishTime="1296392974"/>
-          <PublishItem publishSize="380069" publishTime="1296392796"/>
      </publishHistory>
 </DOMDocument>

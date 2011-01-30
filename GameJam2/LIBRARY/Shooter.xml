@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Shooter" itemID="4d43c2f8-0000020e" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Shooter" sourceLibraryItemHRef="Symbol 1" lastModified="1296413035">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Shooter" itemID="4d43c2f8-0000020e" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Shooter" sourceLibraryItemHRef="Symbol 1" lastModified="1296413557">
   <timeline>
     <DOMTimeline name="Shooter" currentFrame="1">
       <layers>
@@ -32,20 +32,16 @@
                     <Edge cubics="!51 201(;51,201 -37,201 -37,201q51 201 -37 201);"/>
                   </edges>
                 </DOMShape>
-                <DOMGroup>
-                  <members>
-                    <DOMBitmapInstance name="" referenceID="" libraryItemName="launcher_red.png">
-                      <matrix>
-                        <Matrix a="0.1875" d="0.1875" tx="-65.3" ty="-47.05"/>
-                      </matrix>
-                    </DOMBitmapInstance>
-                    <DOMBitmapInstance name="" referenceID="" libraryItemName="launcher_red.png">
-                      <matrix>
-                        <Matrix a="-0.1875" d="-0.1875" tx="65.9" ty="47.05"/>
-                      </matrix>
-                    </DOMBitmapInstance>
-                  </members>
-                </DOMGroup>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="launcher_red.png">
+                  <matrix>
+                    <Matrix a="0.182785034179688" d="0.18182373046875" tx="-32" ty="-32"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="launcher_red.png">
+                  <matrix>
+                    <Matrix a="-0.182785034179688" d="-0.1761474609375" tx="31.9" ty="30.75"/>
+                  </matrix>
+                </DOMBitmapInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
@@ -54,6 +50,11 @@
               </Actionscript>
               <elements>
                 <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
                   <strokes>
                     <StrokeStyle index="1">
                       <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
@@ -64,44 +65,37 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!24 -775|49 230!49 230|-39 230!-39 230|-24 -775!-24 -775|24 -775"/>
-                    <Edge cubics="!24 -775(;24,-775 49,230 49,230q24 -775 49 230);"/>
+                    <Edge fillStyle1="1" edges="!-22.5 -775|-22 -804!-22 -804|26 -804!26 -804|51 201!51 201|48.5 201"/>
+                    <Edge strokeStyle="1" edges="!48.5 201|49 230!49 230|-39 230!-39 230|-24 -775!-24 -775|-22.5 -775"/>
+                    <Edge fillStyle1="1" edges="!48.5 201|-37 201!-37 201|-22.5 -775"/>
+                    <Edge cubics="!24 -775(;24,-775 49,201 49,201q24 -775 49 201);"/>
+                    <Edge cubics="!49 201(;49,201 49,230 49,230q49 201 49 230);"/>
                     <Edge cubics="!-39 230(;-39,230 -24,-775 -24,-775q-39 230 -24 -775);"/>
-                    <Edge cubics="!-24 -775(;-24,-775 24,-775 24,-775q-24 -775 24 -775);"/>
+                    <Edge cubics="!-24 -775(;-24,-775 -22,-775 -22,-775q-24 -775 -22 -775);"/>
+                    <Edge cubics="!-22 -775(;-22,-775 24,-775 24,-775q-22 -775 24 -775);"/>
                     <Edge cubics="!49 230(;49,230 -39,230 -39,230q49 230 -39 230);"/>
-                  </edges>
-                </DOMShape>
-                <DOMShape selected="true" isFloating="true">
-                  <matrix>
-                    <Matrix tx="0.1" ty="-1.45"/>
-                  </matrix>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#CCCCCC"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle1="1" edges="!-24 -775S2|24 -775!24 -775|49 230!49 230|-39 230!-39 230|-24 -775"/>
-                    <Edge cubics="!24 -775(;24,-775 49,230 49,230q24 -775 49 230);"/>
-                    <Edge cubics="!-39 230(;-39,230 -24,-775 -24,-775q-39 230 -24 -775);"/>
-                    <Edge cubics="!-24 -775(;-24,-775 24,-775 24,-775q-24 -775 24 -775);"/>
-                    <Edge cubics="!49 230(;49,230 -39,230 -39,230q49 230 -39 230);"/>
+                    <Edge cubics="!26 -804(;26,-804 51,201 51,201q26 -804 51 201);"/>
+                    <Edge cubics="!-37 201(;-37,201 -22,-775 -22,-775q-37 201 -22 -775);"/>
+                    <Edge cubics="!-22 -775(;-22,-775 -22,-804 -22,-804q-22 -775 -22 -804);"/>
+                    <Edge cubics="!-22 -804(;-22,-804 26,-804 26,-804q-22 -804 26 -804);"/>
+                    <Edge cubics="!51 201(;51,201 49,201 49,201q51 201 49 201);"/>
+                    <Edge cubics="!49 201(;49,201 -37,201 -37,201q49 201 -37 201);"/>
                   </edges>
                 </DOMShape>
                 <DOMBitmapInstance name="" referenceID="" libraryItemName="launcher_comp1_blue.png">
                   <matrix>
-                    <Matrix a="0.045013427734375" d="0.04473876953125" tx="-32.55" ty="-32.75"/>
+                    <Matrix a="0.04388427734375" d="0.0437164306640625" tx="-32" ty="-32"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="728.65" y="729.8"/>
+                    <Point x="730.35" y="729.7"/>
                   </transformationPoint>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance name="" referenceID="" libraryItemName="launcher_comp1_blue.png">
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="launcher_comp1_blue.png">
                   <matrix>
-                    <Matrix a="-0.045013427734375" d="-0.04473876953125" tx="33.05" ty="32.55"/>
+                    <Matrix a="-0.04388427734375" d="-0.0437164306640625" tx="31.85" ty="31.55"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="728.7" y="729.8"/>
+                    <Point x="730.3" y="729.7"/>
                   </transformationPoint>
                 </DOMBitmapInstance>
               </elements>
