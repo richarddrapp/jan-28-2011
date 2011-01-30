@@ -46,6 +46,7 @@
 		public static var MAX_FIRING_STRENGTH:int = 5;
 		//public static var TIME_TO_NEXT_FIRING_STRENGTH:int = 15; //frames
 		public static var MATTER_SPAWN_TIME:int = 2000; //timer milliseconds
+		public static var STARTING_PARTICLES:int = 15;
 		
 		
 		var fireMeter:MovieClip = new MovieClip;
@@ -78,6 +79,8 @@
 		var canLaunch:Boolean = true;
 		var orientation:Number;
 		
+		var initialSpawnComplete = false;
+		
 		
 		
 		public function Shooter() {							
@@ -91,7 +94,7 @@
 			
 			key = new KeyObject(stageRef);
 			InitializePhysics();
-			addEventListener(Event.ENTER_FRAME, Update);
+			
 			//ReddEngine.getInstance().stage.addEventListener(MouseEvent.CLICK, fire);
 			ReddEngine.getInstance().stage.addEventListener(KeyboardEvent.KEY_UP, keyUp);
 			ReddEngine.getInstance().stage.addEventListener(MouseEvent.MOUSE_DOWN, mouseDown);
@@ -101,10 +104,11 @@
 			initFireMeter();
 			
 			LaunchTimer = new Timer(TIME_PER_SHOT, 1);
-			SpawnTimer = new Timer(MATTER_SPAWN_TIME, 0);
+			//SpawnTimer = new Timer(MATTER_SPAWN_TIME, 0);
 			LaunchTimer.addEventListener(TimerEvent.TIMER, reload);			
-			SpawnTimer.addEventListener(TimerEvent.TIMER, spawnMeteor);						
-				SpawnTimer.start();
+			//SpawnTimer.addEventListener(TimerEvent.TIMER, spawnMeteor);						
+			//SpawnTimer.start();
+			addEventListener(Event.ENTER_FRAME, Update);
 		}
 		
 		public function initFireMeter() {//this init has odd colors, but they should be overrulled in the first update
@@ -226,6 +230,13 @@
 			super.Update(e);
 			//this.x -= 1;												
 			
+			if (!initialSpawnComplete && ReddEngine.getInstance().currentFrame == 3) {
+				for (var i:int = 0; i < STARTING_PARTICLES; i++) {
+					spawnRandomParticle();
+				}
+				initialSpawnComplete = true;
+			}
+			
 			mouseDownUpdate();
 			mouseMovement();	
 			updateFireMeter();
@@ -300,6 +311,34 @@
 					mis.Body.ApplyImpulse(new b2Vec2(newVX*mis.value, newVY*mis.value), mis.Body.GetWorldCenter());					
 					ReddEngine.getInstance().addChild(mis);
 				}			
+		}
+		
+		public function spawnRandomParticle():void {
+			trace("spawn random particle");
+			if (ReddEngine.getInstance().currentFrame != 3)
+			{
+				trace("current frame not 3");
+				return;
+			}
+			if (Math.random() > 0.4) { // spawn particle
+				var met:Particle;
+				met = new Particle(Math.random() * 600, Math.random() * 600, 15);
+				atkAngle = Math.random() * Math.PI * 2;
+				metVX = (2) * Math.cos(atkAngle);
+				metVY = (2) * Math.sin(atkAngle);
+				met.Body.ApplyImpulse(new b2Vec2(metVX, metVY), met.Body.GetWorldCenter());
+				ReddEngine.getInstance().addChild(met);
+				ReddEngine.reddObjects.push(met);
+			} else { //spawn antiparticle
+				var met2:Antiparticle;
+				met2 = new Antiparticle(Math.random() * 600, Math.random() * 600, 15);
+				atkAngle = Math.random() * Math.PI * 2;
+				metVX = (2) * Math.cos(atkAngle);
+				metVY = (2) * Math.sin(atkAngle);
+				met2.Body.ApplyImpulse(new b2Vec2(metVX, metVY), met2.Body.GetWorldCenter());
+				ReddEngine.getInstance().addChild(met2);
+				ReddEngine.reddObjects.push(met2);
+			}
 		}
 		
 		public function spawnMeteor(e:TimerEvent):void {		
