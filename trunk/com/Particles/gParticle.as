@@ -85,8 +85,8 @@
 			}
 				
 			if(suck) {
-				var xchange = go_x - this.x;
-				var ychange = go_y - this.y;
+				var xchange = go_x - (this.x+parent.x);
+				var ychange = go_y - (this.y+parent.y);
 				var mag = Math.sqrt(xchange ^ 2 + ychange ^ 2);
 				xchange /= mag;
 				ychange /= mag;
