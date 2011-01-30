@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/extinction_text" itemID="4d453351-0000032c" sourceLibraryItemHRef="Symbol 1" lastModified="1296380881">
+  <timeline>
+    <DOMTimeline name="extinction_text">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMTLFText name="" left="-5749" right="5831" bottom="2635">
+                  <matrix>
+                    <Matrix tx="-2" ty="-63"/>
+                  </matrix>
+                  <tlfFonts>
+                    <TLFFont platformName="Adobe Garamond Pro Bold" psName="AGaramondPro-BoldItalic" italic="true"/>
+                    <TLFFont platformName="Adobe Garamond Pro" psName="AGaramondPro-Regular"/>
+                    <TLFFont platformName="Adobe Garamond Pro Bold" psName="AGaramondPro-Bold"/>
+                  </tlfFonts>
+                  <markup><tlfTextObject type="Point" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="normal" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="explicit" locale="en_US" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="start" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Adobe Garamond Pro Bold" fontSize="25" fontStyle="italic" fontWeight="normal" kerning="auto" lineHeight="102.777778%" textAlpha="1" textRotation="auto" trackingRight="0%">extinction</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="start" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Adobe Garamond Pro" fontSize="25" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="102.777778%" textAlpha="1" textRotation="auto" trackingRight="0%">n</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="start" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Adobe Garamond Pro" fontSize="25" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="102.777778%" textAlpha="1" textRotation="auto" trackingRight="0%">1. the act of making extinct or the state of being extinct</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="start" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Adobe Garamond Pro" fontSize="25" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="102.777778%" textAlpha="1" textRotation="auto" trackingRight="0%">2. the act of extinguishing or the state of being extinguished</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="start" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Adobe Garamond Pro Bold" fontSize="25" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="102.777778%" textAlpha="1" textRotation="auto" trackingRight="0%">3. complete destruction; annihilation</span></p></TextFlow></tlfTextObject></markup>
+                </DOMTLFText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

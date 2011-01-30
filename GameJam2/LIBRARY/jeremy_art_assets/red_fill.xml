@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/red_fill" itemID="4d45321c-00000321" sourceLibraryItemHRef="Symbol 1" lastModified="1296380444" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="red_fill">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&lt;Path&gt;_1 copy 2" name="" selected="true" blendMode="layer">
+                  <matrix>
+                    <Matrix tx="-158.25" ty="-20.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="158.25" y="20.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.671875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
