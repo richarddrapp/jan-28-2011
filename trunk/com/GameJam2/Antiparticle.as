@@ -26,7 +26,8 @@
 	import flash.events.TimerEvent;
 	public class Antiparticle extends ReddObject {				
 		
-		public var valueText:TextField;
+		//public var valueText:TextField;
+		//var valueTextFormat:TextFormat;
 		public var needConvert:Boolean = false;
 		public var conversion:Timer;
 		
@@ -40,7 +41,8 @@
 			this.height = r * 2;
 			
 			value = Math.random() * -8 -1;
-			initText();
+			numSymbol.numText.text = "" + value;
+			//initText();
 			
 			Density = 2;
 			Friction = 10;
@@ -54,17 +56,31 @@
 			ReddEngine.antiMatterObjects.push(this);
 		}
 		
-		public function initText() {
+		/*public function initText() {
 			valueText = new TextField();
-			var valueTextFormat:TextFormat = new TextFormat();
-			valueTextFormat.size = 30;
-			valueTextFormat.color = 0x000000;
+			valueTextFormat = new TextFormat();
+			valueTextFormat.size = 50;
+			valueTextFormat.color = 0xFFFFFF;
+			valueTextFormat.font = "NEOTECH-BOLD";
 			valueText.setTextFormat(valueTextFormat);
 			valueText.selectable = false;
 			valueText.width = this.width;
 			valueText.height = this.height;			
 			ReddEngine.getInstance().stage.addChild(valueText);
 		}
+		
+		public function setText(text:String) {
+			valueTextFormat.size = 50;
+			valueTextFormat.color = 0xFFFFFF;
+			valueTextFormat.font = "NEOTECH-BOLD";
+			valueText.setTextFormat(valueTextFormat);
+			//valueText.selectable = false;
+			valueText.width = this.width;
+			valueText.height = this.height;
+			valueText.text = text;
+			valueText.x = this.x -valueText.textWidth;
+			valueText.y = this.y -valueText.textHeight/2;
+		}*/
 		
 		override public function InitializePhysics():void
 		{
@@ -88,10 +104,16 @@
 		override public function Update(e:Event) :void  {					
 			super.Update(e);
 			//this.x -= 1;		
-			
-			valueText.text = "" + value;
-			valueText.x = this.x -valueText.textWidth;
-			valueText.y = this.y -valueText.textHeight / 2;
+			//trace("num.text before:" + num.text);
+			numSymbol.numText.text = "" + value;
+			numSymbol.rotation = -rotation;
+			//num.text = "0";
+			//trace("num.text after:" + num.text);
+			//setText("" + value);
+			//num.text = "" + value;
+			//valueText.text = "" + value;
+			//valueText.x = this.x -valueText.textWidth;
+			//valueText.y = this.y -valueText.textHeight/2;
 			
 			if (this.value <= -25) {
 				
@@ -212,7 +234,7 @@
 		
 		override public function Destroy() : void {
 			super.Destroy();
-			ReddEngine.getInstance().stage.removeChild(valueText);
+			//ReddEngine.getInstance().stage.removeChild(valueText);
 			ReddEngine.antiMatterObjects.splice(ReddEngine.antiMatterObjects.indexOf(this), 1);
 		}
 		

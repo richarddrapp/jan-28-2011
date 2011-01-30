@@ -2,9 +2,13 @@
      <folders>
           <DOMFolderItem name="jeremy_art_assets" itemID="4d45139d-00000238"/>
           <DOMFolderItem name="jeremy_art_assets/Layer 1" itemID="4d45126a-000001e4" isExpanded="true"/>
+          <DOMFolderItem name="jeremy_art_assets/Useless Symbols That Go In Other Symbols" itemID="4d453972-000005e6"/>
           <DOMFolderItem name="Particle_art" itemID="4d451bd8-000003dd"/>
           <DOMFolderItem name="Particles" itemID="4d451cf5-00000244"/>
      </folders>
+     <fonts>
+          <DOMFontItem name="Font 1" itemID="4d453972-000005e5" font="NeoTech-Bold" size="0" id="1" sourceLastImported="1296382322" embedRanges="3|4"/>
+     </fonts>
      <media>
           <DOMBitmapItem name="Particle_art/Bitmap 1" itemID="4d44f656-00000269" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 1.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 1" bitmapDataHRef="M 1 1296365142.dat" frameRight="4040" frameBottom="3540"/>
           <DOMBitmapItem name="Particle_art/Bitmap 2" itemID="4d44f656-0000026b" sourceExternalFilepath="..\..\..\..\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" sourceLastImported="1296365142" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Particle_art\Bitmap 2.\Documents\GGJ\Flash\animations\atom_comp2\LIBRARY\Bitmap 2" bitmapDataHRef="M 2 1296365142.dat" frameRight="4320" frameBottom="2420"/>
@@ -31,7 +35,14 @@
           <Include href="jeremy_art_assets/Symbol 14.xml" itemIcon="1" loadImmediate="false"/>
           <Include href="jeremy_art_assets/Title Bar.xml" loadImmediate="false"/>
           <Include href="jeremy_art_assets/title_screen_styles.ai.xml" itemIcon="1" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_1.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_2.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_4.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/&amp;#60Path&amp;#62_5.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 2.xml" loadImmediate="false"/>
+          <Include href="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 3.xml" loadImmediate="false"/>
           <Include href="Meteor.xml"/>
+          <Include href="numSymbol.xml" loadImmediate="false"/>
           <Include href="Particle.xml"/>
           <Include href="Particle_art/atom.xml" loadImmediate="false"/>
           <Include href="Particle_art/e1.xml" loadImmediate="false"/>
@@ -127,7 +138,7 @@
                                                   </FillStyle>
                                              </fills>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80!15998 -80|15998 11979"/>
+                                                  <Edge fillStyle1="1" edges="!15998 -80|15998 11979!15998 11979|-20 11979!-20 11979|-20 -80!-20 -80|15998 -80"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="jeremy_art_assets/starfield.jpg">
@@ -486,6 +497,10 @@ gotoAndStop(2);
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="285040" publishTime="1296383906"/>
+          <PublishItem publishSize="284944" publishTime="1296383858"/>
+          <PublishItem publishSize="285107" publishTime="1296382963"/>
+          <PublishItem publishSize="285085" publishTime="1296382782"/>
           <PublishItem publishSize="281950" publishTime="1296378586"/>
           <PublishItem publishSize="281464" publishTime="1296378362"/>
           <PublishItem publishSize="321042" publishTime="1296376494"/>
@@ -502,9 +517,5 @@ gotoAndStop(2);
           <PublishItem publishSize="57368" publishTime="1296369892"/>
           <PublishItem publishSize="57424" publishTime="1296369821"/>
           <PublishItem publishSize="93749" publishTime="1296369814" publishDebug="true"/>
-          <PublishItem publishSize="57347" publishTime="1296369749"/>
-          <PublishItem publishSize="57259" publishTime="1296369695"/>
-          <PublishItem publishSize="57231" publishTime="1296369618"/>
-          <PublishItem publishSize="57305" publishTime="1296369541"/>
      </publishHistory>
 </DOMDocument>

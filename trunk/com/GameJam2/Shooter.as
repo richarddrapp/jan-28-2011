@@ -289,7 +289,7 @@
 					if (projectileType == PROJECTILETYPE_MATTER) {
 						mis.value = strength;
 						mis.gotoAndStop(1);
-					} else if (projectileType = PROJECTILETYPE_ANTIMATTER) {
+					} else if (projectileType == PROJECTILETYPE_ANTIMATTER) {
 						mis.value = strength * -1;
 						mis.gotoAndStop(2);
 					} else {

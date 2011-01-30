@@ -1,24 +1,19 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle" itemID="4d45173e-000002fa" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Particle" sourceLibraryItemHRef="Symbol 1" lastModified="1296375728" lastUniqueIdentifier="13">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Particle" itemID="4d45173e-000002fa" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="com.GameJam2.Particle" sourceLibraryItemHRef="Symbol 1" lastModified="1296383375" lastUniqueIdentifier="15">
   <timeline>
-    <DOMTimeline name="Particle" currentFrame="1">
+    <DOMTimeline name="Particle">
       <layers>
         <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMDynamicText name="num" fontRenderingMode="standard" width="176" height="120">
+                <DOMSymbolInstance libraryItemName="numSymbol" name="numSymbol" selected="true" centerPoint3DY="0.05">
                   <matrix>
-                    <Matrix tx="-88" ty="-50"/>
+                    <Matrix ty="0.05"/>
                   </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>00</characters>
-                      <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="9" size="120" bitmapSize="2400" face="NeoTech-Bold" fillColor="#FFFFFF"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMDynamicText>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
