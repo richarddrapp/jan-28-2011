@@ -106,6 +106,32 @@
 					trace("collided with projectile");
 				}
 			}
+			
+			for (var i:int = 0; i < ReddEngine.antiMatterObjects.length; i++) {
+				//trace("collision?" + i);
+				if (ReddEngine.getInstance().DetectCollision(this, ReddEngine.antiMatterObjects[i])) {
+					trace("matter collided with antimatter");
+					// sum the values
+					var total = value - ReddEngine.antiMatterObjects[i].value;
+					// if 0, explode
+					if (total == 0) {
+						//this.explode();
+						//ReddEngine.antiMatterObjects[i].explode();
+						trace("CALL EXPLOSIONS");
+					}
+					if (total > 0) {
+						value = total;
+						//ReddEngine.antiMatterObjects[i].absorb();
+						trace("Antimatter destroyed; new value is" + total);
+					}
+					if (total < 0) {
+						total *= -1;
+						//absorb();
+						ReddEngine.antiMatterObjects[i].value = total;
+						trace("Matter destroyed; new value is" + total);
+					}
+				}
+			}
 		}
 		
 		override public function Destroy() : void {
