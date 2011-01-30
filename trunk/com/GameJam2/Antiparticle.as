@@ -106,7 +106,7 @@
 					// if 0, explode
 					if (total == 0) {
 						//this.explode();
-						robj.Destroy();
+						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
 						trace("CALL EXPLOSIONS");
 					}
@@ -128,7 +128,7 @@
 					// if 0, explode
 					if (total == 0) {
 						//this.explode();
-						robj.Destroy();
+						robj.Delete = true;
 						//ReddEngine.antiMatterObjects[i].explode();
 						trace("CALL EXPLOSIONS");
 					}

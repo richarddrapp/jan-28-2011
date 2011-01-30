@@ -147,39 +147,42 @@
 		}
 		
 		public function updateFireMeter() {
+			fireMeterBorder.graphics.clear();
+			fireMeterBackground.graphics.clear();
 			fireMeterFill.graphics.clear();
+			var borderColor:uint;
+			var backgroundColor:uint;
+			var fillColor:uint;
 			if (canLaunch) {
 				if (projectileType == PROJECTILETYPE_MATTER) {//matter = red
-					fireMeterBorder.graphics.lineStyle(2, 0x550000, 1, false, "normal", null, null, 3);
-					fireMeterBorder.graphics.beginFill(0x000000, 0);
-					fireMeterBackground.graphics.beginFill(0x880000, 1);
-					fireMeterFill.graphics.beginFill(0xFF0000, 1);
+					borderColor = 0x550000;
+					backgroundColor = 0x880000;
+					fillColor = 0xFF0000;
 				} else if (projectileType == PROJECTILETYPE_ANTIMATTER) {//antimatter = blue
-					fireMeterBorder.graphics.lineStyle(2, 0x000055, 1, false, "normal", null, null, 3);
-					fireMeterBorder.graphics.beginFill(0x000000, 0);
-					fireMeterBackground.graphics.beginFill(0x000088, 1);
-					fireMeterFill.graphics.beginFill(0x0000FF, 1);
+					borderColor = 0x000055;
+					backgroundColor = 0x000088;
+					fillColor = 0x0000FF;
 				} else { //super crazy powerup
-					fireMeterBorder.graphics.lineStyle(2, 0x005500, 1, false, "normal", null, null, 3);
-					fireMeterBorder.graphics.beginFill(0x000000, 0);
-					fireMeterBackground.graphics.beginFill(0x008800, 1);
-					fireMeterFill.graphics.beginFill(0x00DD00, 1);
+					borderColor = 0x005500;
+					backgroundColor = 0x008800;
+					fillColor = 0x00DD00;
 				}
 			} else {//can't launch, make it gray
-				fireMeterBorder.graphics.lineStyle(2, 0x000000, 1, false, "normal", null, null, 3);
-				fireMeterBorder.graphics.beginFill(0x000000, 0);
-				fireMeterBackground.graphics.beginFill(0x222222, 1);
-				fireMeterFill.graphics.beginFill(0x000000, 1);//this is the fill, shouldn't BE any
+				borderColor = 0x000000;
+				backgroundColor = 0x222222;
+				fillColor = 0x000000;//this is the fill, shouldn't BE any
 			}
 			
-			
-			fireMeterBackground.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
-			fireMeterBackground.graphics.endFill();
-			
+			fireMeterBorder.graphics.lineStyle(2, borderColor, 1, false, "normal", null, null, 3);
+			fireMeterBorder.graphics.beginFill(0x000000, 0);
 			fireMeterBorder.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
 			fireMeterBorder.graphics.endFill();
 			
+			fireMeterBackground.graphics.beginFill(backgroundColor, 1);
+			fireMeterBackground.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
+			fireMeterBackground.graphics.endFill();
 			
+			fireMeterFill.graphics.beginFill(fillColor, 1);
 			//trace("% of bar: " + (mouseDownTime%TIME_TO_NEXT_FIRING_STRENGTH)/TIME_TO_NEXT_FIRING_STRENGTH);
 			if (((mouseDownTime / TIME_TO_NEXT_FIRING_STRENGTH) + 1) >= MAX_FIRING_STRENGTH) {//at max strength
 				fireMeterFill.graphics.drawRect(fireMeterRect.x, fireMeterRect.y, fireMeterRect.width, fireMeterRect.height);
@@ -224,7 +227,7 @@
 			
 			mouseDownUpdate();
 			mouseMovement();	
-			//updateFireMeter();
+			updateFireMeter();
 				
 			if (debugEnabled)
 				debug();
