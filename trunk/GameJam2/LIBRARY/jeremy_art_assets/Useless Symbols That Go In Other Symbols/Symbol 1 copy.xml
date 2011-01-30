@@ -1,0 +1,115 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy" itemID="4d452b9a-0000029a" lastModified="1296378515">
+  <timeline>
+    <DOMTimeline name="Symbol 1 copy">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix tx="59" ty="51.95"/>
+                  </matrix>
+                  <members>
+                    <DOMGroup>
+                      <matrix>
+                        <Matrix tx="59" ty="51.95"/>
+                      </matrix>
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="-341.45" ty="-282.05"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#F5C826"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!6949 7599|8010 5761!8010 5761|9070 7599!9070 7599|6949 7599"/>
+                            <Edge cubics="!6949 7599(;6949,7599 8010,5761 8010,5761q6949 7599 8010 5761);"/>
+                            <Edge cubics="!8010 5761(;8010,5761 9070,7599 9070,7599q8010 5761 9070 7599);"/>
+                            <Edge cubics="!9070 7599(;9070,7599 6949,7599 6949,7599q9070 7599 6949 7599);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="-341.45" ty="-282.05"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FFFFFF"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="!8010 5641[7978 5641 7950 5657!7950 5657[7922 5673 7906 5701!7906 5701|6845 7539!6845 7539[6829 7567 6829 7599!6829 7599[6829 7631 6845 7659!6845 7659[6861 7687 6889 7703!6889 7703[6917 7719 6949 7719!6949 7719|9070 7719!9070 7719[9102
+ 7719 9130 7703!9130 7703[9158 7687 9174 7659!9174 7659[9190 7631 9190 7599!9190 7599[9190 7567 9174 7539!9174 7539|8113 5701!8113 5701[8097 5673 8069 5657!8069 5657[8042 5641 8010 5641!8010 5761|9070 7599!9070 7599|6949 7599!6949 7599
+|8010 5761"/>
+                            <Edge cubics="!8010 5641(;7967,5641 7927,5664 7906,5701q8010 5641Q7978 5641q7950 5657Q7922 5673q7906 5701);"/>
+                            <Edge cubics="!7906 5701(;7906,5701 6845,7539 6845,7539q7906 5701 6845 7539);"/>
+                            <Edge cubics="!6845 7539(;6824,7576 6824,7621 6845,7659q6845 7539Q6829 7567q6829 7599Q6829 7631q6845 7659);"/>
+                            <Edge cubics="!6845 7659(;6866,7696 6906,7719 6949,7719q6845 7659Q6861 7687q6889 7703Q6917 7719q6949 7719);"/>
+                            <Edge cubics="!6949 7719(;6949,7719 9070,7719 9070,7719q6949 7719 9070 7719);"/>
+                            <Edge cubics="!9070 7719(;9113,7719 9153,7696 9174,7659q9070 7719Q9102 7719q9130 7703Q9158 7687q9174 7659);"/>
+                            <Edge cubics="!9174 7659(;9195,7621 9195,7576 9174,7539q9174 7659Q9190 7631q9190 7599Q9190 7567q9174 7539);"/>
+                            <Edge cubics="!9174 7539(;9174,7539 8113,5701 8113,5701q9174 7539 8113 5701);"/>
+                            <Edge cubics="!8113 5701(;8092,5664 8052,5641 8010,5641q8113 5701Q8097 5673q8069 5657Q8042 5641q8010 5641);"/>
+                            <Edge cubics="!8010 5761(;8010,5761 9070,7599 9070,7599q8010 5761 9070 7599);"/>
+                            <Edge cubics="!9070 7599(;9070,7599 6949,7599 6949,7599q9070 7599 6949 7599);"/>
+                            <Edge cubics="!6949 7599(;6949,7599 8010,5761 8010,5761q6949 7599 8010 5761);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-341.45" ty="-282.05"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#F5C826"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" weight="6">
+                            <fill>
+                              <SolidColor color="#010101"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="
+!6935 7610|8010 5750!8010 5750|9084 7610!9084 7610|6935 7610"/>
+                        <Edge cubics="!6935 7610(;6935,7610 8010,5750 8010,5750q6935 7610 8010 5750);"/>
+                        <Edge cubics="!8010 5750(;8010,5750 9084,7610 9084,7610q8010 5750 9084 7610);"/>
+                        <Edge cubics="!9084 7610(;9084,7610 6935,7610 6935,7610q9084 7610 6935 7610);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMGroup selected="true">
+                      <matrix>
+                        <Matrix tx="59" ty="51.95"/>
+                      </matrix>
+                      <members>
+                        <DOMTLFText name="" selected="true" right="339" bottom="1440">
+                          <matrix>
+                            <Matrix tx="50.55" ty="31.55"/>
+                          </matrix>
+                          <tlfFonts>
+                            <TLFFont platformName="Myriad Pro Cond" psName="MyriadPro-BoldCond" bold="true"/>
+                          </tlfFonts>
+                          <markup><tlfTextObject type="Point" editPolicy="readOnly" columnCount="1" columnGap="0" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="0" paddingTop="0" paddingRight="0" paddingBottom="0" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow alignmentBaseline="useDominantBaseline" blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" direction="ltr" dominantBaseline="auto" lineBreak="explicit" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textIndent="0" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p baselineShift="0" breakOpportunity="auto" color="#010101" digitCase="default" digitWidth="default" direction="ltr" fontFamily="Myriad Pro Cond" fontSize="72" fontStyle="normal" fontWeight="bold" ligatureLevel="common" lineHeight="120%" lineThrough="false" locale="en" textAlpha="1" textDecoration="none" textRotation="auto" trackingRight="1%" typographicCase="default"><span>!</span></p></TextFlow></tlfTextObject></markup>
+                        </DOMTLFText>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

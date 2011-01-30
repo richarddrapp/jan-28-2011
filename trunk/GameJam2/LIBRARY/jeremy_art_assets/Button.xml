@@ -1,49 +1,20 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Button" itemID="4d451e41-0000022c" lastModified="1296375361">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="jeremy_art_assets/Button" itemID="4d452cee-000002e0" sourceLibraryItemHRef="Symbol 1" lastModified="1296379161" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="Button">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true" animationType="motion object">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="5" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="5000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,85.965" next="0,85.965" previous="0,85.965" roving="0" timevalue="2000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="4000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,144.897" next="0,144.897" previous="0,144.897" roving="0" timevalue="2000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="4000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
               <elements>
-                <DOMGroup selected="true">
-                  <members>
-                    <DOMSymbolInstance libraryItemName="jeremy_art_assets/&lt;Path&gt;_1_0" name="" selected="true" blendMode="layer">
-                      <matrix>
-                        <Matrix tx="-85.5" ty="-24.5"/>
-                      </matrix>
-                      <transformationPoint>
-                        <Point x="85.5" y="24.5"/>
-                      </transformationPoint>
-                      <color>
-                        <Color alphaMultiplier="0.25"/>
-                      </color>
-                    </DOMSymbolInstance>
-                    <DOMShape selected="true" isDrawingObject="true">
-                      <strokes>
-                        <StrokeStyle index="1">
-                          <SolidStroke scaleMode="normal" caps="none" weight="5">
-                            <fill>
-                              <SolidColor color="#3A76B5"/>
-                            </fill>
-                          </SolidStroke>
-                        </StrokeStyle>
-                      </strokes>
-                      <edges>
-                        <Edge strokeStyle="1" edges="!1593 -373[1710 -256 1710 -90!1710 -90|1710 90!1710 90[1710 256 1593 373!1593 373[1475 490 1310 490!1310 490|-1310 490!-1310 490[-1476 490 -1593 373!-1593 373[-1710 256 -1710 90!-1710 90|-1710 -90!-1710 -90[-1710 -256 -1593 -373!-1593
- -373[-1476 -490 -1310 -490!-1310 -490|1310 -490!1310 -490[1475 -490 1593 -373"/>
-                        <Edge cubics="!1710 90(;1710,311 1530,490 1310,490q1710 90Q1710 256q1593 373Q1475 490q1310 490);"/>
-                        <Edge cubics="!1310 490(;1310,490 -1310,490 -1310,490q1310 490 -1310 490);"/>
-                        <Edge cubics="!-1310 490(;-1531,490 -1710,311 -1710,90q-1310 490Q-1476 490q-1593 373Q-1710 256q-1710 90);"/>
-                        <Edge cubics="!-1710 90(;-1710,90 -1710,-90 -1710,-90q-1710 90 -1710 -90);"/>
-                        <Edge cubics="!-1710 -90(;-1710,-311 -1531,-490 -1310,-490q-1710 -90Q-1710 -256q-1593 -373Q-1476 -490q-1310 -490);"/>
-                        <Edge cubics="!-1310 -490(;-1310,-490 1310,-490 1310,-490q-1310 -490 1310 -490);"/>
-                        <Edge cubics="!1310 -490(;1530,-490 1710,-311 1710,-90q1310 -490Q1475 -490q1593 -373Q1710 -256q1710 -90);"/>
-                        <Edge cubics="!1710 -90(;1710,-90 1710,90 1710,90q1710 -90 1710 90);"/>
-                      </edges>
-                    </DOMShape>
-                  </members>
-                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="jeremy_art_assets/Useless Symbols That Go In Other Symbols/Symbol 1 copy 2" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="-85.5" ty="-24.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="85.5" y="24.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
